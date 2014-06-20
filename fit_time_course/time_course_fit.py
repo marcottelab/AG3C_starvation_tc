@@ -43,11 +43,15 @@ class find_param(object):
         Err=0.
         
         d=data['x']
-        
+	sim=np.array(sim)/np.mean(sim)
+	d=np.array(d)/np.mean(d)
+
         for j in range(len(d)):
             if d[j]==0:
                 d[j]=0.5
                 std[j]=0.5
+	    if std[j]==0:
+		std[j]=0.1*d[j]
                 
             Err=Err+((d[j]-sim[j])**2)/(std[j]**2)
 
@@ -203,66 +207,74 @@ class find_param(object):
         self.Errout=Errout
         self.Agents_final=Agents
         self.accept=accepted
-        #print 'accepted='+str(accepted)
+        print 'accepted='+str(accepted)
     
 
+import time
+def run(prefix,filename):
 
+	(avout,stdout,av_reference)=pickle.load(open(prefix+filename+'_data_format.p','rb'))
 
-(avout,stdout,av_reference)=pickle.load(open('./formated_data2.p','rb'))
+	k_out_av=['']*len(avout)
+	k_out_std=['']*len(avout)
+	ftype=[]
+	yav_out=[]
+	ystd_out=[]	
+	data_out=[]
+	Errout=[]
+	ta=time.time()
 
-k_out_av=['']*len(avout)
-k_out_std=['']*len(avout)
-ftype=[]
-yav_out=[]
-data_out=[]
-Errout=[]
+	for i in range(len(avout)):
+		
+	    d=dict()
+	    d['x']=avout[i]
+	    td=[3,4,5,6,8,24,48,1*7*24,2*7*24]
+	    #td=[3,4,5,6]
+	    data=td,d,stdout[i]
+	    
+	    data_out.append(data)
+	    
+	    search=find_param(data)
+	    search.Nagents=12
+	    search.maxit=150
+	    search.main()
+	    keys=search.k.keys()
+	    idx=np.where(np.array(search.Errout[search.maxit-1])<=np.median(np.array(search.Errout[search.maxit-1])))
+	    yc=[]
+	    paramsc=[]
+	    
+	    for j in range(len(idx[0])):
+		tout,yout=search.Yout[idx[0][j]]
+		yc.append(yout)
+	    
+	    for j in range(len(keys)):
+		params=[]
+		for k in range(len(idx[0])):
+		    
+		    params.append(search.Agents_final[idx[0][k]][keys[j]])
+		
+		paramsc.append(params)
+		   
+	    yav=np.average(yc,axis=0)
+	    ystd=np.std(yc,axis=0)
+	    pav=np.average(paramsc,axis=1)
+	    pstd=np.std(paramsc,axis=1)
+	    yav_out.append(yav)
+	    ystd_out.append(ystd)
 
-for i in range(len(avout)):
-        
-    d=dict()
-    d['x']=avout[i]
-    td=[3,4,5,6,8,24,48,1*7*24,2*7*24]
-    data=td,d,stdout[i]
-    
-    data_out.append(data)
-    
-    search=find_param(data)
-    search.Nagents=50
-    search.maxit=300
-    search.main()
-    keys=search.k.keys()
-    idx=np.where(np.array(search.Errout[search.maxit-1])<=np.median(np.array(search.Errout[search.maxit-1])))
-    yc=[]
-    paramsc=[]
-    
-    for j in range(len(idx[0])):
-        tout,yout=search.Yout[idx[0][j]]
-        yc.append(yout)
-    
-    for j in range(len(keys)):
-        params=[]
-        for k in range(len(idx[0])):
-            
-            params.append(search.Agents_final[idx[0][k]][keys[j]])
-        
-        paramsc.append(params)
-           
-    yav=np.average(yc,axis=0)
-    ystd=np.std(yc,axis=0)
-    pav=np.average(paramsc,axis=1)
-    pstd=np.std(paramsc,axis=1)
-    #yav_out.append(yav)
-    
-    Errout.append(search.Errout)
-    k=dict()
-    kstd=dict()
-    for j in range(len(keys)):
-        k[keys[j]]=pav[j]
-        kstd[keys[j]]=pstd[j]
-    k_out_av[i]=k
-    k_out_std[i]=kstd
+	    Errout.append(search.Errout)
+	    k=dict()
+	    kstd=dict()
+	    for j in range(len(keys)):
+		k[keys[j]]=pav[j]
+		kstd[keys[j]]=pstd[j]
+	    k_out_av[i]=k
+	    k_out_std[i]=kstd
 
-
-results = (k_out_av,k_out_std,av_reference,Errout)
-pickle.dump(results, open( "./fit_results.p", "wb" ) )
+	tb=time.time()
+	print tb-ta
+	results = (yav_out,ystd_out,k_out_av,k_out_std,av_reference,Errout)
+	pickle.dump(results, open(prefix+filename+'_fits.p', "wb" ) )
+if __name__=="__main__":
+	run()
 

@@ -6,6 +6,8 @@
 import pylab as plt
 import numpy as np
 from scipy import stats
+import pickle
+import csv
 
 def classify(k,kstd):
     
@@ -49,11 +51,36 @@ def classify(k,kstd):
         
     return classify
 
+def run(prefix,datatype):
 
-(k_out_av,k_out_std,av_reference,a1)=pickle.load(open('./fit_results.p','rb'))
+	(yav,ystd,k_out_av,k_out_std,av_reference,a1)=pickle.load(open(prefix+datatype+'_fits.p','rb'))
+	
 
-I=1500
-classification=['']*I
-for i in range(I):
-    classification[i]=classify(k_out_av[i],k_out_std[i])
+	I=len(k_out_av)
+	classification=['']*I
+	for i in range(I):
+	    	classification[i]=classify(k_out_av[i],k_out_std[i])
+	
+	pickle.dump(classification,open(prefix+datatype+'_classify.p','wb'))
+	
+	classes=['on','off','pulse_up','pulse_down','other']
+	
+	for i in range(5):
+		groupn=[]
+		for j in range(I):
+			if classification[j]==classes[i]:
+				groupn.append(av_reference[j])
+	#list_type=[]
+		#print groupn
+		with open(prefix+datatype+'_'+classes[i]+'_list.dat','wb') as csvfile:
+        		writer =csv.writer(csvfile,delimiter='\n')
+       			writer.writerow(groupn)
+
+	
+	with open(prefix+datatype+'_combined_list.dat','wb') as csvfile:
+        	writer =csv.writer(csvfile,delimiter='\n')
+       		writer.writerow(av_reference)
+
+if __name__=="__main__":
+	run()
 
