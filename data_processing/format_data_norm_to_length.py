@@ -57,7 +57,7 @@ class format_data(object):
 	#self.filt()
         #normalize to initial value
   	#self.normalize()
-      	self.filt()
+      	#self.filt()
 
             
     def load_mult_csv(self,files,delim):
@@ -104,83 +104,50 @@ class format_data(object):
         #outdata=numpy.array(self.idata)
         outdata=self.output
 	
-	'''	
+
+	#normalize the protein counts using APEX
+	(out_record,out_length,not_mapped)=pickle.load(open('/media/HD1_/Documents/AG3C/Results/RNA_transcript_length.p','rb'))
+	namedict=pickle.load(open('./Results/accession_to_common.p'))
+	#refdict2=pickle.load(open('../Results/access_EC_name_map.p','rb'))
+	
+	#refdict2_r=dict()
+	#for r in refdict2:
+	#	refdict2_r[refdict2[r]]=r
+
+	#print out_length
+	TL=dict()
+	for i in range(len(out_record)):
+	    
+		TL[out_record[i]]=float(out_length[i])
+        
+	#print TL
+
 	for t in T:
 	    for k in ['1','2','3']:
 		norm=0
+		q=0
         	for i in outdata:
 			#print outdata[i][t][k]
 			if type(outdata[i]['t'+str(t)][k])!=type(0.0):
 				outdata[i]['t'+str(t)][k]=0.0
 			else:
 			#	print outdata[i]['t'+str(t)][k]
-				norm+=outdata[i]['t'+str(t)][k]             
-			        	
+								
+				if i in TL:
+					norm+=TL[i]*outdata[i]['t'+str(t)][k]
+			q+=1
+           
+		q=0	
 		for i in outdata:
-			outdata[i]['t'+str(t)][k]=outdata[i]['t'+str(t)][k]/norm	
-
-	for j in ['1','2','3']:
-		if j==0:
-		    ref=self.sample_refa_r
-		elif j==1:
-		    ref=self.sample_refb_r
-		elif j==2:
-		    ref=self.sample_refc_r
-		#print ref
-                sit=[]
-		for i in outdata:
-		    temps=1.0
-		    count=0
-		    for t in T:
-			#print outdata[i][t],ref
-		        k=ref[str(t)]
-			#print str(k),outdata[i][t][str(k)]
-			if type(outdata[i][t][str(k)])!=type(0.0):
-				outdata[i][t][str(k)]=0.0
-			if outdata[i][t][str(k)]!=0:
-			        temps*=float(outdata[i][t][str(k)])
-				count+=1
-		    s_itj=[]
-		    if count==0:
-		        count=1
-
-		    for t in T:
-		k=ref[str(t)]	    
-		     	s_itj.append(outdata[i][t][str(k)]/(temps**(1/count)))
-		    
-		    sit.append(s_itj)
-		#print sit
-		sit=np.array(sit).T
-		sit=[s[np.ndarray.nonzero(s)] for s in sit]
-		#print sit
-	        norm_s=[np.median(s) for s in sit]
-
-		norm_sd=dict()
-		for t in range(len(T)):
-		 	norm_sd[str(T[t])]=norm_s[t]
-			
-
-		for i in outdata:
-		    for t in T:
-			k=ref[str(t)]
-			
-			outdata[i][t][str(k)]=float(outdata[i][t][str(k)])/norm_sd[str(t)]
-	
-	'''
-	for t in T:
-	    for k in ['1','2','3']:
-		norm=0
-        	for i in outdata:
-			#print outdata[i][t][k]
-			if type(outdata[i]['t'+str(t)][k])!=type(0.0):
-				outdata[i]['t'+str(t)][k]=0.0
+			#print i
+			if i in TL:
+				outdata[i]['t'+str(t)][k]=outdata[i]['t'+str(t)][k]/(TL[i]*norm)			
+				#print TL[i]*norm
 			else:
-			#	print outdata[i]['t'+str(t)][k]
-				norm+=outdata[i]['t'+str(t)][k]             
-			        	
-		for i in outdata:
-			outdata[i]['t'+str(t)][k]=outdata[i]['t'+str(t)][k]/norm	
-	
+				outdata[i]['t'+str(t)][k]=0.0
+			
+			q+=1
+
         self.output=outdata
     
     def average(self):
@@ -321,7 +288,7 @@ def run(prefix,datatype):
 		
 	
 
-	pickle.dump((avout,stdout,refout),open(prefix+datatype+'_data_format_raw.p','wb'))
+	pickle.dump((avout,stdout,refout),open(prefix+datatype+'_data_format_apex.p','wb'))
 
 
 

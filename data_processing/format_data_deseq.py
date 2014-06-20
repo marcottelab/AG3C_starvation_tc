@@ -46,20 +46,40 @@ class format_data(object):
         
         
         #get rid of peptides that don't have a minimum number of observed peptides for the whole time course
-        self.cleandata()
+        #self.cleandata()
 	
 	#convert raw counts to fractional counts
 	self.raw2fraction()	
-        #average the output data
+        
+	#get rid of genes that don't ever change signifcantely throughout the time course
+	self.cleandata()
+	
+	#average the output data
         self.average()
-	#print self.avout['YP_003046375.1']
-	#keep only those changing by >1.5 through the time cours
-	#self.filt()
         #normalize to initial value
-  	#self.normalize()
-      	self.filt()
+  	self.normalize()
+  
 
-            
+    def cleandata(self):
+	
+	pval=self.pval
+	output=self.output
+	#print len(output)
+	#print output
+	not_significant=[]
+	out_clean=ngram()
+	for i in pval:
+		#print output[i]
+		if str(i) in output:
+			out_clean[str(i)]=output[str(i)]
+	#for i in pval[0:3:1]:
+	#	print i
+	#for i in output[0:3:1]:
+	#	print i
+
+	#print out_clean
+	self.output=out_clean
+
     def load_mult_csv(self,files,delim):
         #import data from several different csv files. output to a list
         
@@ -67,7 +87,7 @@ class format_data(object):
         output=ngram()
 	reference_cn=dict()
         with open(files, 'rb') as csvfile:
-            read = csv.reader(csvfile, delimiter=delim, quotechar='|')
+            read = csv.reader(csvfile, delimiter=delim, quotechar='"')
             first=1
 	    for row in read:
                 if first==1:
@@ -97,91 +117,118 @@ class format_data(object):
 
         return output
 
+    def load_size_factors(self,files,delim):
+        #import data from several different csv files. output to a list
+        
+        T=self.time
+        output=ngram()
+	reference_cn=dict()
+	J=0
+	norm=1.0
+	for f in files:
+		
+		with open(f, 'rb') as csvfile:
+		    read = csv.reader(csvfile, delimiter=delim, quotechar='"')
+		    first=1
+		    J+=1
+		    for row in read:
+			if first==1:
+				row0=row
+		
+			#print row
+			for j in range(len(row)-1):
+				if first!=1:
+					if 't3_' in row[0]:
+						if row[0][3:]=='1':
+							norm=float(row[1])
+						output[row[0]][str(T[J])]=float(row[1])/norm
+						
+					else:
+						output[row[0]]=float(row[1])/norm
+			if first==1:
+				first=0
+           
+        
+
+        return output
+    
+    def load_p_values(self,files,delim):
+        #import data from several different csv files. output to a list
+        
+        T=self.time
+        output=[]
+	reference_cn=dict()
+	J=0
+	for f in files:
+		
+		with open(f, 'rb') as csvfile:
+		    read = csv.reader(csvfile, delimiter=delim, quotechar='"')
+		    first=1
+		    J+=1
+		    for row in read:
+			if first==1:
+				row0=row
+		
+			#if row[0] not in output:
+				
+			output.append(row[1])
+					
+			if first==1:
+				first=0
+		   
+        
+	output=list(set(output))
+
+        return output
+    
     def raw2fraction(self):
         
 	T=self.time
         #print self.idata
         #outdata=numpy.array(self.idata)
-        outdata=self.output
-	
-	'''	
+        outdata=self.idata
+	sF=self.sF
+
 	for t in T:
-	    for k in ['1','2','3']:
+	#for k in ['1','2','3']:
 		norm=0
-        	for i in outdata:
-			#print outdata[i][t][k]
-			if type(outdata[i]['t'+str(t)][k])!=type(0.0):
-				outdata[i]['t'+str(t)][k]=0.0
+		for i in sF:
+			if 't3_' in i:
+				norm=np.mean(sF[i].values())
 			else:
-			#	print outdata[i]['t'+str(t)][k]
-				norm+=outdata[i]['t'+str(t)][k]             
-			        	
-		for i in outdata:
-			outdata[i]['t'+str(t)][k]=outdata[i]['t'+str(t)][k]/norm	
+				norm=sF[i]
 
-	for j in ['1','2','3']:
-		if j==0:
-		    ref=self.sample_refa_r
-		elif j==1:
-		    ref=self.sample_refb_r
-		elif j==2:
-		    ref=self.sample_refc_r
-		#print ref
-                sit=[]
-		for i in outdata:
-		    temps=1.0
-		    count=0
-		    for t in T:
-			#print outdata[i][t],ref
-		        k=ref[str(t)]
-			#print str(k),outdata[i][t][str(k)]
-			if type(outdata[i][t][str(k)])!=type(0.0):
-				outdata[i][t][str(k)]=0.0
-			if outdata[i][t][str(k)]!=0:
-			        temps*=float(outdata[i][t][str(k)])
-				count+=1
-		    s_itj=[]
-		    if count==0:
-		        count=1
-
-		    for t in T:
-		k=ref[str(t)]	    
-		     	s_itj.append(outdata[i][t][str(k)]/(temps**(1/count)))
-		    
-		    sit.append(s_itj)
-		#print sit
-		sit=np.array(sit).T
-		sit=[s[np.ndarray.nonzero(s)] for s in sit]
-		#print sit
-	        norm_s=[np.median(s) for s in sit]
-
-		norm_sd=dict()
-		for t in range(len(T)):
-		 	norm_sd[str(T[t])]=norm_s[t]
 			
+			if i[2]=='_':
+					
+				for j in outdata:
+					if type(outdata[j][i[1:2:1]][i[3]])!=type(0):
+						outdata[j][i[1:2:1]][i[3]]=0
+					else:
+						outdata[j][i[1:2:1]][i[3]]=outdata[j][i[1:2:1]][i[3]]/norm
+			elif i[3]=='_':
+				for j in outdata:
+					
+					if type(outdata[j][str(i[1:3:1])][str(i[4])])!=type(0):	
+						outdata[j][str(i[1:3:1])][str(i[4])]=0	
+					else:	
+						outdata[j][str(i[1:3:1])][str(i[4])]=outdata[j][str(i[1:3:1])][str(i[4])]/norm
 
-		for i in outdata:
-		    for t in T:
-			k=ref[str(t)]
-			
-			outdata[i][t][str(k)]=float(outdata[i][t][str(k)])/norm_sd[str(t)]
+
 	
-	'''
-	for t in T:
-	    for k in ['1','2','3']:
-		norm=0
-        	for i in outdata:
-			#print outdata[i][t][k]
-			if type(outdata[i]['t'+str(t)][k])!=type(0.0):
-				outdata[i]['t'+str(t)][k]=0.0
-			else:
-			#	print outdata[i]['t'+str(t)][k]
-				norm+=outdata[i]['t'+str(t)][k]             
-			        	
-		for i in outdata:
-			outdata[i]['t'+str(t)][k]=outdata[i]['t'+str(t)][k]/norm	
-	
-        self.output=outdata
+			elif i[4]=='_':
+				for j in outdata:
+					
+					if type(outdata[j][str(i[1:4:1])][str(i[5])])!=type(0):
+
+					#print i,i[0:3:1],str(i[4])
+						outdata[j][str(i[1:4:1])][str(i[5])]=0
+						
+					else:
+						outdata[j][str(i[1:4:1])][str(i[5])]=outdata[j][str(i[1:4:1])][str(i[5])]/norm
+						
+        self.output=outdata	
+				
     
     def average(self):
 	
@@ -201,27 +248,6 @@ class format_data(object):
 	self.avout=outav
 	self.stdout=outst
     
-    def filt(self):
-	
-	data=self.avout
-	stdata=self.stdout
-	
-	nonresponders=[]
-	for i in data:
-		dv=np.array(data[i].values())
-		dv=np.nan_to_num(dv)
-		#print dv 
-		#print np.max(dv[np.nonzero(dv)])/np.min(dv[np.nonzero(dv)])
-
-		if float(np.min(dv[np.nonzero(dv)]))>0.5:
-			nonresponders.append(i)
-	#print len(nonresponders)	
-	for i in nonresponders:
-		data.pop(i,0)
-		stdata.pop(i,0)
-	#print len(data)
-	self.avout=data
-	self.stdout=stdata
 	
     def normalize(self):
 	
@@ -243,24 +269,6 @@ class format_data(object):
 	self.avout=data
 	self.stdout=stdata
 	
-    def cleandata(self):
-    	removelist=[]
-        cutoff=self.cutoff
-        data=self.idata
-	for i in data:
-		totals=0
-		for j in data[i]:
-			for k in data[i][j]:
-				totals+=data[i][j][k]
-	
-		if totals<cutoff:
-			#data.pop(i,0)
-			removelist.append(i)
-	#print len(removelist)
-	for i in removelist:
-		data.pop(i,0)
-	
-        self.output=data
             
 
 def run(prefix,datatype):
@@ -297,6 +305,26 @@ def run(prefix,datatype):
 	
 	#print out
 	D.idata=out
+	
+	files=[]
+	for j in t:
+		if j!=3:
+			files.append(prefix+'size_factorst3_t'+str(j))
+		
+	sF=D.load_size_factors(files,',')
+
+	D.sF=sF
+
+	files=[]
+	for j in t:
+		if j!=3:
+			files.append(prefix+'sig_gene_t3_t'+str(j))
+		
+	
+	pval=D.load_p_values(files,',')
+
+	D.pval=pval
+
 	D.main()
 
 	avout=[]
@@ -321,7 +349,7 @@ def run(prefix,datatype):
 		
 	
 
-	pickle.dump((avout,stdout,refout),open(prefix+datatype+'_data_format_raw.p','wb'))
+	pickle.dump((avout,stdout,refout),open(prefix+datatype+'_data_format.p','wb'))
 
 
 

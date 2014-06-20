@@ -39,8 +39,8 @@ class format_data(object):
         self.delim=delim
         self.idata=[]
         self.out=[]
-        self.minchange=1.5
-        self.cutoff=10
+        self.minchange=0
+        self.cutoff=0
    
     def main(self):
         
@@ -49,31 +49,31 @@ class format_data(object):
         self.cleandata()
 	
 	#convert raw counts to fractional counts
-	self.raw2fraction()	
+	self.raw2fraction()
+	
         #average the output data
         self.average()
 	#print self.avout['YP_003046375.1']
 	#keep only those changing by >1.5 through the time cours
-	#self.filt()
+	self.filter()
         #normalize to initial value
-  	#self.normalize()
-      	self.filt()
-
+  	self.normalize()
+      
             
     def load_mult_csv(self,files,delim):
         #import data from several different csv files. output to a list
         
-        
+        print 'working'
         output=ngram()
 	reference_cn=dict()
         with open(files, 'rb') as csvfile:
             read = csv.reader(csvfile, delimiter=delim, quotechar='|')
             first=1
-	    for row in read:
+            for row in read:
                 if first==1:
 			row0=row
-	
-		#print row
+		
+		print row
 		for j in range(len(row)-1):
 			end=False
 			a=''
@@ -92,7 +92,7 @@ class format_data(object):
 		if first==1:
 			first=0
            
-        
+        #print output
 	self.common_name=reference_cn
 
         return output
@@ -102,24 +102,9 @@ class format_data(object):
 	T=self.time
         #print self.idata
         #outdata=numpy.array(self.idata)
-        outdata=self.output
-	
-	'''	
-	for t in T:
-	    for k in ['1','2','3']:
-		norm=0
-        	for i in outdata:
-			#print outdata[i][t][k]
-			if type(outdata[i]['t'+str(t)][k])!=type(0.0):
-				outdata[i]['t'+str(t)][k]=0.0
-			else:
-			#	print outdata[i]['t'+str(t)][k]
-				norm+=outdata[i]['t'+str(t)][k]             
-			        	
-		for i in outdata:
-			outdata[i]['t'+str(t)][k]=outdata[i]['t'+str(t)][k]/norm	
-
-	for j in ['1','2','3']:
+        outdata=self.idata
+	'''
+	for j in range(3):
 		if j==0:
 		    ref=self.sample_refa_r
 		elif j==1:
@@ -145,7 +130,7 @@ class format_data(object):
 		        count=1
 
 		    for t in T:
-		k=ref[str(t)]	    
+			k=ref[str(t)]	    
 		     	s_itj.append(outdata[i][t][str(k)]/(temps**(1/count)))
 		    
 		    sit.append(s_itj)
@@ -180,7 +165,7 @@ class format_data(object):
 			        	
 		for i in outdata:
 			outdata[i]['t'+str(t)][k]=outdata[i]['t'+str(t)][k]/norm	
-	
+		
         self.output=outdata
     
     def average(self):
@@ -201,7 +186,7 @@ class format_data(object):
 	self.avout=outav
 	self.stdout=outst
     
-    def filt(self):
+    def filter(self):
 	
 	data=self.avout
 	stdata=self.stdout
@@ -209,17 +194,13 @@ class format_data(object):
 	nonresponders=[]
 	for i in data:
 		dv=np.array(data[i].values())
-		dv=np.nan_to_num(dv)
-		#print dv 
-		#print np.max(dv[np.nonzero(dv)])/np.min(dv[np.nonzero(dv)])
-
-		if float(np.min(dv[np.nonzero(dv)]))>0.5:
+		if np.max(dv[np.nonzero(dv)])/np.min(dv[np.nonzero(dv)])<1.5:
 			nonresponders.append(i)
-	#print len(nonresponders)	
+	
 	for i in nonresponders:
 		data.pop(i,0)
 		stdata.pop(i,0)
-	#print len(data)
+	
 	self.avout=data
 	self.stdout=stdata
 	
@@ -256,16 +237,15 @@ class format_data(object):
 		if totals<cutoff:
 			#data.pop(i,0)
 			removelist.append(i)
-	#print len(removelist)
 	for i in removelist:
 		data.pop(i,0)
-	
+
         self.output=data
             
 
-def run(prefix,datatype):
+def run():
 	#load the data
-	t=[3,4,5,6,8,24,48,168,336]
+	t=[3,4,5,6]
 	#create a dictionary to map the sample number back to the time point.
 	sample_ref=dict()
 	for i in range(len(t)):
@@ -289,10 +269,9 @@ def run(prefix,datatype):
 	#load the raw spectral counts
 	#for j in t:
 	    #for i in sample_ref_r[str(j)]:
-	#prefix='/media/HD1_/Documents/AG3C_data/data/experiments/time_course_P0/'
-        files=prefix+datatype+'_data.csv'
-	#print files
-	out=D.load_mult_csv(files,'\t')
+	prefix='/media/HD1_/Documents/AG3C_data/data/experiments/time_course_P0/'
+        files=prefix+'/Test_data.csv'
+	out=D.load_mult_csv(files,',')
 	    	
 	
 	#print out
@@ -321,7 +300,7 @@ def run(prefix,datatype):
 		
 	
 
-	pickle.dump((avout,stdout,refout),open(prefix+datatype+'_data_format_raw.p','wb'))
+	pickle.dump((avout,stdout,refout),open('/media/HD1_/Documents/AG3C/Results/test_data_format.p','wb'))
 
 
 

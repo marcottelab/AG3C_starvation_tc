@@ -49,16 +49,18 @@ class format_data(object):
         self.cleandata()
 	
 	#convert raw counts to fractional counts
-	self.raw2fraction()	
+	self.raw2fraction()
+	#print self.output
         #average the output data
         self.average()
+	#print self.avout
 	#print self.avout['YP_003046375.1']
 	#keep only those changing by >1.5 through the time cours
-	#self.filt()
+	self.filter()
+	#print self.avout
         #normalize to initial value
-  	#self.normalize()
-      	self.filt()
-
+  	self.normalize()
+      
             
     def load_mult_csv(self,files,delim):
         #import data from several different csv files. output to a list
@@ -69,7 +71,7 @@ class format_data(object):
         with open(files, 'rb') as csvfile:
             read = csv.reader(csvfile, delimiter=delim, quotechar='|')
             first=1
-	    for row in read:
+            for row in read:
                 if first==1:
 			row0=row
 	
@@ -102,22 +104,48 @@ class format_data(object):
 	T=self.time
         #print self.idata
         #outdata=numpy.array(self.idata)
-        outdata=self.output
-	
-	'''	
-	for t in T:
-	    for k in ['1','2','3']:
+        outdata=self.idata
+	#print outdata
+
+	for k in ['1','2','3']:
 		norm=0
-        	for i in outdata:
-			#print outdata[i][t][k]
-			if type(outdata[i]['t'+str(t)][k])!=type(0.0):
-				outdata[i]['t'+str(t)][k]=0.0
-			else:
-			#	print outdata[i]['t'+str(t)][k]
-				norm+=outdata[i]['t'+str(t)][k]             
-			        	
+		sit=[]
 		for i in outdata:
-			outdata[i]['t'+str(t)][k]=outdata[i]['t'+str(t)][k]/norm	
+			temps=1.0
+			count=0
+			for t in T:
+			#print outdata[i][t][k]
+				if type(outdata[i]['t'+str(t)][k])!=type(0.0):
+					outdata[i]['t'+str(t)][k]=0.0
+				if outdata[i]['t'+str(t)][k]!=0:
+				#	print outdata[i]['t'+str(t)][k]
+					#norm+=outdata[i]['t'+str(t)][k]
+					temps*=float(outdata[i]['t'+str(t)][k])
+					count+=1             
+				
+			s_itj=[]
+			if count==0:
+				count=1
+			for t in T:
+				s_itj.append(outdata[i]['t'+str(t)][k]/(temps**(1/count)))
+
+			sit.append(s_itj)
+		#print sit	
+		sit=np.array(sit).T
+		norm_s=[np.median(s[np.nonzero(s)]) for s in sit]
+		norm_sd=dict()
+		#print len(T),len(norm_s)
+		for t in range(len(T)):
+			norm_sd[str(T[t])]=norm_s[t]
+			
+		for i in outdata:
+			for t in T:
+				outdata[i]['t'+str(t)][k]=float(outdata[i]['t'+str(t)][k])/norm_sd[str(t)]
+	
+	#print outdata
+	'''		
+	for i in outdata:
+		outdata[i]['t'+str(t)][k]=outdata[i]['t'+str(t)][k]/norm	
 
 	for j in ['1','2','3']:
 		if j==0:
@@ -145,13 +173,13 @@ class format_data(object):
 		        count=1
 
 		    for t in T:
-		k=ref[str(t)]	    
+			k=ref[str(t)]	    
 		     	s_itj.append(outdata[i][t][str(k)]/(temps**(1/count)))
 		    
 		    sit.append(s_itj)
 		#print sit
 		sit=np.array(sit).T
-		sit=[s[np.ndarray.nonzero(s)] for s in sit]
+		1sit=[s[np.ndarray.nonzero(s)] for s in sit]
 		#print sit
 	        norm_s=[np.median(s) for s in sit]
 
@@ -166,7 +194,7 @@ class format_data(object):
 			
 			outdata[i][t][str(k)]=float(outdata[i][t][str(k)])/norm_sd[str(t)]
 	
-	'''
+	
 	for t in T:
 	    for k in ['1','2','3']:
 		norm=0
@@ -180,9 +208,9 @@ class format_data(object):
 			        	
 		for i in outdata:
 			outdata[i]['t'+str(t)][k]=outdata[i]['t'+str(t)][k]/norm	
-	
+	'''
         self.output=outdata
-    
+    	
     def average(self):
 	
 	data=self.output
@@ -201,7 +229,7 @@ class format_data(object):
 	self.avout=outav
 	self.stdout=outst
     
-    def filt(self):
+    def filter(self):
 	
 	data=self.avout
 	stdata=self.stdout
@@ -209,17 +237,13 @@ class format_data(object):
 	nonresponders=[]
 	for i in data:
 		dv=np.array(data[i].values())
-		dv=np.nan_to_num(dv)
-		#print dv 
-		#print np.max(dv[np.nonzero(dv)])/np.min(dv[np.nonzero(dv)])
-
-		if float(np.min(dv[np.nonzero(dv)]))>0.5:
+		if np.max(dv[np.nonzero(dv)])/np.min(dv[np.nonzero(dv)])<self.minchange:
 			nonresponders.append(i)
-	#print len(nonresponders)	
+	
 	for i in nonresponders:
 		data.pop(i,0)
 		stdata.pop(i,0)
-	#print len(data)
+	
 	self.avout=data
 	self.stdout=stdata
 	
@@ -256,10 +280,9 @@ class format_data(object):
 		if totals<cutoff:
 			#data.pop(i,0)
 			removelist.append(i)
-	#print len(removelist)
 	for i in removelist:
 		data.pop(i,0)
-	
+
         self.output=data
             
 
@@ -293,7 +316,7 @@ def run(prefix,datatype):
         files=prefix+datatype+'_data.csv'
 	#print files
 	out=D.load_mult_csv(files,'\t')
-	    	
+	#print out    	
 	
 	#print out
 	D.idata=out
@@ -321,7 +344,7 @@ def run(prefix,datatype):
 		
 	
 
-	pickle.dump((avout,stdout,refout),open(prefix+datatype+'_data_format_raw.p','wb'))
+	pickle.dump((avout,stdout,refout),open(prefix+datatype+'_data_format.p','wb'))
 
 
 

@@ -12,7 +12,26 @@ import math
 import scipy
 import math
 import pickle
+import numpy
+#from collections import defaultdict
+#import dictlist
 
+class Dictlist(dict):
+    def __setitem__(self, key, value):
+        try:
+            self[key]
+        except KeyError:
+            super(Dictlist, self).__setitem__(key, [])
+        self[key].append(value)
+
+class ngram(dict):
+    """Based on perl's autovivification feature."""
+    def __getitem__(self, item):
+        try:
+            return super(ngram, self).__getitem__(item)
+        except KeyError:
+            value = self[item] = type(self)()
+            return value
 
 class format_data(object):
     def __init__(self,delim='\t'):
@@ -21,227 +40,286 @@ class format_data(object):
         self.idata=[]
         self.out=[]
         self.minchange=1.5
-        self.cutoff=7
+        self.cutoff=10
    
     def main(self):
         
-        output=self.idata
         
-        #strip the header row
-        for i in range(len(output)):
-            output[i][0]=[0,0,0]
-        #convert to int
-        for i in range(len(output)):
-            for j in range(len(output[i])):
-                for k in range(3):
-                    try:
-                        output[i][j][k]=float(output[i][j][k])
-                    except:
-                        output[i][j][k]=0.0
-        
-        self.idata=output
-        
-        #convert from raw data to fractions
-        self.raw2fraction()
-        
-        #get rid of peptides that are not observed 2/3 of the time
+        #get rid of peptides that don't have a minimum number of observed peptides for the whole time course
         self.cleandata()
-        output2=self.output
-        reference2=self.refout
-        av_out=[]
-        std_out=[]
-        n_out=[]
-        exitflag=0
+	
+	#convert raw counts to fractional counts
+	self.raw2fraction()
+	
         #average the output data
-        for j in range(len(output2[0])):
-            temp=[]
-            temp2=[]
-            temps=[]
-            for i in range(len(output2)):
-                N=0.
-                o=0.
-                s=0.
-                for k in range(len(output2[i][j])):
-                    if output2[i][j][k]!=0.:
-                        o=o+output2[i][j][k]
-                        N+=1.
-                 
-                if N!=0.:
-                    o=o/N
-                    no=o
-                else:
-                    o=0.
-                    no=0.
-                    
-                for k in range(len(output2[i][j])):
-                    if output2[i][j][k]!=0.:    
-                        s=np.add(s,(np.subtract(output2[i][j][k],o))**2)
-                
-                if N!=0.:
-                    s=numpy.sqrt(s/float(N))
-                else:
-                    s=0.
-                    
-                temp.append(o)
-                temp2.append(no)
-                temps.append(s)
-                
-            av_out.append(temp)
-            std_out.append(temps)
-            n_out.append(temp2)
-            
-        av_out2=[]
-        std_out2=[]
-        n_out2=[]
-        ref2=[]
-        #make a subtable where the fold change is >=1.5
-        for i in range(len(av_out)):
-            
-            t=numpy.where(numpy.array(av_out[i])>0)
-            idx=[]
-            for j in range(len(t[0])):
-                idx.append(av_out[i][int(t[0][j])])
-            
-            if not idx:
-                mina=1
-                maxa=1
-            else:
-                mina=min(idx)
-                maxa=max(av_out[i])
-            
-            if maxa/mina>=self.minchange:
-                av_out2.append(av_out[i])
-                std_out2.append(std_out[i])
-                n_out2.append(n_out[i])
-                ref2.append(reference2[0][i])
-
+        self.average()
+	#print self.avout['YP_003046375.1']
+	#keep only those changing by >1.5 through the time cours
+	self.filter()
         #normalize to initial value
-        av=[]
-        std=[]
-        for i in range(len(av_out2)):
-           temp=[]
-           temp2=[]
-           for j in range(len(av_out2[i])):
-                try:
-                    ma=max(av_out2[i])
-                    if ma==0:
-                        ma=1.
-        
-                    norma=av_out2[i][j]/ma
-                    normb=std_out2[i][j]/ma
-                    temp.append(norma)
-                    temp2.append(normb)
-                except:
-                    temp.append(0.0)
-                    temp2.append(0.0)
-           
-           av.append(temp)
-           std.append(temp2)
-         
-           self.avout=np.array(av)
-           self.std=std
-           self.refout=ref2
-           self.nout=np.array(n_out2)
-                    
+  	self.normalize()
+      
+            
     def load_mult_csv(self,files,delim):
         #import data from several different csv files. output to a list
         
         
-        output=[]
-        
-        for i in range(len(files)):
-           temp=[]
-           with open(files[i], 'rb') as csvfile:
-                read = csv.reader(csvfile, delimiter=delim, quotechar='|')
-                first=1
-                for row in read:
-                    
-                    if first==0:
-                        temp.append(row)
-                    else:
-                        first=0
-                    
-                    if not row:
-                        print 'empty row'
+        output=ngram()
+	reference_cn=dict()
+        with open(files, 'rb') as csvfile:
+            read = csv.reader(csvfile, delimiter=delim, quotechar='|')
+            first=1
+            for row in read:
+                if first==1:
+			row0=row
+	
+		#print row
+		for j in range(len(row)-1):
+			end=False
+			a=''
+			for k in row0[j+1]:
+				if end==True:
+					b=k
+				if k!='_' and end==False:
+					a=a+str(k)
+				else:
+					end=True
+		        if first!=1:
+			
+				output[row[0]][a][b]=float(row[j+1])
+		
+		reference_cn[row[0]]=row[0]
+		if first==1:
+			first=0
            
-           output.append(temp)
         
+	self.common_name=reference_cn
+
         return output
 
     def raw2fraction(self):
         
+	T=self.time
         #print self.idata
         #outdata=numpy.array(self.idata)
         outdata=self.idata
-        #data[0][1][2]
-        for i in range(len(outdata)):
-            N=np.sum(outdata[i],0)
-            #print(N)
-            for k in [0,1,2]:
-                if N[k]!=0:
-                    for j in range(len(outdata[i])):
-                        outdata[i][j][k]=outdata[i][j][k]/(N[k])
-                     
-        
-        self.output=list(outdata)
+	
+
+	for t in T:
+	    for k in ['1','2','3']:
+		norm=0
+        	for i in outdata:
+			#print outdata[i][t][k]
+			if type(outdata[i]['t'+str(t)][k])!=type(0.0):
+				outdata[i]['t'+str(t)][k]=0.0
+			else:
+			#	print outdata[i]['t'+str(t)][k]
+				norm+=outdata[i]['t'+str(t)][k]             
+			        	
+		for i in outdata:
+			outdata[i]['t'+str(t)][k]=outdata[i]['t'+str(t)][k]/norm	
+
+	for j in ['1','2','3']:
+		if j==0:
+		    ref=self.sample_refa_r
+		elif j==1:
+		    ref=self.sample_refb_r
+		elif j==2:
+		    ref=self.sample_refc_r
+		#print ref
+                sit=[]
+		for i in outdata:
+		    temps=1.0
+		    count=0
+		    for t in T:
+			#print outdata[i][t],ref
+		        k=ref[str(t)]
+			#print str(k),outdata[i][t][str(k)]
+			if type(outdata[i][t][str(k)])!=type(0.0):
+				outdata[i][t][str(k)]=0.0
+			if outdata[i][t][str(k)]!=0:
+			        temps*=float(outdata[i][t][str(k)])
+				count+=1
+		    s_itj=[]
+		    if count==0:
+		        count=1
+
+		    for t in T:
+			k=ref[str(t)]	    
+		     	s_itj.append(outdata[i][t][str(k)]/(temps**(1/count)))
+		    
+		    sit.append(s_itj)
+		#print sit
+		sit=np.array(sit).T
+		sit=[s[np.ndarray.nonzero(s)] for s in sit]
+		#print sit
+	        norm_s=[np.median(s) for s in sit]
+
+		norm_sd=dict()
+		for t in range(len(T)):
+		 	norm_sd[str(T[t])]=norm_s[t]
+			
+
+		for i in outdata:
+		    for t in T:
+			k=ref[str(t)]
+			
+			outdata[i][t][str(k)]=float(outdata[i][t][str(k)])/norm_sd[str(t)]
+	
+	'''
+	for t in T:
+	    for k in ['1','2','3']:
+		norm=0
+        	for i in outdata:
+			#print outdata[i][t][k]
+			if type(outdata[i]['t'+str(t)][k])!=type(0.0):
+				outdata[i]['t'+str(t)][k]=0.0
+			else:
+			#	print outdata[i]['t'+str(t)][k]
+				norm+=outdata[i]['t'+str(t)][k]             
+			        	
+		for i in outdata:
+			outdata[i]['t'+str(t)][k]=outdata[i]['t'+str(t)][k]/norm	
+	'''	
+        self.output=outdata
     
+    def average(self):
+	
+	data=self.output
+	T=self.time
+	
+	outav=ngram()
+	outst=ngram()
+
+	for i in data:
+		for j in data[i]:
+			dv=np.array(data[i][j].values())
+			
+			outav[i][j]=np.mean(dv[np.nonzero(dv)])			
+			outst[i][j]=np.std(dv[np.nonzero(dv)])		
+	
+	self.avout=outav
+	self.stdout=outst
+    
+    def filter(self):
+	
+	data=self.avout
+	stdata=self.stdout
+	
+	nonresponders=[]
+	for i in data:
+		dv=np.array(data[i].values())
+		if np.max(dv[np.nonzero(dv)])/np.min(dv[np.nonzero(dv)])<1.5:
+			nonresponders.append(i)
+	
+	for i in nonresponders:
+		data.pop(i,0)
+		stdata.pop(i,0)
+	
+	self.avout=data
+	self.stdout=stdata
+	
+    def normalize(self):
+	
+	data=self.avout
+	stdata=self.stdout
+	
+	#dataout=ngram()
+	for i in data:
+		dv=np.array(data[i].values())
+		norm=np.max(np.nan_to_num(dv[np.nonzero(dv)]))
+		
+		for j in data[i]:
+			if norm!=0:			
+				data[i][j]=np.nan_to_num(data[i][j])/norm
+				stdata[i][j]=np.nan_to_num(stdata[i][j])/norm
+			else:
+				data[i][j]=0.5
+				stdata[i][j]=0.5
+	self.avout=data
+	self.stdout=stdata
+	
     def cleandata(self):
-    
+    	removelist=[]
         cutoff=self.cutoff
-        data=self.output
-        counts=self.counts
-        ref=self.reference
-        #require that the minimum number of counts is > a particular cutoff
-        output=[]
-        refout=[]
-        
-        for i in range(len(data)):
-            temp=[]
-            temp2=[]
-            for j in range(len(data[i])):
-                
-                if not min(counts[j]):
-                    a=0
-                else:
-                    a=min(counts[j])
-                
-                
-                if int(a)>cutoff:
-                    #try:
-                    temp.append(data[i][j])
-                        
-                    if i==0:
-                        temp2.append(ref[j])
-                    #except:
-                        #'problem with different data lengths'
-            output.append(temp)
-            if i==0:
-                refout.append(temp2)
-            
-            self.output=output
-            self.refout=refout
+        data=self.idata
+	for i in data:
+		totals=0
+		for j in data[i]:
+			for k in data[i][j]:
+				totals+=data[i][j][k]
+	
+		if totals<cutoff:
+			#data.pop(i,0)
+			removelist.append(i)
+	for i in removelist:
+		data.pop(i,0)
+
+        self.output=data
             
 
-output=[]
+def run(prefix,datatype):
+	#load the data
+	t=[3,4,5,6,8,24,48,168,336]
+	#create a dictionary to map the sample number back to the time point.
+	sample_ref=dict()
+	for i in range(len(t)):
+		sample_ref[str(i)]=t[i]
 
-#load the data
-prefix='../data_prep/samples1-33/'
-files=[prefix+'3hr.csv',prefix+'4hr.csv',prefix+'5hr.csv',prefix+'6hr.csv',prefix+'8hr.csv',prefix+'24hr.csv',prefix+'48hr.csv',prefix+'1wk.csv',prefix+'2wk.csv']
-D=format_data()
-out=D.load_mult_csv(files,'\t')
-D.idata=out
-#output=load_mult_csv(files,'\t')
+	#reverse the index
+	sample_ref_r=Dictlist()
+	for i in sample_ref:
+		#if str(sample_ref[i]) in sample_ref_r:
+		#	sample_ref_r[str(sample_ref[i])].append(i)
+		#else:
+		sample_ref_r[str(sample_ref[i])]=i
+		#sample_ref_r.setdefault(str(sample_ref[i]),[])
 
-#print len(output[0])
-#load the reference 
-files=['../data_prep/samples1-33/LabelsMaster.csv']
-reference=D.load_mult_csv(files,' ')
-D.reference=reference[0]
+	#print sample_ref_r
+	D=format_data()
+	D.time=t
+	D.sample_ref_r=sample_ref_r
 
-counts=D.load_mult_csv(['../data_prep/SampleCounts.csv'],'\t')
-D.counts=counts[0]
+	out=ngram()
+	#load the raw spectral counts
+	#for j in t:
+	    #for i in sample_ref_r[str(j)]:
+	#prefix='/media/HD1_/Documents/AG3C_data/data/experiments/time_course_P0/'
+        files=prefix+datatype+'_data.csv'
+	#print files
+	out=D.load_mult_csv(files,'\t')
+	    	
+	
+	#print out
+	D.idata=out
+	D.main()
 
-D.main()
+	avout=[]
+	stdout=[]
+	refout=[]
+	for i in D.avout:
+		
+		if i in D.common_name:
+			if D.common_name[i]=='':
+				refout.append(i)
+			else:	
+				refout.append(D.common_name[i])
+			#print D.avout[i]
+			temp_av=[]
+			temp_st=[]
+			for k in t:
+				temp_av.append(D.avout[i]['t'+str(k)])
+				temp_st.append(D.stdout[i]['t'+str(k)])
 
-pickle.dump((D.avout,D.std,avref),open('./formated_data2b.p','wb'))
+			avout.append(temp_av)
+			stdout.append(temp_st)
+		
+	
 
+	pickle.dump((avout,stdout,refout),open(prefix+datatype+'_data_format.p','wb'))
+
+
+
+if __name__ == "__main__":
+
+	run()
