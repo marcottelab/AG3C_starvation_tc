@@ -8,6 +8,8 @@
 
 import numpy as np
 import sys
+import os
+
 sys.path.append('./data_processing')
 sys.path.append('./fit_time_course')
 sys.path.append('./GO_analysis')
@@ -31,25 +33,28 @@ import mean_of_genes_in_go_term_mRNA as mofg
 
 
 #the folder to store the results in
-prefix='/media/HD1_/Documents/AG3C/Results/'
-datatype='prot'
-normtype='read_depth'
+prefix='/media/HD1_/Documents/AG3C/Results/RNA_dseq/'
+datatype='rna'
+normtype='deseq'
 
 #Run the data analysis
 
 #format proteomics data
 print 'formating the data by '+normtype
 
-if normtype=='read_depth':
+if normtype=='deseq':
+	#need to run the "R" script that does the DEseq normalization
+	#	os.system("~/R-3.0.3/bin/Rscript /media/HD1_/Documents/AG3C/data_processing/Rdeseq.r '"+prefix+"' 'rna_data' '.csv'")
+	#os.wait()
 	format_data_deseq.run(prefix,datatype)
-elif normtype=='deseq':
+elif normtype=='read_depth':
 	format_data.run(prefix,datatype)
 elif normtype=='norm_to_length': #normalize each gene by the length of the transcript
 	format_data_norm_to_length.run(prefix,datatype)
 elif normtype=='apex':
-	format_data.run(prefix,datatype)
+	format_data_wapex.run(prefix,datatype)
 
-#fit the time course (warning! this takes ~30min)
+#fit the time course (this takes ~30min)
 print 'fitting the data now...this could take 30min (or more)'
 time_course_fit.run(prefix,datatype)
 
@@ -86,6 +91,5 @@ go_rise.run(prefix,datatype)
 #print 'find the average time course of the responders inside a particular go term'
 #for c in classes:
 #	mofg.run(True,prefix,datatype,c)
-'''
 
 
