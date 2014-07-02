@@ -1,15 +1,17 @@
-#!/usr/bin/Rscript
+#!/bin/Rscript
 
 args <- commandArgs(TRUE)
 
+
 library("DESeq")
+
 
 dir=args[1]
 #dir="/media/HD1_/Documents/AG3C/Results/"
-filename=paste(args[2],args[3],sep="")
+filename=args[2]
 
 datafile=paste(dir,filename,sep="")
-
+datafile="/media/HD1_/Documents/AG3C/Results/RNA_dseq/rna_data.csv"
 
 countTable <- read.table(datafile,header=T,row.names=1,sep="\t")
 
