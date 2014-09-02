@@ -1,0 +1,6 @@
+	"gene_id"	"sample1_t3"	"sample2_t4"	"sample3_t5"	"sample4_t6"	"sample11_t3"	"sample12_t4"	"sample13_t5"	"sample14_t6"	"sample111_t3"	"sample112_t4"	"sample113_t5"	"sample114_t6"
+1	"ECB_00001"	10	0	30	40	11	19	30	36	9	20	33	45
+2	"ECB_00002"	5	6	4	6	5	5	6	2	5	5	6	4
+3	"ECB_00003"	9	20	33	45	10	20	30	50	11	19	30	36
+4	"ECB_00004"	60	50	40	30	55	45	35	25	75	65	55	45
+5	"ECB_00005"	10	12	5	3	12	3	5	3	5	3	5	3
