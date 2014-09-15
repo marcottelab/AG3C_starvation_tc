@@ -32,8 +32,8 @@ def run(prefix,datatype):
 	    else:
 		    
 		if 'GO' in output[i][0]:
-		    genes_temp.append(list(set(output[i][6].split(', '))))
-		    annotation_temp.append(output[i][2])
+		    genes_temp.append(list(set(output[i][5].split(', '))))
+		    annotation_temp.append(output[i][1])
 
 	annotation=annotation_temp
 	genes=genes_temp
@@ -64,7 +64,7 @@ def run(prefix,datatype):
 		for j in range(len(genes)):
 		    n[j][i]=len(list(set(map(str.lower,ref_temp)) & set(map(str.lower,genes[j]))))/float(len(genes[j]))
 
-
+	
 	#sort the go terms based upon when they hit 50% of max
 	nclust_combine=[]
 	annotation_combine=[]
@@ -94,6 +94,7 @@ def run(prefix,datatype):
 	    time_rise.append([annotation_sorted[i],t[idx1[idx_sorted[i]]]])
 
 	
+
 	filename=prefix+datatype+'_sorted_annotation_by_rise_time_rise.csv'
 	csvwriter.write_csv(time_rise,filename,'\t')
 

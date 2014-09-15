@@ -34,8 +34,8 @@ import mean_of_genes_in_go_term_mRNA as mofg
 
 #the folder to store the results in
 prefix='/media/HD1_/Documents/AG3C/Results/RNA_dseq/'
-datatype='rna'
-normtype='deseq'
+datatype='Test_pr'
+normtype='apex'
 
 #Run the data analysis
 
@@ -54,6 +54,7 @@ elif normtype=='norm_to_length': #normalize each gene by the length of the trans
 elif normtype=='apex':
 	format_data_wapex.run(prefix,datatype)
 
+'''
 #fit the time course (this takes ~30min)
 print 'fitting the data now...this could take 30min (or more)'
 time_course_fit.run(prefix,datatype)
@@ -62,11 +63,12 @@ time_course_fit.run(prefix,datatype)
 print 'classify the fits'
 classify_fits.run(prefix,datatype)
 
+
 #find go enrichments
 #first convert names into suitable format
 #print 'converting the names into the Entrez format'
 
-classes=['on','off','pulse_up','pulse_down','other','combined']
+classes=['up-regulated','down-regulated','temp_up-regulated','temp_down-regulated','other','combined']
 
 for c in classes:
 	#print c
@@ -84,12 +86,11 @@ ChartReport.DAVIDenrich(listF=prefix+datatype+'_combined_conv.txt',idType = 'ENT
 
 #sort the go terms based upon their rise time
 print 'sort the go terms based upon their rise time'
-
 go_rise.run(prefix,datatype)
 
 #find the average time course of the responders inside a particular go term
 #print 'find the average time course of the responders inside a particular go term'
 #for c in classes:
 #	mofg.run(True,prefix,datatype,c)
-
+'''
 

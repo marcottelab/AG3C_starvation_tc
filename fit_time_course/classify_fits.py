@@ -32,19 +32,18 @@ def classify(k,kstd):
     
     classify='other'
     if cond1 or cond2 or cond2B:
-        classify='on'
-        
+        classify='up-regulated'
         
     elif cond3 or cond4 or cond4B:
-        classify='off'
+        classify='down-regulated'
         
     elif cond5:
         
-        classify='pulse_up'    
+        classify='temp_up-regulated'    
        
     elif cond6:
         
-        classify='pulse_down'
+        classify='temp_down-regulated'
          
     else:
         classify='other'
@@ -63,7 +62,7 @@ def run(prefix,datatype):
 	
 	pickle.dump(classification,open(prefix+datatype+'_classify.p','wb'))
 	
-	classes=['on','off','pulse_up','pulse_down','other']
+	classes=['up-regulated','down-regulated','temp_up-regulated','temp_down-regulated','other']
 	
 	for i in range(5):
 		groupn=[]

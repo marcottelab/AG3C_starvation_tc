@@ -4,40 +4,41 @@ import csv
 import pickle
 
 def run(prefix,datatype):
-	T=[3,4,5,6,8,24,48,24*7,24*14]
+	if datatype=='Test':
+		T=[3,4,5,6]
+	else:
+		T=[3,4,5,6,8,24,48,24*7,24*14]
 
 	#load the raw counts into pandas
 	counts=pd.read_csv(prefix+datatype+'_data.csv',sep='\t',na_filter=True)
 	#treat all zeros as missing (will be automatically handled by pandas)
 	counts=counts[counts>0]	
 	
+	
 	#load the size factors normalize the size factors so that the average of the t3 (first) time point is=1
 	for t in T:
-		if t==4:
-			sf=pd.read_csv(prefix+'size_factors/'+datatype+'_size_factors3_t'+str(t),',')
-			sf.columns=['ID','size_factors']
-			#sf=sf.set_index('ID')
-		if t>4: 
+		if t>3: 
 			sf_temp=pd.read_csv(prefix+'size_factors/'+datatype+'_size_factors3_t'+str(t),',')
 			sf_temp.columns=['ID','size_factors']	
 			
-			Norm=sf_temp[sf_temp['ID'].str.contains('t3')].mean()
+			Norm=sf_temp[sf_temp['ID'].str.contains('t3$')].mean()
 			#print Norm
 			sf_temp['size_factors']=sf_temp['size_factors'].divide(Norm['size_factors'])
-			#The t3 normalizations are roughly the same (once normalized) each time, so drop them here.
 			#print sf_temp[sf_temp['ID'].str.contains('t3')]
 			
-			sf_temp=sf_temp[~sf_temp['ID'].str.contains('t3')]
+			sf_temp=sf_temp[~sf_temp['ID'].str.contains('t3$')]
 			
-			sf=sf.append(sf_temp)
-	
+			if t==4:
+				sf=sf_temp	
+			else:
+				sf=sf.append(sf_temp)
+
 	#normalize the counts
 	for i in sf['ID']:
 		#print counts[i].div(2.0)	
 		N=sf['size_factors'][sf['ID'].str.contains(i)]
 		
 		counts[i]=counts[i].div(float(N))
-
 	#average the counts
 	av_counts=pd.DataFrame()
 	st_counts=pd.DataFrame()
@@ -45,11 +46,11 @@ def run(prefix,datatype):
 	st_counts['gene_id']=counts['gene_id']
 
 	for t in T:
-		av_counts['t'+str(t)]=counts.filter(regex='t'+str(t)).mean(axis=1)
-		st_counts['t'+str(t)]=counts.filter(regex='t'+str(t)).std(axis=1)
+		av_counts['t'+str(t)]=counts.filter(regex='t'+str(t)+'$').mean(axis=1)
+		st_counts['t'+str(t)]=counts.filter(regex='t'+str(t)+'$').std(axis=1)
 	av_counts=av_counts.set_index('gene_id')
 	st_counts=st_counts.set_index('gene_id')
-
+	
 	#normalize to the max across the time course
 	for i in av_counts.index.values:
 		N=av_counts.ix[i][av_counts.columns].max(axis=1)
@@ -59,10 +60,10 @@ def run(prefix,datatype):
 
 	files=[]
 	for i in range(len(T)-1):
-		files.append(prefix+'size_factors/rna_sig_gene_3_t'+str(T[i+1]))
+		files.append(prefix+'size_factors/'+datatype+'_sig_gene_3_t'+str(T[i+1]))
 
 	#filter out datapoints that aren't changing significantly
-	sig_change=load_p_values(files,',',prefix+'rna_data.csv')
+	sig_change=load_p_values(files,',',prefix+datatype+'_data.csv')
 	
 	av_counts=av_counts[av_counts.index.isin(sig_change)]
 	st_counts=st_counts[st_counts.index.isin(sig_change)]
@@ -79,7 +80,8 @@ def run(prefix,datatype):
 	avout=np.nan_to_num(avout)
 	stdout=np.nan_to_num(stdout)
 	
-	print avout
+	#print avout
+	#print ref_out
 	pickle.dump((avout,stdout,ref_out),open(prefix+datatype+'_data_format.p','wb'))
 	
 
