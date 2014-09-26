@@ -1,0 +1,9 @@
+Publication,N proteins found,Cutoff,Technique,,# RNAs,Cutoff,Technique
+This study,2648 (at 3hrs),FDR<1%,Shotgun MS,,"4116 genes,89 ncRNA, 85 tRNA (at 3hrs)",?,RNA-seq
+Yoon 2012,60,fold change>2 ,2-D gel,,4144 gene probes (REL606 strain),NA,Microarray
+Taniguchi 2012,1018,NA,YFP fusion,,137,95% confidence,FISH
+Lewis 2010,"~1,000",P-value<0.05,Shotgun MS,,,,
+Lewis 2009,,,,,4428 gene probes,NA,Microarray
+Soares 2013,2118,FDR<1%,SILAC,,"Genes:NA, 1145 IGR,88 sRNA",,
+"Raghavan 2011
+",,,,,"Genes:NA, 1145 IGR,88 sRNA",mean expression >=1 and %region mapped>=50%,RNA-seq
