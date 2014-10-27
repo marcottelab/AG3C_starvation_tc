@@ -1,0 +1,1895 @@
+Common name	Entrez ID	Gene Name	Prediction	Sorted Category
+ispD	948269	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase		Temporarly Up Regulated
+dxr	945019	1-deoxy-D-xylulose 5-phosphate reductoisomerase		Down Regulated
+rbsB	948261	D-ribose-binding periplasmic protein		Up Regulated
+rbsC	948262	Ribose transport system permease protein rbsC		Ambiguous/Unsorted
+yieP	948263	Uncharacterized HTH-type transcriptional regulator yieP	[]	Down Regulated
+fucU	945842	L-fucose mutarotase		Up Regulated
+hemB	945017	Delta-aminolevulinic acid dehydratase		Ambiguous/Unsorted
+tonB	945843	Protein tonB		Ambiguous/Unsorted
+rbsA	948264	Ribose import ATP-binding protein rbsA; Ribose import ATP-binding protein rbsA 1		Ambiguous/Unsorted
+rluB	945840	Pseudouridine synthase; Ribosomal large subunit pseudouridine synthase B		Down Regulated
+rbsR	948266	Ribose operon repressor		Down Regulated
+kch	945841	Putative potassium channel protein		Ambiguous/Unsorted
+rbsD	948267	D-ribose pyranase		Ambiguous/Unsorted
+dnaC	948864	DNA replication protein dnaC		Ambiguous/Unsorted
+ydcI	948865	Uncharacterized HTH-type transcriptional regulator ydcI	['Transcription', ' RNA related', ' Type of regulation', ' Genetic unit regulated', 'transcription', 'regulation of transcription  DNA dependent']	Down Regulated
+btuR	945839	Cob(I)yrinic acid a,c-diamide adenosyltransferase		Ambiguous/Unsorted
+hsdS	948867	Type-1 restriction enzyme EcoKI specificity protein		Down Regulated
+adhE	945837	Aldehyde-alcohol dehydrogenase		Down Regulated
+rbsK	948260	Ribokinase		Ambiguous/Unsorted
+nadC	948869	Nicotinate-nucleotide pyrophosphorylase [carboxylating]		Ambiguous/Unsorted
+ychE	945836	UPF0056 membrane protein yhcE		Temporarly Up Regulated
+dosC	945835	Diguanylate cyclase yddV		Up Regulated
+yddV	945835	Diguanylate cyclase yddV		Up Regulated
+tauD	945021	Alpha-ketoglutarate-dependent taurine dioxygenase		Down Regulated
+dinI	945022	DNA-damage-inducible protein I		Down Regulated
+yccK	945023	Sulfurtransferase tusE		Ambiguous/Unsorted
+mutH	947299	DNA mismatch repair protein mutH		Up Regulated
+yieL	948272	Uncharacterized protein yieL	['Carbohydrate transport and metabolism']	Temporarly Up Regulated
+yahF	947298	Uncharacterized protein yahF	['Amino acid transport and metabolism', ' Carbon compound utilization', 'amino acid metabolic process']	Temporarly Up Regulated
+tdk	945834	Thymidine kinase		Ambiguous/Unsorted
+ilvE	948278	Branched-chain-amino-acid aminotransferase		Ambiguous/Unsorted
+smpB	947296	SsrA-binding protein		Down Regulated
+ilvM	948279	Acetolactate synthase isozyme 2 small subunit		Down Regulated
+amiC	947293	N-acetylmuramoyl-L-alanine amidase amiC		Down Regulated
+tauB	945027	Taurine import ATP-binding protein tauB		Ambiguous/Unsorted
+recC	947294	Exodeoxyribonuclease V gamma chain		Down Regulated
+hns	945829	DNA-binding protein H-NS		Up Regulated
+ylaC	948876	Inner membrane protein ylaC		Down Regulated
+ygdL	947291	Uncharacterized protein ygdL	[]	Down Regulated
+csdL	947291	Uncharacterized protein ygdL		Down Regulated
+ychJ	945828	UPF0225 protein ychJ		Down Regulated
+ampD	948877	1,6-anhydro-N-acetylmuramyl-L-alanine amidase ampD		Temporarly Up Regulated
+arcA	948874	Aerobic respiration control protein arcA		Ambiguous/Unsorted
+hsdR	948878	Type I restriction enzyme EcoKI R protein		Down Regulated
+ygeW	945826	Uncharacterized protein ygeW	[' Central intermediary metabolism']	Temporarly Down Regulated
+hsdM	948872	Type I restriction enzyme EcoKI M protein		Down Regulated
+rstB	948870	Sensor protein; Sensor protein rstB		Down Regulated
+tauA	945030	Taurine-binding periplasmic protein		Down Regulated
+atpF	948247	ATP synthase subunit b; ATP synthase B chain		Up Regulated
+yaiI	945033	UPF0178 protein yaiI		Temporarly Up Regulated
+mnmG	948248	tRNA uridine 5-carboxymethylaminomethyl modification enzyme mnmG		Down Regulated
+aroL	945031	Shikimate kinase 2		Ambiguous/Unsorted
+mioC	948249	Protein mioC		Ambiguous/Unsorted
+rlmM	947283	UTI89_C3178; b2806; ECIAI39_3228; ECIAI1_2916; Z4123; c3376; ECED1_3259; ECUMN_3135; E2348C_3073; APECO1_3725; ECS88_3075; EC55989_3085; ECDH10B_2975		Down Regulated
+ygdE	947283	UTI89_C3178; b2806; ECIAI39_3228; ECIAI1_2916; Z4123; c3376; ECED1_3259; ECUMN_3135; E2348C_3073; APECO1_3725; ECS88_3075; EC55989_3085; ECDH10B_2975		Down Regulated
+atpD	948244	ATP synthase subunit beta		Up Regulated
+yaiW	945038	Uncharacterized protein yaiW	[' Carbon compound utilization', ' RNA related', ' Type of regulation', ' Genetic unit regulated', 'transcription', 'regulation of transcription  DNA dependent']	Temporarly Up Regulated
+ptrA	947284	Protease 3		Ambiguous/Unsorted
+suhB	947285	Inositol-1-monophosphatase		Temporarly Down Regulated
+recB	947286	Exodeoxyribonuclease V beta chain		Up Regulated
+RecD	947287	Exodeoxyribonuclease V alpha chain		Down Regulated
+pstB	948240	Phosphate import ATP-binding protein pstB		Ambiguous/Unsorted
+oppB	945823	Oligopeptide transport system permease protein oppB		Down Regulated
+cls	945821	Cardiolipin synthetase		Up Regulated
+argA	947289	Amino-acid acetyltransferase		Ambiguous/Unsorted
+rsmE	945816	Ribosomal RNA small subunit methyltransferase E		Ambiguous/Unsorted
+Dos	945815	Heme-regulated cyclic di-GMP, cyclic AMP phosphodiesterase,		Ambiguous/Unsorted
+dosP	945815	Heme-regulated cyclic di-GMP, cyclic AMP phosphodiesterase,		Ambiguous/Unsorted
+ygiT	945814	Uncharacterized HTH-type transcriptional regulator ygiT	[' Carbon compound utilization', 'metabolic process']	Up Regulated
+mqsA	945814	Uncharacterized HTH-type transcriptional regulator ygiT		Up Regulated
+flgD	945813	Basal-body rod modification protein flgD		Ambiguous/Unsorted
+oppF	945818	Oligopeptide transport ATP-binding protein oppF		Ambiguous/Unsorted
+flhC	947280	Flagellar transcriptional activator flhC		Down Regulated
+sgcX	948840	Putative sgc region protein sgcX		Up Regulated
+psiF	945040	Phosphate starvation-inducible protein psiF		Up Regulated
+phoA	945041	Alkaline phosphatase		Ambiguous/Unsorted
+yaiA	945043	Uncharacterized protein yaiA	['Amino acid transport and metabolism', ' Building block biosynthesis', 'aromatic amino acid family biosynthetic process']	Up Regulated
+asnA	948258	Aspartate--ammonia ligase		Ambiguous/Unsorted
+phoR	945044	Sensor protein; Phosphate regulon sensor protein phoR		Ambiguous/Unsorted
+aroM	945045	Protein aroM		Down Regulated
+asnC	948259	Asparaginyl-tRNA synthetase; Regulatory protein asnC		Down Regulated
+ravA	948256	ATPase ravA		Temporarly Down Regulated
+phoB	945046	Phosphate regulon transcriptional regulatory protein phoB		Temporarly Up Regulated
+csdE	947274	Uncharacterized sufE-like protein ygdK		Ambiguous/Unsorted
+yaiE	945048	UPF0345 protein yaiE		Down Regulated
+syd	947271	Protein syd		Down Regulated
+sbcD	945049	Nuclease sbcCD subunit D		Temporarly Up Regulated
+kup	948255	Low affinity potassium transport system protein kup		Ambiguous/Unsorted
+atpB	948252	ATP synthase subunit a		Down Regulated
+gcvA	947278	Glycine cleavage system transcriptional activator		Temporarly Up Regulated
+ygdI	947276	Uncharacterized lipoprotein ygdI	[' Carbon compound utilization', ' RNA related', ' Type of regulation', ' Genetic unit regulated']	Up Regulated
+uxuR	948849	Uxu operon transcriptional regulator		Temporarly Up Regulated
+oppD	945802	Oligopeptide transport ATP-binding protein oppD		Ambiguous/Unsorted
+ycgN	945804	UPF0260 protein ycgN		Down Regulated
+glcB	948857	Malate synthase G		Up Regulated
+narJ	945807	Respiratory nitrate reductase 1 delta chain		Up Regulated
+gudP	947265	Probable glucarate transporter		Temporarly Down Regulated
+ilvH	947267	Acetolactate synthase isozyme 3 small subunit		Ambiguous/Unsorted
+tnaB	948220	Low affinity tryptophan permease		Temporarly Up Regulated
+mnmE	948222	tRNA modification GTPase mnmE		Temporarly Down Regulated
+rumB	947260	23S rRNA (uracil-5-)-methyltransferase rumB		Ambiguous/Unsorted
+wrbA	947263	Flavoprotein wrbA; Putative flavoprotein wrbA		Up Regulated
+sdaB	947262	L-serine dehydratase 2		Up Regulated
+yieE	948226	Uncharacterized protein yieE	['Amino acid transport and metabolism']	Temporarly Down Regulated
+yieF	948225	Uncharacterized protein yieF		Up Regulated
+yidZ	948227	HTH-type transcriptional regulator yidZ		Up Regulated
+yieK	948229	Uncharacterized protein yieK	['Carbohydrate transport and metabolism']	Temporarly Up Regulated
+ygdG	947256	Uncharacterized exonuclease xni		Temporarly Up Regulated
+barA	947255	Sensor protein; Signal transduction histidine-protein kinase barA		Ambiguous/Unsorted
+mazG	947254	Protein mazG		Down Regulated
+pepN	947253	Aminopeptidase N		Ambiguous/Unsorted
+mazF	947252	PemK-like protein 1		Temporarly Up Regulated
+nhoA	947251	N-hydroxyarylamine O-acetyltransferase		Ambiguous/Unsorted
+bglB	948234	6-phospho-beta-glucosidase bglB		Ambiguous/Unsorted
+phoU	948233	Phosphate transport system protein phoU		Ambiguous/Unsorted
+yieH	948232	Phosphatase yieH		Down Regulated
+pstS	948237	Phosphate-binding protein pstS		Up Regulated
+gudD	947258	Glucarate dehydratase		Ambiguous/Unsorted
+qmcA	947257	Protein qmcA		Temporarly Up Regulated
+ibpA	948200	Small heat shock protein ibpA		Down Regulated
+CYBB	947241	Cytochrome b561		Down Regulated
+ygcR	947240	Putative electron transfer flavoprotein subunit ygcR		Down Regulated
+rumA	947243	23S rRNA (uracil-5-)-methyltransferase rumA		Temporarly Down Regulated
+mazE	947245	PemI-like protein 1		Ambiguous/Unsorted
+relA	947244	GTP pyrophosphokinase		Ambiguous/Unsorted
+ybdK	947246	Carboxylate-amine ligase ybdK		Up Regulated
+ygiC	947249	Uncharacterized protein ygiC	[]	Down Regulated
+recF	948209	DNA replication and repair protein recF		Temporarly Up Regulated
+ydcL	948203	Uncharacterized lipoprotein ydcL	['Amino acid transport and metabolism', 'amino acid transport']	Up Regulated
+yjiA	948882	Uncharacterized GTP-binding protein yjiA	[]	Ambiguous/Unsorted
+opgB	948888	Phosphoglycerol transferase I		Down Regulated
+yjjA	948887	Uncharacterized protein yjjA	[]	Down Regulated
+cusR	945003	Transcriptional regulatory protein cusR		Temporarly Down Regulated
+yidB	948212	Uncharacterized protein yidB	[]	Up Regulated
+pal	945004	Peptidoglycan-associated lipoprotein		Up Regulated
+yegD	947234	Uncharacterized chaperone protein yegD	[]	Temporarly Up Regulated
+lacI	945007	Lactose operon repressor		Ambiguous/Unsorted
+lacZ	945006	Beta-galactosidase		Down Regulated
+hisQ	947235	Histidine transport system permease protein hisQ		Down Regulated
+dnaN	948218	DNA polymerase III subunit beta		Down Regulated
+dnaA	948217	Chromosomal replication initiator protein dnaA		Up Regulated
+rpmH	948216	50S ribosomal protein L34		Up Regulated
+rnpA	948215	Ribonuclease P protein component		Temporarly Down Regulated
+cynR	945001	HTH-type transcriptional regulator cynR		Up Regulated
+cysJ	947239	Sulfite reductase [NADPH] flavoprotein alpha-component		Down Regulated
+osmY	948895	Osmotically-inducible protein Y		Up Regulated
+rimI	948894	Ribosomal-protein-alanine acetyltransferase		Ambiguous/Unsorted
+fhuF	948891	Ferric iron reductase protein fhuF		Temporarly Up Regulated
+holD	948890	DNA polymerase III subunit psi		Temporarly Up Regulated
+yjjG	948899	5'-nucleotidase yjjG		Down Regulated
+mrr	948898	Mrr restriction system protein		Ambiguous/Unsorted
+prfC	948897	Peptide chain release factor 3		Temporarly Down Regulated
+lpp	946175	Major outer membrane lipoprotein		Up Regulated
+entB	946178	Isochorismatase		Up Regulated
+ydhR	946177	Putative monooxygenase ydhR		Down Regulated
+ynhG	946174	Uncharacterized protein ynhG	[]	Ambiguous/Unsorted
+slyA	946167	Transcriptional regulator slyA		Temporarly Down Regulated
+plsX	946165	Fatty acid/phospholipid synthesis protein plsX		Ambiguous/Unsorted
+pdxY	946162	Pyridoxamine kinase		Down Regulated
+rsxG	946158	Electron transport complex protein rnfG		Ambiguous/Unsorted
+rnt	946159	Ribonuclease T		Ambiguous/Unsorted
+uidR	946150	HTH-type transcriptional regulator uidR		Down Regulated
+cnu	946152	OriC-binding nucleoid-associated protein		Up Regulated
+hdhA	946151	7-alpha-hydroxysteroid dehydrogenase		Down Regulated
+lhr	946156	Probable ATP-dependent helicase lhr		Down Regulated
+uidA	946149	Beta-glucuronidase		Ambiguous/Unsorted
+fumC	946147	Fumarate hydratase class II		Temporarly Down Regulated
+rsxB	946146	Electron transport complex protein rnfB		Down Regulated
+topB	946141	DNA topoisomerase 3		Temporarly Up Regulated
+yceI	946145	Protein yceI		Ambiguous/Unsorted
+pntB	946144	NAD(P) transhydrogenase subunit beta		Ambiguous/Unsorted
+fecC	948826	Fe(3+) dicitrate transport system permease protein fecC		Temporarly Up Regulated
+fecE	948819	Fe(3+) dicitrate transport ATP-binding protein fecE		Up Regulated
+yfcZ	948817	UPF0381 protein yfcZ		Up Regulated
+sspA	944744	Stringent starvation protein A		Ambiguous/Unsorted
+yjgB	948802	Uncharacterized zinc-type alcohol dehydrogenase-like protein yjgB	['Amino acid transport and metabolism', ' Carbon compound utilization', 'metabolic process']	Up Regulated
+ydiI	946190	Esterase ydiI		Up Regulated
+ybaQ	948800	Uncharacterized HTH-type transcriptional regulator ybaQ	['Energy production and conversion', ' Energy production transport', 'electron transport', 'amino acid metabolic process']	Temporarly Down Regulated
+yddH	946192	Uncharacterized protein yddH	[]	Up Regulated
+sapB	946191	Peptide transport system permease protein sapB		Temporarly Down Regulated
+ygcE	946193	Uncharacterized sugar kinase ygcE	[' Central intermediary metabolism', 'carbohydrate metabolic process']	Temporarly Up Regulated
+trxA	948289	Thioredoxin-1		Up Regulated
+ydiH	946194	Uncharacterized protein ydiH	['proteolysis']	Up Regulated
+fucI	946195	L-fucose isomerase		Up Regulated
+ilvA	948287	Threonine dehydratase biosynthetic		Ambiguous/Unsorted
+ppiC	948285	Peptidyl-prolyl cis-trans isomerase C		Ambiguous/Unsorted
+rstA	946199	Transcriptional regulatory protein rstA		Temporarly Up Regulated
+gpp	948291	Guanosine-5'-triphosphate,3'-diphosphate pyrophosphatase		Down Regulated
+rep	948292	ATP-dependent DNA helicase rep		Down Regulated
+wzyE	948293	Putative ECA polymerase		Down Regulated
+ydiL	946181	Uncharacterized protein ydiL	[]	Temporarly Up Regulated
+ydhZ	946180	Uncharacterized protein ydhZ	[]	Up Regulated
+rffH	948299	Glucose-1-phosphate thymidylyltransferase; Glucose-1-phosphate thymidylyltransferase 2		Temporarly Down Regulated
+sufS	946185	Cysteine desulfurase		Up Regulated
+torR	946182	TorCAD operon transcriptional regulatory protein torR		Temporarly Up Regulated
+ydiJ	946189	Uncharacterized protein ydiJ	['Energy production and conversion']	Ambiguous/Unsorted
+rffA	948296	Lipopolysaccharide biosynthesis protein rffA		Down Regulated
+ybaS	946187	Glutaminase 1		Up Regulated
+puuA	946202	Gamma-glutamylputrescine synthetase		Down Regulated
+lnt	946201	Apolipoprotein N-acyltransferase		Ambiguous/Unsorted
+sapD	946203	Peptide transport system ATP-binding protein sapD		Down Regulated
+yadD	944781	Uncharacterized protein yadD	['Replication  recombination and repair', 'DNA recombination']	Down Regulated
+appA	946206	Periplasmic appA protein		Up Regulated
+ydiA	946207	Uncharacterized protein yuaU; Putative phosphotransferase ydiA	[]	Down Regulated
+ppsR	946207	Uncharacterized protein yuaU; Putative phosphotransferase ydiA		Down Regulated
+mdtB	946606	Multidrug resistance protein mdtB		Up Regulated
+mdtC	946608	Multidrug resistance protein mdtC		Ambiguous/Unsorted
+rffE	944789	UDP-N-acetylglucosamine 2-epimerase		Ambiguous/Unsorted
+yegQ	946609	Uncharacterized protease yegQ	[]	Down Regulated
+ydiB	946200	Quinate/shikimate dehydrogenase		Temporarly Up Regulated
+ftsZ	944786	Cell division protein ftsZ		Down Regulated
+baeS	946611	Sensor protein; Signal transduction histidine-protein kinase baeS		Down Regulated
+ybiS	945441	Uncharacterized protein ybiS	['phosphoenolpyruvate dependent sugar phosphotransferase system']	Ambiguous/Unsorted
+ybiT	945440	Uncharacterized ABC transporter ATP-binding protein ybiT	[]	Ambiguous/Unsorted
+flhD	945442	Transcriptional activator flhD		Down Regulated
+puuE	945446	4-aminobutyrate aminotransferase		Down Regulated
+ydcF	946215	Protein ydcF		Ambiguous/Unsorted
+fadK	946213	Short-chain-fatty-acid--CoA ligase		Ambiguous/Unsorted
+mltC	945428	Membrane-bound lytic murein transglycosylase C		Temporarly Up Regulated
+ydiS	946212	Probable electron transfer flavoprotein-quinone oxidoreductase ydiS		Temporarly Down Regulated
+folA	944790	Dihydrofolate reductase; Dihydrofolate reductase type 1		Ambiguous/Unsorted
+ydiU	946219	UPF0061 protein ydiU		Down Regulated
+ydiY	946218	Uncharacterized protein ydiY	[]	Up Regulated
+murE	944791	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase		Ambiguous/Unsorted
+lpxL	946216	Lipid A biosynthesis lauroyl acyltransferase		Up Regulated
+rihC	944796	Non-specific ribonucleoside hydrolase rihC		Up Regulated
+leuB	944798	3-isopropylmalate dehydrogenase		Temporarly Down Regulated
+aroD	946210	3-dehydroquinate dehydratase		Down Regulated
+aceK	944797	Isocitrate dehydrogenase kinase/phosphatase		Down Regulated
+ftsI	944799	Peptidoglycan synthetase ftsI		Down Regulated
+yegE	946600	Uncharacterized protein yegE	['Signal transduction mechanisms', ' Type of regulation', 'two component signal transduction system  phosphorelay ', 'regulation of transcription  DNA dependent']	Temporarly Up Regulated
+mdtA	946604	Multidrug resistance protein mdtA		Up Regulated
+ybiI	945434	Uncharacterized protein ybiI	[' Adaptation to stress']	Up Regulated
+ybiJ	945433	Uncharacterized protein ybiJ	[]	Temporarly Up Regulated
+pps	946209	Phosphoenolpyruvate synthase		Ambiguous/Unsorted
+ppsA	946209	Phosphoenolpyruvate synthase		Ambiguous/Unsorted
+dinG	945431	Probable ATP-dependent helicase dinG		Down Regulated
+mntR	945437	Transcriptional regulator mntR		Ambiguous/Unsorted
+glnQ	945435	Glutamine transport ATP-binding protein glnQ		Down Regulated
+dapB	944762	Dihydrodipicolinate reductase		Ambiguous/Unsorted
+Mog	944760	Molybdopterin biosynthesis mog protein		Up Regulated
+rpsT	944759	30S ribosomal protein S20		Down Regulated
+nhaR	944757	Transcriptional activator protein nhaR		Ambiguous/Unsorted
+rhlE	945425	Putative ATP-dependent RNA helicase rhlE		Down Regulated
+ybiB	945424	Uncharacterized protein ybiB	[' Energy metabolism  carbon ', 'nitrate assimilation']	Ambiguous/Unsorted
+ybiH	945421	Uncharacterized HTH-type transcriptional regulator ybiH	['Defense mechanisms', ' Primary Active Transporters']	Up Regulated
+exbB	945420	Biopolymer transport protein exbB		Temporarly Up Regulated
+apaH	944770	Bis(5'-nucleosyl)-tetraphosphatase, symmetrical; Bis(5'-nucleosyl)-tetraphosphatase [symmetrical]		Ambiguous/Unsorted
+ftsA	944778	Cell division protein ftsA		Ambiguous/Unsorted
+ispH	944777	4-hydroxy-3-methylbut-2-enyl diphosphate reductase		Ambiguous/Unsorted
+apaG	944772	Protein apaG		Up Regulated
+sspB	944774	Stringent starvation protein B		Down Regulated
+rpmD	947797	50S ribosomal protein L30		Down Regulated
+secY	947799	Preprotein translocase subunit secY; Preprotein translocase secY subunit		Down Regulated
+rplO	947798	50S ribosomal protein L15		Down Regulated
+rpsD	947793	30S ribosomal protein S4		Temporarly Up Regulated
+rpsK	947792	30S ribosomal protein S11		Down Regulated
+rpsE	947795	30S ribosomal protein S5		Ambiguous/Unsorted
+ybhG	945414	UPF0194 membrane protein ybhG		Up Regulated
+ybhF	945413	Uncharacterized ABC transporter ATP-binding protein ybhF		Temporarly Up Regulated
+rpsM	947791	30S ribosomal protein S13; 30S ribosomal protein		Down Regulated
+yehI	946649	Uncharacterized protein yehI	['Translation  ribosomal structure and biogenesis', 'translation', 'ion transport']	Up Regulated
+metC	946240	Cystathionine beta-lyase metC		Ambiguous/Unsorted
+ybdG	946243	Uncharacterized protein ybdG	[]	Ambiguous/Unsorted
+fiu	946246	Catecholate siderophore receptor fiu		Up Regulated
+rlmN	946249	Ribosomal RNA large subunit methyltransferase N		Down Regulated
+rimN	947783	Putative ribosome maturation factor rimN		Up Regulated
+SDHA	945402	Succinate dehydrogenase flavoprotein subunit		Ambiguous/Unsorted
+ybhR	945403	Inner membrane transport permease ybhR		Temporarly Up Regulated
+rplQ	947784	50S ribosomal protein L17		Temporarly Down Regulated
+yrdD	947782	Uncharacterized protein yrdD	['Replication  recombination and repair', 'amino acid biosynthetic process', 'aromatic amino acid family biosynthetic process']	Up Regulated
+dld	946653	D-lactate dehydrogenase		Ambiguous/Unsorted
+mscL	947787	Large-conductance mechanosensitive channel		Temporarly Up Regulated
+trkA	947788	Trk system potassium uptake protein trkA		Up Regulated
+yhdN	947785	Uncharacterized protein yhdN	[]	Down Regulated
+zntR	947786	HTH-type transcriptional regulator zntR		Down Regulated
+yeiE	946657	Uncharacterized HTH-type transcriptional regulator yeiE	['Transcription', ' RNA related', ' Type of regulation', 'transcription', 'regulation of transcription  DNA dependent']	Down Regulated
+yegW	946639	Uncharacterized HTH-type transcriptional regulator yegW	[]	Temporarly Up Regulated
+astC	946255	Succinylornithine transaminase		Up Regulated
+spy	946253	Spheroplast protein Y		Temporarly Up Regulated
+astB	946259	N-succinylarginine dihydrolase		Up Regulated
+lptE	946257	LPS-assembly lipoprotein lptE		Ambiguous/Unsorted
+yrdB	947774	Uncharacterized protein yrdB	[' Building block biosynthesis', 'purine nucleotide biosynthetic process', 'aromatic amino acid family biosynthetic process']	Temporarly Down Regulated
+yrdA	947775	Protein yrdA		Ambiguous/Unsorted
+aroE	947776	Shikimate dehydrogenase; Quinate/shikimate dehydrogenase		Up Regulated
+pncB	946648	Nicotinate phosphoribosyltransferase		Down Regulated
+rihB	946646	Pyrimidine-specific ribonucleoside hydrolase rihB		Temporarly Up Regulated
+mrp	946627	Protein mrp		Down Regulated
+pntA	946628	NAD(P) transhydrogenase subunit alpha		Up Regulated
+helD	946227	Helicase IV		Down Regulated
+pheS	946223	Phenylalanyl-tRNA synthetase alpha chain		Ambiguous/Unsorted
+ycgL	946226	UPF0745 protein ycgL		Ambiguous/Unsorted
+aaeR	947760	HTH-type transcriptional activator aaeR		Up Regulated
+acrF	947768	Acriflavine resistance protein F		Temporarly Up Regulated
+yhdW	947766	Putative amino-acid ABC transporter-binding protein yhdW		Up Regulated
+yegU	946630	Uncharacterized protein yegU	[]	Ambiguous/Unsorted
+yhdZ	947763	Uncharacterized amino-acid ABC transporter ATP-binding protein yhdZ		Down Regulated
+yhdY	947764	Inner membrane amino-acid ABC transporter permease protein yhdY		Up Regulated
+fbaB	946632	Fructose-bisphosphate aldolase class 1		Ambiguous/Unsorted
+pfkB	946230	6-phosphofructokinase isozyme 2		Ambiguous/Unsorted
+chbG	946231	UPF0249 protein chbG		Temporarly Up Regulated
+tldD	947749	Protein tldD		Down Regulated
+ydjN	946238	Uncharacterized symporter ydjN	[]	Down Regulated
+yniA	946236	Uncharacterized protein yniA	[]	Up Regulated
+katE	946234	Catalase HPII; Catalase		Ambiguous/Unsorted
+cedA	946235	Cell division activator cedA		Down Regulated
+yhcH	947750	Uncharacterized protein yhcH	['Carbohydrate transport and metabolism', 'carbohydrate metabolic process']	Up Regulated
+tolA	946625	Protein tolA		Down Regulated
+accB	947758	Biotin carboxyl carrier protein of acetyl-CoA carboxylase		Ambiguous/Unsorted
+hpt	946624	Hypoxanthine phosphoribosyltransferase		Ambiguous/Unsorted
+cyaY	947754	Protein cyaY		Up Regulated
+cyaA	947755	Adenylate cyclase		Down Regulated
+nanA	947742	N-acetylneuraminate lyase 1; N-acetylneuraminate lyase		Up Regulated
+ccmE	946697	Cytochrome c-type biogenesis protein ccmE		Temporarly Up Regulated
+aaeA	947748	p-hydroxybenzoic acid efflux pump subunit aaeA		Ambiguous/Unsorted
+yejK	946690	Nucleoid-associated protein ndpA		Ambiguous/Unsorted
+rlmI	946691	Ribosomal RNA large subunit methyltransferase I		Ambiguous/Unsorted
+yejL	946694	UPF0352 protein yejL		Temporarly Up Regulated
+rtn	946695	Protein rtn		Up Regulated
+lpxT	946693	Inner membrane protein yeiU		Down Regulated
+recQ	948318	ATP-dependent DNA helicase recQ		Down Regulated
+dapE	948313	Succinyl-diaminopimelate desuccinylase		Ambiguous/Unsorted
+pldB	948314	Lysophospholipase L2		Down Regulated
+metR	948310	HTH-type transcriptional regulator metR		Down Regulated
+hemY	948311	Protein hemY		Ambiguous/Unsorted
+ushA	947331	Protein ushA		Ambiguous/Unsorted
+yejM	946685	Inner membrane protein yejM		Down Regulated
+mlaE	947732	UPF0393 inner membrane protein yrbE		Temporarly Down Regulated
+yrbE	947732	UPF0393 inner membrane protein yrbE		Temporarly Down Regulated
+flgC	946687	Flagellar basal-body rod protein flgC		Down Regulated
+yejF	946689	Uncharacterized ABC transporter ATP-binding protein yejF		Ambiguous/Unsorted
+cueO	947736	Blue copper oxidase cueO		Temporarly Up Regulated
+kdsD	947734	Arabinose 5-phosphate isomerase		Ambiguous/Unsorted
+osmF	946681	Putative osmoprotectant uptake system substrate-binding protein osmF		Up Regulated
+flgM	946684	Negative regulator of flagellin synthesis		Ambiguous/Unsorted
+pldA	948307	Phospholipase A1		Up Regulated
+rffG	948300	dTDP-glucose 4,6-dehydratase		Down Regulated
+ydhP	947340	Inner membrane transport protein ydhP		Temporarly Down Regulated
+rffM	948301	Probable UDP-N-acetyl-D-mannosaminuronic acid transferase		Temporarly Up Regulated
+gltB	947724	Glutamate synthase [NADPH] large chain		Ambiguous/Unsorted
+gltD	947723	Glutamate synthase [NADPH] small chain		Down Regulated
+ampE	946678	Protein ampE		Temporarly Up Regulated
+speE	947726	Spermidine synthase		Ambiguous/Unsorted
+secG	947720	Protein-export membrane protein secG		Up Regulated
+fruK	946676	1-phosphofructokinase		Down Regulated
+fruB	946677	Multiphosphoryl transfer protein		Ambiguous/Unsorted
+yeiP	946674	Elongation factor P-like protein		Ambiguous/Unsorted
+yejA	946675	Uncharacterized protein yejA		Down Regulated
+fruA	946672	PTS system fructose-specific EIIBC component		Down Regulated
+fixA	947316	Protein fixA		Ambiguous/Unsorted
+pcnB	947318	Poly(A) polymerase		Down Regulated
+lysA	947313	Diaminopimelate decarboxylase		Ambiguous/Unsorted
+galR	947314	HTH-type transcriptional regulator galR		Temporarly Down Regulated
+aas	947315	Bifunctional protein aas		Temporarly Up Regulated
+hpf	947718	Probable sigma(54) modulation protein		Down Regulated
+pspB	945893	Phage shock protein B		Temporarly Up Regulated
+speD	947719	S-adenosylmethionine decarboxylase proenzyme		Ambiguous/Unsorted
+speB	947715	Agmatinase		Down Regulated
+lysP	946667	Lysine-specific permease		Down Regulated
+amiD	945494	N-acetylmuramoyl-L-alanine amidase amiD		Temporarly Up Regulated
+rpoN	947714	RNA polymerase sigma-54 factor		Down Regulated
+ybjQ	945493	UPF0145 protein ybjQ		Temporarly Down Regulated
+ybjT	945496	Uncharacterized protein ybjT	['Cell wall membrane envelope biogenesis']	Temporarly Down Regulated
+nfo	946669	Endonuclease 4; Probable endonuclease 4		Down Regulated
+ybjS	945495	Uncharacterized protein ybjS	[]	Ambiguous/Unsorted
+aat	945490	Leucyl/phenylalanyl-tRNA--protein transferase		Down Regulated
+cdd	946663	Cytidine deaminase		Up Regulated
+ybjP	945491	Uncharacterized lipoprotein ybjP	['Amino acid transport and metabolism', ' Building block biosynthesis']	Up Regulated
+pbpG	946662	D-alanyl-D-alanine endopeptidase		Down Regulated
+ybjD	945498	Uncharacterized protein ybjD	['SOS response']	Up Regulated
+pspC	945499	Phage shock protein C		Up Regulated
+kduD	947323	2-deoxy-D-gluconate 3-dehydrogenase		Down Regulated
+yqeF	947324	Probable acetyl-CoA acetyltransferase		Temporarly Up Regulated
+ymdC	947321	Uncharacterized protein ymdC	[]	Temporarly Up Regulated
+macA	947322	Macrolide-specific efflux protein macA		Ambiguous/Unsorted
+iraP	947709	Anti-adapter protein iraP		Temporarly Up Regulated
+ygeV	947320	Uncharacterized sigma-54-dependent transcriptional regulator ygeV	['Signal transduction mechanisms', ' Genetic unit regulated', 'two component signal transduction system  phosphorelay ', 'regulation of transcription  DNA dependent', 'phosphorylation']	Up Regulated
+dusB	947707	tRNA-dihydrouridine synthase B		Temporarly Up Regulated
+prmA	947708	Ribosomal protein L11 methyltransferase		Ambiguous/Unsorted
+artP	945489	Arginine transport ATP-binding protein artP		Temporarly Down Regulated
+potF	945480	Putrescine-binding periplasmic protein		Ambiguous/Unsorted
+gmr	945868	Protein gmr		Temporarly Up Regulated
+yciT	945869	Uncharacterized HTH-type transcriptional regulator yciT		Ambiguous/Unsorted
+rimK	945484	Ribosomal protein S6 modification protein		Ambiguous/Unsorted
+csrD	947702	Uncharacterized protein yhdA		Temporarly Up Regulated
+ybjN	945482	Uncharacterized protein ybjN	[' Energy metabolism  carbon ', 'electron transport', 'translation']	Down Regulated
+murA	947703	UDP-N-acetylglucosamine 1-carboxyvinyltransferase		Ambiguous/Unsorted
+nfsA	945483	Oxygen-insensitive NADPH nitroreductase		Ambiguous/Unsorted
+sapA	945873	Peptide transport periplasmic protein sapA		Up Regulated
+ycjF	945878	UPF0283 membrane protein ycjF		Temporarly Down Regulated
+prr	945876	Gamma-aminobutyraldehyde dehydrogenase		Up Regulated
+ycjW	945875	Uncharacterized HTH-type transcriptional regulator ycjW	['Transcription', ' RNA related', ' Type of regulation', ' Genetic unit regulated', 'transcription', 'regulation of transcription  DNA dependent']	Ambiguous/Unsorted
+potG	945476	Putrescine transport ATP-binding protein potG		Ambiguous/Unsorted
+grxA	945479	Glutaredoxin-1		Ambiguous/Unsorted
+tyrR	945879	Transcriptional regulatory protein tyrR		Ambiguous/Unsorted
+ybjI	945470	Phosphatase ybjI		Down Regulated
+ihfA	945472	Integration host factor subunit alpha		Ambiguous/Unsorted
+ybjL	945474	Putative transport protein ybjL		Ambiguous/Unsorted
+puuD	945882	Gamma-glutamyl-gamma-aminobutyrate hydrolase		Ambiguous/Unsorted
+rppH	947300	RNA pyrophosphohydrolase		Temporarly Up Regulated
+pspA	945887	Phage shock protein A		Down Regulated
+puuR	945886	HTH-type transcriptional regulator puuR		Up Regulated
+ompG	945889	Outer membrane protein G		Ambiguous/Unsorted
+ygdR	947304	Uncharacterized lipoprotein ygdR	['Amino acid transport and metabolism', ' Building block biosynthesis', 'amino acid metabolic process']	Temporarly Up Regulated
+lgt	947303	Prolipoprotein diacylglyceryl transferase		Ambiguous/Unsorted
+yfhM	947302	Uncharacterized lipoprotein yfhM	[]	Up Regulated
+rhmD	945881	L-rhamnonate dehydratase		Ambiguous/Unsorted
+yfaW	945881	L-rhamnonate dehydratase		Ambiguous/Unsorted
+tas	947306	Protein tas		Temporarly Up Regulated
+ascG	947305	HTH-type transcriptional regulator ascG		Ambiguous/Unsorted
+acrD	945464	Probable aminoglycoside efflux pump		Ambiguous/Unsorted
+rimO	945465	Ribosomal protein S12 methylthiotransferase rimO		Down Regulated
+yliE	945462	Uncharacterized protein yliE	['Signal transduction mechanisms', ' Type of regulation', 'two component signal transduction system  phosphorelay ', 'transcription', 'regulation of transcription  DNA dependent']	Up Regulated
+rssB	945855	Protein hnr		Temporarly Down Regulated
+yciO	945854	Uncharacterized protein yciO	[]	Ambiguous/Unsorted
+Ogt	945853	Methylated-DNA--protein-cysteine methyltransferase		Down Regulated
+add	945851	Adenosine deaminase		Ambiguous/Unsorted
+gsiA	945457	Glutathione import ATP-binding protein gsiA		Down Regulated
+gsiB	945459	Glutathione-binding protein gsiB		Ambiguous/Unsorted
+deoR	945453	Deoxyribose operon repressor		Down Regulated
+moeA	945454	Molybdopterin biosynthesis protein moeA		Ambiguous/Unsorted
+dacC	945455	D-alanyl-D-alanine carboxypeptidase dacC		Ambiguous/Unsorted
+folC	945451	Bifunctional protein folC		Ambiguous/Unsorted
+moeB	945452	Molybdopterin biosynthesis protein moeB		Temporarly Down Regulated
+yciV	945857	Protein trpH		Down Regulated
+yciW	945859	Uncharacterized protein yciW	['Lipid transport and metabolism']	Down Regulated
+tktB	945865	Transketolase 2		Up Regulated
+rnb	945864	Exoribonuclease 2		Temporarly Down Regulated
+osmB	945866	Osmotically-inducible lipoprotein B		Up Regulated
+ydfI	945861	Uncharacterized oxidoreductase ydfI	[' Carbon compound utilization']	Up Regulated
+yciN	945860	Protein yciN		Up Regulated
+dapF	948364	Diaminopimelate epimerase		Down Regulated
+ybcJ	945158	Uncharacterized protein ybcJ	[]	Ambiguous/Unsorted
+yihN	948365	Inner membrane protein yihN		Ambiguous/Unsorted
+glnL	948360	Nitrogen regulation protein NR(II); Sensor protein		Down Regulated
+proX	947165	Glycine betaine-binding periplasmic protein		Temporarly Up Regulated
+glnG	948361	Nitrogen regulation protein NR(I)		Temporarly Up Regulated
+emrA	947166	Multidrug resistance protein A		Down Regulated
+hemN	948362	Oxygen-independent coproporphyrinogen-III oxidase		Down Regulated
+yihI	948363	UPF0241 protein yihI		Ambiguous/Unsorted
+luxS	947168	S-ribosylhomocysteine lyase		Ambiguous/Unsorted
+allC	945150	Allantoate amidohydrolase		Down Regulated
+rfbA	945154	Glucose-1-phosphate thymidylyltransferase; Glucose-1-phosphate thymidylyltransferase 1		Down Regulated
+yihL	948368	Uncharacterized HTH-type transcriptional regulator yihL	['Amino acid transport and metabolism', ' Carbon compound utilization', ' Central intermediary metabolism', ' Primary Active Transporters', 'metabolic process']	Down Regulated
+typA	948369	GTP-binding protein typA/BipA; GTP-binding protein typA/bipA		Ambiguous/Unsorted
+rplT	945152	50S ribosomal protein L20		Temporarly Up Regulated
+ytfE	948724	Regulator of cell morphogenesis and NO signaling		Ambiguous/Unsorted
+malY	945937	Protein malY		Up Regulated
+Cyca	948725	D-serine/D-alanine/glycine transporter		Down Regulated
+ytfB	948727	Uncharacterized protein ytfB	['Replication  recombination and repair', 'DNA recombination', 'DNA integration']	Up Regulated
+rplI	948720	50S ribosomal protein L9		Ambiguous/Unsorted
+rpsR	948721	30S ribosomal protein S18		Down Regulated
+mhpR	945938	Mhp operon transcriptional activator		Temporarly Up Regulated
+pbpC	947152	Penicillin-binding protein 1C		Temporarly Down Regulated
+dtd	948378	D-tyrosyl-tRNA(Tyr) deacylase		Down Regulated
+dbpA	947153	ATP-independent RNA helicase dbpA		Down Regulated
+yqcA	947151	Uncharacterized protein yqcA	[]	Ambiguous/Unsorted
+ygaM	947157	Uncharacterized protein ygaM	['Cell wall membrane envelope biogenesis']	Up Regulated
+prpD	945931	2-methylcitrate dehydratase		Ambiguous/Unsorted
+cpdB	948729	ECs5191; ECP_4467; ECSE_4519; EcSMS35_4692; ECUMN_4750; Z5824; EcolC_3793; ECS88_4807; E2348C_4544; EC55989_4773; ECDH10B_4408; ECED1_5072; ECH74115_5730; ECIAI1_4447; b4213; ECIAI39_4685; UTI89_C4822; EcHS_A4467; APECO1_2173; EcE24377A_4783		Up Regulated
+yihP	948371	Inner membrane symporter yihP		Down Regulated
+nrdE	947155	Ribonucleoside-diphosphate reductase; Ribonucleoside-diphosphate reductase 2 subunit alpha		Temporarly Up Regulated
+cysQ	948728	3'(2'),5'-bisphosphate nucleotidase cysQ		Up Regulated
+sfmD	945160	Outer membrane usher protein sfmD		Ambiguous/Unsorted
+yegI	947159	Uncharacterized protein yegI	[]	Ambiguous/Unsorted
+macB	945164	Macrolide export ATP-binding/permease protein macB		Up Regulated
+glnA	948370	Glutamine synthetase		Temporarly Down Regulated
+ytfJ	948737	Uncharacterized protein ytfJ	['Energy production and conversion', 'Secondary metabolites biosynthesis  transport and catabolism']	Temporarly Up Regulated
+ytfL	948735	UPF0053 inner membrane protein ytfL		Temporarly Down Regulated
+ytfM	948733	Uncharacterized protein ytfM	[]	Up Regulated
+msrA	948734	Peptide methionine sulfoxide reductase msrA		Ambiguous/Unsorted
+qorB	948731	Uncharacterized oxidoreductase ytfG		Up Regulated
+fdhE	948384	Protein fdhE		Down Regulated
+ydjA	945964	Putative NAD(P)H nitroreductase ydjA		Ambiguous/Unsorted
+yddB	945961	Uncharacterized protein yddB	['Cell wall membrane envelope biogenesis', 'translation', 'ion transport']	Up Regulated
+MltB	947184	Membrane-bound lytic murein transglycosylase B		Down Regulated
+allB	945134	Allantoinase		Down Regulated
+tus	945135	DNA replication terminus site-binding protein		Down Regulated
+norR	947186	Anaerobic nitric oxide reductase transcription regulator norR		Temporarly Down Regulated
+kefA	945132	Potassium efflux system kefA		Ambiguous/Unsorted
+pmrD	945130	Signal transduction protein pmrD		Temporarly Up Regulated
+ytfN	948742	Uncharacterized protein ytfN	[]	Down Regulated
+fhlA	947181	Formate hydrogenlyase transcriptional activator		Ambiguous/Unsorted
+ytfQ	948746	ABC transporter periplasmic-binding protein ytfQ		Up Regulated
+ppa	948748	Inorganic pyrophosphatase		Ambiguous/Unsorted
+ydeN	945957	Uncharacterized sulfatase ydeN	['Signal transduction mechanisms', ' Metabolism of other compounds']	Up Regulated
+yihW	948381	Uncharacterized HTH-type transcriptional regulator yihW	['Transcription', ' RNA related', ' Type of regulation', ' Genetic unit regulated', 'transcription', 'regulation of transcription  DNA dependent']	Temporarly Down Regulated
+yihX	948380	Phosphatase yihX		Up Regulated
+fdoH	948395	Formate dehydrogenase-O iron-sulfur subunit		Down Regulated
+ylbA	945149	Uncharacterized protein ylbA	[' Carbon compound utilization', 'proteolysis']	Ambiguous/Unsorted
+ydaL	945953	Uncharacterized protein ydaL	[]	Up Regulated
+clcB	947179	Voltage-gated ClC-type chloride channel clcB		Temporarly Down Regulated
+csrA	947176	Carbon storage regulator		Temporarly Up Regulated
+fdhD	948393	Protein fdhD		Ambiguous/Unsorted
+fdoG	948394	Formate dehydrogenase-O major subunit		Down Regulated
+dgt	947177	Deoxyguanosinetriphosphate triphosphohydrolase		Down Regulated
+qseC	947174	Sensor protein qseC; Sensor protein		Down Regulated
+xdhC	945148	Xanthine dehydrogenase iron-sulfur-binding subunit		Ambiguous/Unsorted
+mppA	945951	Periplasmic murein peptide-binding protein		Up Regulated
+ThiM	945142	Hydroxyethylthiazole kinase		Ambiguous/Unsorted
+lpxM	945143	Lipid A biosynthesis (KDO)2-(lauroyl)-lipid IVA acyltransferase		Ambiguous/Unsorted
+yniB	945140	Uncharacterized protein yniB	[]	Up Regulated
+yjgA	948751	UPF0307 protein yjgA		Up Regulated
+nrdD	948755	Anaerobic ribonucleoside-triphosphate reductase		Temporarly Up Regulated
+ydbH	945949	Uncharacterized protein ydbH	[]	Down Regulated
+ydhV	948756	Uncharacterized protein ydhV	[' Central intermediary metabolism']	Temporarly Up Regulated
+fbp	948753	Fructose-1,6-bisphosphatase class 1		Ambiguous/Unsorted
+yddA	945945	Inner membrane ABC transporter ATP-binding protein yddA		Ambiguous/Unsorted
+uspF	945948	Universal stress protein F		Up Regulated
+fre	948325	NAD(P)H-flavin reductase		Down Regulated
+fadA	948324	3-ketoacyl-CoA thiolase		Up Regulated
+raiA	947129	Ribosome-associated inhibitor A		Up Regulated
+rfaH	948327	Transcriptional activator rfaH		Ambiguous/Unsorted
+ubiD	948326	3-octaprenyl-4-hydroxybenzoate carboxy-lyase		Down Regulated
+tatA	948321	Sec-independent protein translocase protein tatA		Down Regulated
+ysgA	948320	Putative carboxymethylenebutenolidase		Up Regulated
+patA	947120	Putrescine aminotransferase		Up Regulated
+ubiB	948322	Probable ubiquinone biosynthesis protein ubiB		Down Regulated
+nth	947122	Endonuclease III		Down Regulated
+ybbP	945118	Uncharacterized ABC transporter permease ybbP		Up Regulated
+ydgH	945117	Protein ydgH		Down Regulated
+yjgI	948765	Uncharacterized oxidoreductase yjgI	[]	Down Regulated
+pyrB	948767	Aspartate carbamoyltransferase catalytic chain; Aspartate carbamoyltransferase		Ambiguous/Unsorted
+treR	948760	HTH-type transcriptional regulator treR		Down Regulated
+pyrI	948763	Aspartate carbamoyltransferase regulatory chain		Down Regulated
+treC	948762	Trehalose-6-phosphate hydrolase		Ambiguous/Unsorted
+xdhA	947116	Xanthine dehydrogenase molybdenum-binding subunit		Ambiguous/Unsorted
+yigI	948338	Uncharacterized protein yigI	[]	Down Regulated
+ybbA	945122	Uncharacterized ABC transporter ATP-binding protein ybbA		Ambiguous/Unsorted
+fadB	948336	Fatty acid oxidation complex subunit alpha		Up Regulated
+pepQ	948335	Xaa-Pro dipeptidase		Ambiguous/Unsorted
+queD	945123	Putative 6-pyruvoyl tetrahydrobiopterin synthase		Up Regulated
+hemG	948331	Protoporphyrinogen oxidase		Ambiguous/Unsorted
+ompW	945128	Outer membrane protein W		Up Regulated
+tesA	945127	Acyl-CoA thioesterase I		Down Regulated
+tabA	948777	Uncharacterized protein yjgK		Down Regulated
+yjgL	948776	Uncharacterized protein yjgL	[' Type of regulation']	Up Regulated
+yjgJ	948775	Uncharacterized HTH-type transcriptional regulator yjgJ	['Cell wall membrane envelope biogenesis', 'Intracellular trafficking  secretion  and vesicular transport', ' Cell division', 'protein transport']	Down Regulated
+argI	948774	Ornithine carbamoyltransferase chain I; Ornithine carbamoyltransferase		Down Regulated
+rraB	948773	Uncharacterized protein yjgD		Up Regulated
+yjgM	948772	Uncharacterized N-acetyltransferase yjgM	[]	Temporarly Up Regulated
+uvrD	948347	DNA helicase II		Temporarly Down Regulated
+rdoA	948346	Protein rdoA		Temporarly Down Regulated
+mobA	948349	Molybdopterin-guanine dinucleotide biosynthesis protein A		Down Regulated
+proV	947148	Glycine betaine/L-proline transport ATP-binding protein proV		Temporarly Down Regulated
+nrdF	947149	Ribonucleoside-diphosphate reductase 2 subunit beta		Up Regulated
+ygaU	947144	Uncharacterized protein ygaU	[]	Ambiguous/Unsorted
+ygiS	947140	Putative binding protein ygiS		Up Regulated
+allD	948342	Ureidoglycolate dehydrogenase		Temporarly Down Regulated
+holC	948787	DNA polymerase III subunit chi		Ambiguous/Unsorted
+recE	945918	Exodeoxyribonuclease 8		Temporarly Down Regulated
+yccU	949008	Uncharacterized protein yccU	[]	Up Regulated
+fadE	949007	Acyl-coenzyme A dehydrogenase		Up Regulated
+btuE	945915	Vitamin B12 transport periplasmic protein btuE; Glutathione peroxidase		Ambiguous/Unsorted
+abgT	945912	Aminobenzoyl-glutamate transport protein		Ambiguous/Unsorted
+rpsI	949000	30S ribosomal protein S9		Down Regulated
+yjgN	948784	Inner membrane protein yjgN		Ambiguous/Unsorted
+prfA	949002	Peptide chain release factor 1		Ambiguous/Unsorted
+YigA	948359	Uncharacterized protein yigA		Temporarly Up Regulated
+recR	945100	Recombination protein recR		Down Regulated
+degP	947139	Protease do		Ambiguous/Unsorted
+yihF	948352	Uncharacterized protein yihF	['Replication  recombination and repair', ' Adaptation to stress']	Down Regulated
+corA	948351	Magnesium transport protein corA		Temporarly Down Regulated
+yahE	947134	Uncharacterized protein yahE	[]	Temporarly Up Regulated
+dnaX	945105	DNA polymerase III subunit tau		Ambiguous/Unsorted
+ydaN	945910	Zinc transport protein zntB		Ambiguous/Unsorted
+ftsK	945102	DNA translocase ftsK		Down Regulated
+polA	948356	DNA polymerase I		Ambiguous/Unsorted
+dps	945101	DNA protection during starvation protein		Up Regulated
+xerC	948355	Tyrosine recombinase xerC		Temporarly Up Regulated
+stpA	947130	DNA-binding protein stpA		Ambiguous/Unsorted
+ybaB	945104	UPF0133 protein ybaB		Ambiguous/Unsorted
+dsbA	948353	Thiol:disulfide interchange protein dsbA		Up Regulated
+ykgG	945906	UPF0707 protein ykgG		Up Regulated
+fnr	945908	Fumarate and nitrate reduction regulatory protein		Down Regulated
+uspE	945904	Universal stress protein E		Up Regulated
+folK	948792	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase		Up Regulated
+lptF	948795	Lipopolysaccharide export system permease protein lptF		Down Regulated
+yehT	949024	Uncharacterized response regulatory protein yehT	['transcription', 'regulation of transcription  DNA dependent']	Down Regulated
+CARA	949025	Carbamoyl-phosphate synthase small chain		Ambiguous/Unsorted
+yacL	944809	UPF0231 protein yacL		Up Regulated
+yehS	949026	Uncharacterized protein yehS	['Replication  recombination and repair']	Temporarly Up Regulated
+idi	949020	Isopentenyl-diphosphate Delta-isomerase		Ambiguous/Unsorted
+ftsL	944803	Cell division protein ftsL		Down Regulated
+fruR	944804	Fructose repressor		Temporarly Down Regulated
+mlrA	949029	HTH-type transcriptional regulator mlrA		Ambiguous/Unsorted
+acpP	944805	Acyl carrier protein		Down Regulated
+maeA	946031	NAD-dependent malic enzyme		Ambiguous/Unsorted
+cfa	944811	Cyclopropane-fatty-acyl-phospholipid synthase		Temporarly Up Regulated
+mraZ	944810	Protein mraZ		Up Regulated
+fdnG	946035	Formate dehydrogenase, nitrate-inducible, major subunit		Down Regulated
+hyfB	946961	Hydrogenase-4 component B		Temporarly Up Regulated
+ydhF	946960	Oxidoreductase ydhF		Up Regulated
+adhP	946036	Alcohol dehydrogenase, propanol-preferring		Up Regulated
+ycgK	946963	Uncharacterized protein ycgK	[]	Up Regulated
+frsA	946039	Esterase frsA		Ambiguous/Unsorted
+sufA	949014	Protein sufA		Up Regulated
+ygfT	949018	Uncharacterized protein ygfT	['electron transport']	Ambiguous/Unsorted
+yncH	946024	Uncharacterized protein yncH	[]	Ambiguous/Unsorted
+ppx	946970	Exopolyphosphatase		Down Regulated
+fucK	946022	L-fuculokinase		Ambiguous/Unsorted
+yfgD	946974	Uncharacterized protein yfgD	[]	Ambiguous/Unsorted
+yqcC	946027	Uncharacterized protein yqcC	[]	Ambiguous/Unsorted
+rhsE	946026	ECDH10B_1586; EC55989_0238; b1456		Down Regulated
+ybjX	946025	Uncharacterized protein ybjX	[]	Down Regulated
+hda	946977	DnaA-homolog protein hda		Down Regulated
+cirA	949042	Colicin I receptor		Ambiguous/Unsorted
+galS	949043	HTH-type transcriptional regulator galS		Up Regulated
+yeiG	949045	S-formylglutathione hydrolase yeiG		Down Regulated
+artQ	949046	Arginine transport system permease protein artQ		Ambiguous/Unsorted
+waaA	949048	3-deoxy-D-manno-octulosonic-acid transferase		Down Regulated
+gltI	946938	Glutamate/aspartate periplasmic-binding protein		Ambiguous/Unsorted
+yeiT	949049	Uncharacterized oxidoreductase yeiT	[' Primary Active Transporters']	Temporarly Up Regulated
+pdhR	944827	Pyruvate dehydrogenase complex repressor		Ambiguous/Unsorted
+ftsQ	944823	Cell division protein ftsQ		Down Regulated
+mutT	944824	Mutator mutT protein		Down Regulated
+ydeP	946055	Protein ydeP		Down Regulated
+yadG	944833	Uncharacterized ABC transporter ATP-binding protein yadG		Ambiguous/Unsorted
+gnsb	946054	Protein gnsB		Temporarly Up Regulated
+gadC	946057	Probable glutamate/gamma-aminobutyrate antiporter		Ambiguous/Unsorted
+gcd	944830	Quinoprotein glucose dehydrogenase		Ambiguous/Unsorted
+ygiW	946051	Protein ygiW		Temporarly Up Regulated
+ydeQ	946050	Uncharacterized fimbrial-like protein ydeQ	[]	Temporarly Up Regulated
+tmcA	946053	Uncharacterized protein ypfI		Down Regulated
+ddpA	946052	Probable D,D-dipeptide-binding periplasmic protein ddpA		Up Regulated
+PqqL	946059	Probable zinc protease pqqL		Up Regulated
+mglB	949041	D-galactose-binding periplasmic protein		Up Regulated
+rpmB	946941	50S ribosomal protein L28		Down Regulated
+eutD	946940	Ethanolamine utilization protein eutD		Down Regulated
+ubiX	949033	3-octaprenyl-4-hydroxybenzoate carboxy-lyase		Ambiguous/Unsorted
+leuO	949034	Probable HTH-type transcriptional regulator leuO		Up Regulated
+narQ	946948	Nitrate/nitrite sensor protein narQ		Up Regulated
+bcp	946949	Putative peroxiredoxin bcp		Temporarly Down Regulated
+ppiB	949038	Peptidyl-prolyl cis-trans isomerase B; Peptidyl-prolyl cis-trans isomerase		Up Regulated
+thyA	949035	Thymidylate synthase		Down Regulated
+mglA	949036	Galactose/methyl galactoside import ATP-binding protein mglA		Up Regulated
+maeB	946947	NADP-dependent malic enzyme		Ambiguous/Unsorted
+lpxC	944816	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase		Ambiguous/Unsorted
+Gpt	944817	Xanthine phosphoribosyltransferase		Ambiguous/Unsorted
+murD	944818	UDP-N-acetylmuramoylalanine--D-glutamate ligase		Ambiguous/Unsorted
+mglC	949039	Galactoside transport system permease protein mglC		Up Regulated
+murF	944813	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase		Ambiguous/Unsorted
+wzzE	944815	Lipopolysaccharide biosynthesis protein wzzE		Ambiguous/Unsorted
+nhaB	944822	Na(+)/H(+) antiporter nhaB		Down Regulated
+osmC	946043	Peroxiredoxin osmC		Up Regulated
+ypfJ	946956	Uncharacterized protein ypfJ	[]	Up Regulated
+rnhA	946955	Ribonuclease HI; Ribonuclease H		Down Regulated
+yffB	946953	Protein yffB		Ambiguous/Unsorted
+argT	949030	Lysine-arginine-ornithine-binding periplasmic protein		Up Regulated
+gcvR	946950	Glycine cleavage system transcriptional repressor		Ambiguous/Unsorted
+ligT	944848	2'-5'-RNA ligase		Down Regulated
+yadB	944846	Glutamyl-Q tRNA(Asp) synthetase; Insertion element IS150 uncharacterized 14 kDa protein		Temporarly Up Regulated
+uxaC	947599	Uronate isomerase		Up Regulated
+hrpB	944845	ATP-dependent RNA helicase hrpB		Ambiguous/Unsorted
+ycgF	947592	Uncharacterized protein ycgF	['Signal transduction mechanisms', 'two component signal transduction system  phosphorelay ', 'regulation of transcription  DNA dependent']	Temporarly Up Regulated
+ygfK	949068	Uncharacterized protein ygfK		Temporarly Down Regulated
+rna	949065	Ribonuclease I		Temporarly Down Regulated
+fadH	947594	2,4-dienoyl-CoA reductase [NADPH]		Up Regulated
+coaE	949060	Dephospho-CoA kinase		Ambiguous/Unsorted
+dksA	944850	DnaK suppressor protein		Up Regulated
+ydhQ	944851	Uncharacterized protein ydhQ	['Translation  ribosomal structure and biogenesis', ' Adaptation to stress', 'translation']	Temporarly Down Regulated
+tam	946074	Trans-aconitate 2-methyltransferase		Up Regulated
+HtpX	946076	Probable protease htpX		Down Regulated
+sfsA	944855	Sugar fermentation stimulation protein A		Up Regulated
+rnhB	944852	Ribonuclease HII		Down Regulated
+yneJ	946079	Uncharacterized HTH-type transcriptional regulator yneJ	['Transcription', ' RNA related', ' Type of regulation', ' Genetic unit regulated', 'transcription', 'regulation of transcription  DNA dependent']	Temporarly Down Regulated
+panB	944839	3-methyl-2-oxobutanoate hydroxymethyltransferase		Down Regulated
+lpxB	944838	Lipid-A-disaccharide synthase		Temporarly Down Regulated
+rplU	949057	50S ribosomal protein L21		Temporarly Up Regulated
+lrp	949051	Leucine-responsive regulatory protein		Ambiguous/Unsorted
+cydD	949052	ATP-binding/permease protein cydD		Ambiguous/Unsorted
+HypB	947194	Hydrogenase isoenzymes nickel incorporation protein hypB		Down Regulated
+hipA	946064	Protein hipA		Temporarly Up Regulated
+ygbK	947199	Uncharacterized protein ygbK	['Carbohydrate transport and metabolism']	Down Regulated
+yadN	944841	Uncharacterized fimbrial-like protein yadN	[' Building block biosynthesis']	Ambiguous/Unsorted
+ydeI	946068	Uncharacterized protein ydeI	['Signal transduction mechanisms', 'response to stress']	Up Regulated
+hipB	946065	HTH-type transcriptional regulator hipB		Temporarly Up Regulated
+ykgC	946092	Probable pyridine nucleotide-disulfide oxidoreductase ykgC		Ambiguous/Unsorted
+ulaG	948705	Probable L-ascorbate-6-phosphate lactonase ulaG		Temporarly Up Regulated
+argP	944867	Chromosome initiation inhibitor		Down Regulated
+mak	949086	Fructokinase		Up Regulated
+symE	949088	Endoribonuclease symE		Ambiguous/Unsorted
+ymdB	946987	UPF0189 protein ymdB		Up Regulated
+xseA	946988	Exodeoxyribonuclease 7 large subunit		Ambiguous/Unsorted
+narP	949081	Nitrate/nitrite response regulator protein narP		Temporarly Down Regulated
+der	946983	GTP-binding protein engA		Down Regulated
+yfgJ	946984	Uncharacterized protein yfgJ	[' Type of regulation']	Down Regulated
+yciI	949085	Protein yciI		Up Regulated
+dnaE	944877	DNA polymerase III subunit alpha		Down Regulated
+ispU	944874	Undecaprenyl pyrophosphate synthetase		Up Regulated
+yfgM	946981	UPF0070 protein yfgM		Ambiguous/Unsorted
+yaeR	944875	Uncharacterized protein yaeR	[]	Ambiguous/Unsorted
+flhE	946094	Flagellar protein flhE		Down Regulated
+glnH	944872	Glutamine-binding periplasmic protein		Ambiguous/Unsorted
+yacF	944873	UPF0289 protein yacF		Temporarly Down Regulated
+prc	946096	Tail-specific protease		Down Regulated
+rseP	944871	Regulator of sigma E protease		Down Regulated
+yneK	946080	Uncharacterized protein yneK	[]	Ambiguous/Unsorted
+ulaF	948711	L-ribulose-5-phosphate 4-epimerase ulaF		Temporarly Down Regulated
+erpA	944857	Iron-sulfur cluster insertion protein erpA		Ambiguous/Unsorted
+ulaD	948714	3-keto-L-gulonate-6-phosphate decarboxylase ulaD		Temporarly Down Regulated
+fhuA	944856	Ferrichrome-iron receptor		Up Regulated
+yciM	944858	Uncharacterized protein yciM	[]	Temporarly Up Regulated
+sbcC	949076	Nuclease sbcCD subunit C		Temporarly Down Regulated
+xdhD	949079	Probable hypoxanthine oxidase xdhD		Ambiguous/Unsorted
+iscA	946999	Iron-binding protein iscA		Ambiguous/Unsorted
+hscB	946995	Co-chaperone protein hscB		Down Regulated
+ccmG	949073	Thiol:disulfide interchange protein dsbE		Temporarly Up Regulated
+flgH	946996	Flagellar L-ring protein		Down Regulated
+sseA	946993	3-mercaptopyruvate sulfurtransferase		Up Regulated
+ygfM	949071	Uncharacterized protein ygfM		Ambiguous/Unsorted
+sseB	946994	Protein sseB		Temporarly Down Regulated
+ytjB	946089	Protein smp		Down Regulated
+ulaR	948706	HTH-type transcriptional regulator ulaR		Up Regulated
+ispG	946991	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase		Down Regulated
+glnD	944863	[Protein-PII] uridylyltransferase		Down Regulated
+yjfP	948707	Esterase yjfP		Up Regulated
+ydfH	946087	Uncharacterized HTH-type transcriptional regulator ydfH	[]	Temporarly Up Regulated
+ybbL	946990	Uncharacterized ABC transporter ATP-binding protein ybbL	[' Macromolecules  cellular constituent   biosynthesis', ' Primary Active Transporters', 'DNA repair', 'response to DNA damage stimulus', 'cell cycle', 'SOS response', 'cell division']	Temporarly Up Regulated
+tsf	944866	Elongation factor Ts		Down Regulated
+ydfG	946085	NADP-dependent L-serine/L-allo-threonine dehydrogenase ydfG		Ambiguous/Unsorted
+yebR	946086	UPF0067 protein yebR		Down Regulated
+skp	944861	Chaperone protein skp		Up Regulated
+dapD	944862	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase		Down Regulated
+caiC	944886	Probable crotonobetaine/carnitine-CoA ligase		Temporarly Up Regulated
+hscA	944885	Chaperone protein hscA		Temporarly Down Regulated
+lpxD	944882	UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase		Ambiguous/Unsorted
+kdsB	945539	3-deoxy-manno-octulosonate cytidylyltransferase		Down Regulated
+folM	949096	Dihydrofolate reductase folM		Temporarly Down Regulated
+hupB	949095	DNA-binding protein HU-beta		Ambiguous/Unsorted
+fadJ	949097	Fatty acid oxidation complex subunit alpha		Up Regulated
+ycbC	945546	Uncharacterized protein ycbC	['regulation of cell shape', 'peptidoglycan biosynthetic process']	Temporarly Up Regulated
+mukF	945548	Chromosome partition protein mukF		Down Regulated
+smtA	945547	Protein smtA		Up Regulated
+ycbB	945541	Uncharacterized protein ycbB	['DNA replication']	Temporarly Up Regulated
+rimP	947680	b3170		Temporarly Down Regulated
+rlmE	947689	b3179		Ambiguous/Unsorted
+yhbY	947688	RNA-binding protein yhbY		Ambiguous/Unsorted
+sufD	944878	Protein sufD		Up Regulated
+truB	947687	tRNA pseudouridine synthase B		Down Regulated
+gmhB	944879	D,D-heptose 1,7-bisphosphate phosphatase		Down Regulated
+rpsO	947686	30S ribosomal protein S15		Ambiguous/Unsorted
+yafL	944899	Uncharacterized lipoprotein yafL	['Cell wall membrane envelope biogenesis', 'lipid biosynthetic process', 'response to antibiotic']	Down Regulated
+metI	944894	D-methionine transport system permease protein metI		Up Regulated
+rof	944891	Protein rof		Ambiguous/Unsorted
+yejH	945529	Uncharacterized protein yejH	[' Building block biosynthesis', 'amino acid biosynthetic process']	Temporarly Up Regulated
+aroA	945528	3-phosphoshikimate 1-carboxyvinyltransferase		Ambiguous/Unsorted
+ycaR	945537	UPF0434 protein ycaR		Ambiguous/Unsorted
+rpsA	945536	30S ribosomal protein S1		Ambiguous/Unsorted
+deaD	947674	Cold-shock DEAD box protein A		Down Regulated
+cmk	945535	Cytidylate kinase		Ambiguous/Unsorted
+ycaL	945534	Uncharacterized metalloprotease ycaL	[]	Up Regulated
+nlpI	947673	Lipoprotein nlpI		Temporarly Up Regulated
+ihfB	945533	Integration host factor subunit beta		Ambiguous/Unsorted
+yhbS	947670	Uncharacterized N-acetyltransferase yhbS	[' Building block biosynthesis']	Up Regulated
+msbA	945530	Lipid A export ATP-binding/permease protein msbA		Down Regulated
+tilS	944889	tRNA(Ile)-lysidine synthase		Ambiguous/Unsorted
+yhbW	947677	Uncharacterized protein yhbW	[]	Ambiguous/Unsorted
+rlmL	945564	Ribosomal RNA large subunit methyltransferase L		Ambiguous/Unsorted
+uup	945566	ABC transporter ATP-binding protein uup		Down Regulated
+fabA	945568	3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase		Ambiguous/Unsorted
+ycbZ	945569	Putative protease La homolog		Ambiguous/Unsorted
+mukB	945549	Chromosome partition protein mukB		Down Regulated
+ftsH	947690	Cell division protease ftsH		Ambiguous/Unsorted
+ompF	945554	Outer membrane protein F		Down Regulated
+obgE	947694	ECIAI1_3331; ECP_3270; ECS88_3565; ECIAI39_3678; Z4545; ECH74115_4505; ECUMN_3663; EcolC_0517; c3940; EcHS_A3376; EC55989_3601; ECSE_3467; ECED1_3841; ECDH10B_3357; EcE24377A_3668; APECO1_3249; ECs4062; EcSMS35_3479; E2348C_3462; b3183; UTI89_C3616		Down Regulated
+dacB	947693	D-alanyl-D-alanine carboxypeptidase dacB		Ambiguous/Unsorted
+greA	947696	Transcription elongation factor; Transcription elongation factor greA		Ambiguous/Unsorted
+pyrD	945556	Dihydroorotate dehydrogenase		Ambiguous/Unsorted
+fis	947697	DNA-binding protein fis		Ambiguous/Unsorted
+yhbE	947699	Uncharacterized inner membrane transporter yhbE	[' Type of regulation']	Temporarly Up Regulated
+mukE	945550	Chromosome partition protein mukE		Ambiguous/Unsorted
+copA	946106	Copper-exporting P-type ATPase A		Ambiguous/Unsorted
+ycbS	946934	Uncharacterized outer membrane usher protein ycbS	['Cell motility', 'Intracellular trafficking  secretion  and vesicular transport', ' Macromolecules  cellular constituent   biosynthesis']	Ambiguous/Unsorted
+yeeO	946506	Uncharacterized transporter yeeO	[]	Up Regulated
+agaD	947649	N-acetylgalactosamine permease IID component		Ambiguous/Unsorted
+hisF	946516	Imidazole glycerol phosphate synthase subunit hisF		Ambiguous/Unsorted
+hisI	946515	Histidine biosynthesis bifunctional protein hisIE		Down Regulated
+yeeU	946510	Uncharacterized protein yeeU		Up Regulated
+yeeR	946512	Inner membrane protein yeeR		Up Regulated
+garD	947641	D-galactarate dehydratase		Temporarly Up Regulated
+rihA	945503	Pyrimidine-specific ribonucleoside hydrolase rihA		Up Regulated
+cydC	945504	ATP-binding/permease protein cydC		Down Regulated
+infA	945500	Translation initiation factor IF-1		Up Regulated
+grxB	946926	Glutaredoxin-2		Ambiguous/Unsorted
+ynfB	946119	UPF0482 protein ynfB		Ambiguous/Unsorted
+speG	946117	Spermidine N(1)-acetyltransferase		Down Regulated
+ycgM	946115	Uncharacterized protein ycgM	[]	Up Regulated
+pyrG	946116	CTP synthase		Temporarly Down Regulated
+ydfE	946113	b1577; ECDH10B_1709		Temporarly Down Regulated
+ynjE	946505	Putative thiosulfate sulfurtransferase ynjE		Temporarly Up Regulated
+sxy	946504	Protein sxy		Down Regulated
+agaR	947636	Putative aga operon transcriptional repressor		Temporarly Down Regulated
+cbl	946502	HTH-type transcriptional regulator cbl		Down Regulated
+garR	947631	2-hydroxy-3-oxopropionate reductase		Up Regulated
+efeB	946500	Peroxidase ycdB		Down Regulated
+garK	947632	Glycerate kinase 2		Up Regulated
+yfeY	946919	Uncharacterized protein yfeY	[]	Ambiguous/Unsorted
+ypeA	946917	Acetyltransferase ypeA		Down Regulated
+amiA	946916	Probable N-acetylmuramoyl-L-alanine amidase amiA		Down Regulated
+bisC	946915	Biotin sulfoxide reductase		Down Regulated
+eutL	946914	Ethanolamine utilization protein eutL		Down Regulated
+yfeX	946913	Uncharacterized protein yfeX	[' Building block biosynthesis']	Ambiguous/Unsorted
+pflA	945517	Pyruvate formate-lyase 1-activating enzyme		Ambiguous/Unsorted
+acrR	945516	HTH-type transcriptional regulator acrR		Up Regulated
+trpC	945519	Tryptophan biosynthesis protein trpCF		Down Regulated
+sufC	946128	Probable ATP-dependent transporter sufC		Ambiguous/Unsorted
+kdgR	946129	Transcriptional regulator kdgR		Ambiguous/Unsorted
+rimJ	946910	Ribosomal-protein-alanine acetyltransferase		Ambiguous/Unsorted
+sbcB	946529	Exodeoxyribonuclease I		Down Regulated
+yeeY	946532	Uncharacterized HTH-type transcriptional regulator yeeY	[' RNA related']	Down Regulated
+yraR	947667	Uncharacterized protein yraR	[]	Up Regulated
+yraL	947664	UPF0011 protein yraL		Ambiguous/Unsorted
+rsmI	947664	UPF0011 protein yraL		Ambiguous/Unsorted
+yeeF	946533	Inner membrane transport protein yeeF		Temporarly Up Regulated
+yhbP	947665	UPF0306 protein yhbP		Ambiguous/Unsorted
+yeeZ	946538	Protein yeeZ		Ambiguous/Unsorted
+yhbT	947669	Uncharacterized protein yhbT	['Coenzyme transport and metabolism', ' Energy metabolism  carbon ', ' Building block biosynthesis']	Down Regulated
+yajO	946903	Uncharacterized oxidoreductase yajO	[]	Up Regulated
+ycaK	945520	Uncharacterized NAD(P)H oxidoreductase ycaK	['amino acid transport']	Temporarly Up Regulated
+ampH	946904	Penicillin-binding protein ampH		Down Regulated
+ycaN	945523	Uncharacterized HTH-type transcriptional regulator ycaN	['Transcription', ' RNA related', ' Type of regulation', 'transcription', 'regulation of transcription  DNA dependent']	Down Regulated
+ycaQ	945524	Uncharacterized protein ycaQ	['two component signal transduction system  phosphorelay ']	Ambiguous/Unsorted
+ivy	946530	Inhibitor of vertebrate lysozyme		Up Regulated
+diaA	947661	DnaA initiator-associating protein diaA		Up Regulated
+hemF	946908	Coproporphyrinogen-III oxidase, aerobic		Down Regulated
+lpxK	945526	Tetraacyldisaccharide 4'-kinase		Down Regulated
+gloB	944902	Hydroxyacylglutathione hydrolase		Down Regulated
+rsxC	946137	Electron transport complex protein rnfC		Down Regulated
+dmsB	945507	Anaerobic dimethyl sulfoxide reductase chain B		Down Regulated
+ynfE	946135	Putative dimethyl sulfoxide reductase chain ynfE		Up Regulated
+dkgB	944901	2,5-diketo-D-gluconic acid reductase B		Ambiguous/Unsorted
+rarA	945505	Replication-associated recombination protein A		Ambiguous/Unsorted
+yafJ	944906	Putative glutamine amidotransferase yafJ		Ambiguous/Unsorted
+queA	944905	S-adenosylmethionine:tRNA ribosyltransferase-isomerase		Ambiguous/Unsorted
+ycaO	945509	UPF0142 protein ycaO		Down Regulated
+cobT	946517	Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase		Ambiguous/Unsorted
+dacD	946518	D-alanyl-D-alanine carboxypeptidase dacD		Temporarly Down Regulated
+ynfD	946133	Uncharacterized protein ynfD	['Energy production and conversion', ' Electrochemical potential driven transporters', 'response to stress']	Up Regulated
+ynfC	946131	UPF0257 lipoprotein ynfC		Down Regulated
+poxB	946132	Pyruvate dehydrogenase [cytochrome]		Up Regulated
+mreC	947655	Rod shape-determining protein mreC		Down Regulated
+yraI	947657	Uncharacterized fimbrial chaperone yraI	['Amino acid transport and metabolism', 'Coenzyme transport and metabolism', ' Central intermediary metabolism']	Up Regulated
+hslJ	946525	Heat shock protein hslJ		Up Regulated
+yraP	947659	Uncharacterized protein yraP	['DNA replication']	Up Regulated
+dgsA	945510	Protein mlc		Temporarly Down Regulated
+entC	945511	Isochorismate synthase entC		Up Regulated
+yafK	944910	Uncharacterized protein yafK	[]	Down Regulated
+ycaC	945512	Uncharacterized protein ycaC		Up Regulated
+miaA	948690	tRNA Delta(2)-isopentenylpyrophosphate transferase		Down Regulated
+yafN	944920	Uncharacterized protein yafN	['Replication  recombination and repair', ' RNA related', ' Type of regulation', ' Protection', 'transcription', 'regulation of transcription  DNA dependent', 'response to stress']	Temporarly Down Regulated
+tpiA	948409	Triosephosphate isomerase		Temporarly Up Regulated
+mutL	948691	DNA mismatch repair protein mutL		Temporarly Down Regulated
+rnr	948692	Ribonuclease R		Ambiguous/Unsorted
+nsrR	948693	HTH-type transcriptional repressor nsrR		Down Regulated
+rlmB	948694	23S rRNA (guanosine-2'-O-)-methyltransferase rlmB		Ambiguous/Unsorted
+uxaA	947603	Altronate hydrolase		Up Regulated
+exuR	947602	Exu regulon transcriptional regulator		Ambiguous/Unsorted
+yjfC	948699	Uncharacterized protein yjfC	['electron transport', 'metabolic process']	Temporarly Up Regulated
+sstT	947605	Serine/threonine transporter sstT		Down Regulated
+wza	946558	Putative polysaccharide export protein wza		Ambiguous/Unsorted
+ygjR	947600	Uncharacterized oxidoreductase ygjR	['Carbohydrate transport and metabolism']	Up Regulated
+cdh	948410	CDP-diacylglycerol pyrophosphatase		Up Regulated
+sbp	948411	Sulfate-binding protein		Temporarly Down Regulated
+fieF	948413	Ferrous-iron efflux pump fieF		Down Regulated
+fpr	948414	Ferredoxin--NADP reductase		Up Regulated
+uspD	948415	Universal stress protein D		Up Regulated
+dinJ	944914	DNA-damage-inducible protein J		Temporarly Up Regulated
+yiiS	948416	UPF0381 protein yiiS		Up Regulated
+rraA	948419	Regulator of ribonuclease activity A		Down Regulated
+flu	946540	Antigen 43		Up Regulated
+yjeF	948685	Uncharacterized protein yjeF	[]	Up Regulated
+amiB	948683	N-acetylmuramoyl-L-alanine amidase amiB		Down Regulated
+yjeE	948684	UPF0079 ATP-binding protein yjeE		Ambiguous/Unsorted
+sbmC	946546	DNA gyrase inhibitory protein		Up Regulated
+hflX	948688	GTP-binding protein hflX		Ambiguous/Unsorted
+yeeD	946539	UPF0033 protein yeeD		Down Regulated
+sodA	948403	Superoxide dismutase [Mn]; Superoxide dismutase		Up Regulated
+phoE	944926	Outer membrane pore protein E		Temporarly Down Regulated
+cpxR	948404	Transcriptional regulatory protein cpxR		Temporarly Down Regulated
+rhaD	948401	Rhamnulose-1-phosphate aldolase		Down Regulated
+mutS	947206	DNA mismatch repair protein mutS		Ambiguous/Unsorted
+pcm	944923	Protein-L-isoaspartate O-methyltransferase		Ambiguous/Unsorted
+yiiQ	948408	Uncharacterized protein yiiQ	[]	Down Regulated
+cpxA	948405	Sensor protein; Sensor protein cpxA		Down Regulated
+yiiM	948406	Protein yiiM		Up Regulated
+uvrC	947203	UvrABC system protein C		Temporarly Up Regulated
+wcaA	946570	Putative colanic acid biosynthesis glycosyl transferase wcaA		Temporarly Down Regulated
+cpsG	946574	Phosphomannomutase		Temporarly Down Regulated
+yhaJ	947621	Uncharacterized HTH-type transcriptional regulator yhaJ	['Posttranslational modification  protein turnover  chaperones']	Down Regulated
+yhaK	947620	Pirin-like protein yhaK		Temporarly Down Regulated
+tdcE	947623	Keto-acid formate acetyltransferase		Temporarly Down Regulated
+ybaL	946576	Inner membrane protein ybaL		Ambiguous/Unsorted
+tdcF	947624	Protein tdcF		Up Regulated
+metL	948433	Bifunctional aspartokinase/homoserine dehydrogenase 2		Down Regulated
+rpoS	947210	RNA polymerase sigma factor rpoS; RNA polymerase sigma factor		Up Regulated
+surE	947211	Multifunctional protein surE		Ambiguous/Unsorted
+yciS	944936	Inner membrane protein yciS		Temporarly Down Regulated
+fsaB	948439	Fructose-6-phosphate aldolase 2		Ambiguous/Unsorted
+truD	947214	tRNA pseudouridine synthase D		Ambiguous/Unsorted
+cysD	947217	Sulfate adenylyltransferase subunit 2		Down Regulated
+metB	948434	Cystathionine gamma-synthase		Ambiguous/Unsorted
+metJ	948435	Met repressor		Up Regulated
+rsmA	944939	b0051		Ambiguous/Unsorted
+cysN	947219	Sulfate adenylyltransferase subunit 1		Down Regulated
+rlmF	944938	Ribosomal RNA large subunit methyltransferase F		Down Regulated
+ptsA	948437	Multiphosphoryl transfer protein 2		Ambiguous/Unsorted
+galF	946560	UTP--glucose-1-phosphate uridylyltransferase		Up Regulated
+mdlA	945092	Multidrug resistance-like ATP-binding protein mdlA		Down Regulated
+wcaL	946565	Putative colanic acid biosynthesis glycosyltransferase wcaL		Down Regulated
+yegH	946566	UPF0053 protein yegH		Temporarly Up Regulated
+yqjG	947615	Uncharacterized protein yqjG	['electron transport']	Up Regulated
+yqjD	947614	Uncharacterized protein yqjD	['Cell wall membrane envelope biogenesis', ' Macromolecules  cellular constituent   biosynthesis']	Ambiguous/Unsorted
+ycgR	947609	Uncharacterized protein ycgR		Ambiguous/Unsorted
+glpF	948422	Glycerol uptake facilitator protein		Up Regulated
+yagX	947606	Uncharacterized protein yagX	['Carbohydrate transport and metabolism', 'Transcription', ' RNA related', ' Type of regulation', 'transcription', 'regulation of transcription  DNA dependent']	Ambiguous/Unsorted
+zapB	948420	Cell division protein zapB		Up Regulated
+cysC	947221	Adenylyl-sulfate kinase		Down Regulated
+hslV	948429	ATP-dependent protease hslV		Ambiguous/Unsorted
+ybgF	947227	Uncharacterized protein ybgF		Ambiguous/Unsorted
+cytR	948427	HTH-type transcriptional repressor cytR		Temporarly Down Regulated
+ftsN	948428	Cell division protein ftsN		Down Regulated
+maa	945096	Maltose O-acetyltransferase		Down Regulated
+rpmE	948425	50S ribosomal protein L31		Down Regulated
+hha	945098	Hemolysin expression-modulating protein		Down Regulated
+priA	948426	Primosomal protein N'		Temporarly Up Regulated
+glpK	948423	Glycerol kinase		Up Regulated
+glpX	948424	Fructose-1,6-bisphosphatase class 2		Down Regulated
+smpA	945583	Small protein A		Ambiguous/Unsorted
+bamE	945583	Small protein A		Ambiguous/Unsorted
+vacJ	945582	Lipoprotein vacJ		Ambiguous/Unsorted
+mlaA	945582	Lipoprotein vacJ		Ambiguous/Unsorted
+mpaA	945969	Protein mpaA		Ambiguous/Unsorted
+hyaB	945580	Hydrogenase-1 large chain		Down Regulated
+udk	946597	Uridine kinase		Down Regulated
+cyoA	945080	Ubiquinol oxidase subunit 2		Temporarly Down Regulated
+yfaL	946595	Uncharacterized protein yfaL		Ambiguous/Unsorted
+mltA	944964	Membrane-bound lytic murein transglycosylase A		Down Regulated
+hypF	944963	Carbamoyltransferase hypF		Up Regulated
+dcd	946593	Deoxycytidine triphosphate deaminase		Up Regulated
+rutE	946591	Putative NADH dehydrogenase/NAD(P)H nitroreductase rutE		Temporarly Up Regulated
+gfcD	945588	Uncharacterized lipoprotein gfcD		Temporarly Down Regulated
+ykgM	944960	50S ribosomal protein L31 type B		Up Regulated
+cof	945089	HMP-PP phosphatase		Temporarly Down Regulated
+mdlB	945088	Multidrug resistance-like ATP-binding protein mdlB		Temporarly Up Regulated
+ygiB	945086	UPF0441 protein ygiB		Down Regulated
+lon	945085	ATP-dependent protease La		Up Regulated
+clpX	945083	ATP-dependent Clp protease ATP-binding subunit clpX		Down Regulated
+ltaE	944955	Low specificity L-threonine aldolase		Ambiguous/Unsorted
+clpP	945082	ATP-dependent Clp protease proteolytic subunit		Ambiguous/Unsorted
+ydcU	945976	Inner membrane ABC transporter permease protein ydcU		Ambiguous/Unsorted
+yddW	945975	Uncharacterized lipoprotein yddW	[]	Up Regulated
+ycbG	945570	UPF0268 protein ycbG		Temporarly Up Regulated
+ompA	945571	Outer membrane protein A		Up Regulated
+cusS	945978	Sensor kinase cusS; Sensor protein		Temporarly Up Regulated
+ydbK	946587	Probable pyruvate-flavodoxin oxidoreductase		Temporarly Down Regulated
+tehB	945979	Tellurite resistance protein tehB		Up Regulated
+hspQ	945578	Heat shock protein hspQ		Ambiguous/Unsorted
+yneH	944973	Glutaminase 2		Down Regulated
+yafV	946585	UPF0012 hydrolase yafV		Up Regulated
+yahJ	944976	Uncharacterized protein yahJ	['Amino acid transport and metabolism', 'Inorganic ion transport and metabolism', ' Carbon compound utilization', ' Primary Active Transporters', 'protein transport']	Down Regulated
+yahK	944975	Uncharacterized zinc-type alcohol dehydrogenase-like protein yahK	['Amino acid transport and metabolism', ' Carbon compound utilization', 'metabolic process']	Up Regulated
+ybaY	945070	Uncharacterized lipoprotein ybaY	[]	Up Regulated
+gsk	946584	Inosine-guanosine kinase		Down Regulated
+yahL	944970	Uncharacterized protein yahL	[]	Up Regulated
+mgsA	945574	Methylglyoxal synthase		Ambiguous/Unsorted
+scpA	945576	Protein sbm		Temporarly Down Regulated
+cpsB	946580	Mannose-1-phosphate guanylyltransferase 1; Mannose-1-phosphate guanylyltransferase		Ambiguous/Unsorted
+dedD	944971	Protein dedD		Down Regulated
+LeuC	945076	3-isopropylmalate dehydratase large subunit		Ambiguous/Unsorted
+rutR	945075	HTH-type transcriptional regulator rutR		Down Regulated
+yfjF	945078	UPF0125 protein yfjF; Protein rnfH		Ambiguous/Unsorted
+crl	945077	Sigma factor-binding protein crl		Down Regulated
+puuB	945072	Gamma-glutamylputrescine oxidoreductase		Down Regulated
+ompX	944967	Outer membrane protein X		Up Regulated
+priC	945071	Primosomal replication protein N''		Temporarly Down Regulated
+tesB	945074	Acyl-CoA thioesterase 2		Down Regulated
+ycjY	945988	Uncharacterized protein ycjY	['Amino acid transport and metabolism']	Up Regulated
+dmsD	945987	Twin-arginine leader-binding protein dmsD		Down Regulated
+ydbD	945983	Uncharacterized protein ydbD	[]	Ambiguous/Unsorted
+ftsP	944982	Protein sufI		Down Regulated
+ykgF	944980	Uncharacterized electron transport protein ykgF	[]	Temporarly Up Regulated
+frmR	944986	Transcriptional repressor frmR		Down Regulated
+yahO	944985	Uncharacterized protein yahO	[' Building block biosynthesis']	Up Regulated
+eutH	944979	Ethanolamine utilization protein eutH		Up Regulated
+yecA	945061	Uncharacterized protein yecA	[]	Down Regulated
+dxs	945060	1-deoxy-D-xylulose-5-phosphate synthase		Ambiguous/Unsorted
+thiI	945067	Thiamine biosynthesis protein thiI		Ambiguous/Unsorted
+ydcj	945991	Uncharacterized protein ydcJ		Up Regulated
+panE	945065	2-dehydropantoate 2-reductase		Temporarly Down Regulated
+ispA	945064	Geranyltranstransferase		Ambiguous/Unsorted
+xseB	945069	Exodeoxyribonuclease 7 small subunit		Ambiguous/Unsorted
+ydcP	945993	Uncharacterized protease ydcP	['amino acid biosynthetic process']	Temporarly Up Regulated
+narZ	945999	Respiratory nitrate reductase 2 alpha chain		Ambiguous/Unsorted
+ydcH	945997	Uncharacterized protein ydcH	[' Channel type Transporters']	Up Regulated
+cspG	945591	Cold shock-like protein cspG		Down Regulated
+yccF	945594	Inner membrane protein yccF		Down Regulated
+prpB	944990	Methylisocitrate lyase		Temporarly Up Regulated
+torS	945595	Sensor protein torS; Sensor protein		Down Regulated
+codA	944996	Cytosine deaminase; Protein ccdA		Down Regulated
+frmA	944988	S-(hydroxymethyl)glutathione dehydrogenase		Temporarly Down Regulated
+pyrH	944989	Uridylate kinase		Ambiguous/Unsorted
+yajD	945051	Uncharacterized protein yajD	[' Primary Active Transporters']	Down Regulated
+yajR	945058	Inner membrane transport protein yajR		Temporarly Down Regulated
+ispF	945057	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase		Ambiguous/Unsorted
+McrB	949122	5-methylcytosine-specific restriction enzyme B		Temporarly Up Regulated
+secF	949120	Protein-export membrane protein secF		Temporarly Down Regulated
+cutA	948660	Divalent-cation tolerance protein cutA		Up Regulated
+yjeK	948662	Uncharacterized kamA family protein yjeK	['metabolic process']	Down Regulated
+efp	948661	Elongation factor P		Ambiguous/Unsorted
+yjeI	948664	Uncharacterized protein yjeI	['cell cycle', 'cell division']	Ambiguous/Unsorted
+frdB	948666	Fumarate reductase iron-sulfur subunit		Up Regulated
+groL	948665	60 kDa chaperonin		Temporarly Up Regulated
+ribF	949129	Riboflavin biosynthesis protein ribF		Ambiguous/Unsorted
+frdA	948667	Fumarate reductase flavoprotein subunit		Up Regulated
+ampC	948669	Beta-lactamase		Down Regulated
+lipB	945217	Octanoyltransferase		Down Regulated
+entH	945215	Esterase ybdB		Up Regulated
+ybdH	945212	Uncharacterized oxidoreductase ybdH	[]	Down Regulated
+ybdL	945211	Aminotransferase ybdL		Down Regulated
+blc	948670	Outer membrane lipoprotein blc		Up Regulated
+orn	948675	Oligoribonuclease		Ambiguous/Unsorted
+rcsF	949113	Protein rcsF		Ambiguous/Unsorted
+yaeB	949112	UPF0066 protein yaeB		Ambiguous/Unsorted
+psd	948673	Phosphatidylserine decarboxylase proenzyme		Ambiguous/Unsorted
+poxA	948672	Putative lysyl-tRNA synthetase		Ambiguous/Unsorted
+yjeM	948679	Inner membrane transporter yjeM		Up Regulated
+yjeP	948676	Uncharacterized mscS family protein yjeP	['purine nucleotide biosynthetic process', 'biosynthetic process']	Ambiguous/Unsorted
+lipA	945227	Lipoyl synthase		Ambiguous/Unsorted
+plsC	947496	1-acyl-sn-glycerol-3-phosphate acyltransferase		Temporarly Down Regulated
+uspG	945229	Universal stress protein G		Up Regulated
+dkgA	947495	2,5-diketo-D-gluconic acid reductase A		Up Regulated
+tatE	945228	Sec-independent protein translocase protein tatE		Ambiguous/Unsorted
+tdcA	947494	HTH-type transcriptional regulator tdcA		Up Regulated
+yqhD	947493	Alcohol dehydrogenase yqhD		Up Regulated
+dacA	945222	D-alanyl-D-alanine carboxypeptidase dacA		Down Regulated
+ahpC	945225	Alkyl hydroperoxide reductase subunit C		Down Regulated
+dsbG	945224	Thiol:disulfide interchange protein dsbG		Down Regulated
+folD	945221	Bifunctional protein folD		Up Regulated
+ybeD	945220	UPF0250 protein ybeD		Down Regulated
+parC	947499	DNA topoisomerase 4 subunit A		Ambiguous/Unsorted
+dsdX	949103	DsdX permease		Temporarly Down Regulated
+dcuB	948641	Anaerobic C4-dicarboxylate transporter dcuB		Ambiguous/Unsorted
+dsbD	948649	Thiol:disulfide interchange protein dsbD		Temporarly Down Regulated
+cadA	948643	Lysine decarboxylase, inducible		Up Regulated
+nanM	949106	N-acetylneuraminate epimerase		Up Regulated
+lysU	948645	Lysyl-tRNA synthetase; Lysyl-tRNA synthetase, heat inducible		Down Regulated
+gpr	947480	Uncharacterized protein yghZ		Up Regulated
+yghZ	947480	Uncharacterized protein yghZ		Up Regulated
+dpiB	945233	Sensor kinase dpiB		Temporarly Up Regulated
+rfbC	947482	dTDP-4-dehydrorhamnose 3,5-epimerase		Down Regulated
+rlmH	945239	Ribosomal RNA large subunit methyltransferase H		Up Regulated
+ybeB	945237	Uncharacterized protein ybeB	[]	Up Regulated
+citC	945231	[Citrate [pro-3S]-lyase] ligase		Ambiguous/Unsorted
+fadR	948652	Fatty acid metabolism regulator protein		Down Regulated
+yjdC	948650	HTH-type transcriptional regulator yjdC		Up Regulated
+aspA	948658	Aspartate ammonia-lyase		Up Regulated
+fxsA	948657	UPF0716 protein fxsA		Up Regulated
+yghU	947472	Uncharacterized GST-like protein yghU	[]	Ambiguous/Unsorted
+holE	947471	DNA polymerase III subunit theta		Temporarly Down Regulated
+nadD	945248	Nicotinate-nucleotide adenylyltransferase; Probable nicotinate-nucleotide adenylyltransferase		Ambiguous/Unsorted
+gss	947474	Bifunctional glutathionylspermidine synthetase/amidase		Down Regulated
+gsp	947474	Bifunctional glutathionylspermidine synthetase/amidase		Down Regulated
+glcG	947473	Protein glcG		Up Regulated
+yqhA	947479	UPF0114 protein yqhA		Up Regulated
+yghA	947478	Uncharacterized oxidoreductase yghA	[]	Up Regulated
+rlpA	945241	Rare lipoprotein A		Temporarly Down Regulated
+mrdA	945240	Penicillin-binding protein 2		Down Regulated
+yjdM	948621	Protein phnA		Up Regulated
+yjdN	948622	Protein phnB		Up Regulated
+proP	948626	Proline/betaine transporter		Down Regulated
+ybeL	945252	Uncharacterized protein ybeL	[]	Up Regulated
+fhuC	945250	Iron(3+)-hydroxamate import ATP-binding protein fhuC		Ambiguous/Unsorted
+slp	948022	Outer membrane protein slp		Up Regulated
+serA	945258	D-3-phosphoglycerate dehydrogenase		Ambiguous/Unsorted
+cmtA	945256	PTS system mannitol-specific cryptic EIICB component		Ambiguous/Unsorted
+adiA	948638	Biodegradative arginine decarboxylase		Ambiguous/Unsorted
+melR	948637	Melibiose operon regulatory protein		Ambiguous/Unsorted
+dctA	948039	C4-dicarboxylate transport protein; Aerobic C4-dicarboxylate transport protein		Up Regulated
+miaB	945260	(Dimethylallyl)adenosine tRNA methylthiotransferase miaB		Down Regulated
+ubif	945261	2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase		Down Regulated
+yhjE	948032	Inner membrane metabolite transport protein yhjE		Down Regulated
+yhjD	948033	Inner membrane protein yhjD		Ambiguous/Unsorted
+treF	948037	Cytoplasmic trehalase		Up Regulated
+yhjC	948035	Uncharacterized HTH-type transcriptional regulator yhjC	['Transcription', ' RNA related', ' Type of regulation', 'transcription', 'regulation of transcription  DNA dependent']	Ambiguous/Unsorted
+rpiR	948603	HTH-type transcriptional regulator rpiR		Down Regulated
+yecJ	946388	Uncharacterized protein yecJ	[]	Ambiguous/Unsorted
+torZ	946389	Trimethylamine-N-oxide reductase 2		Temporarly Up Regulated
+phnJ	948606	Protein phnJ		Ambiguous/Unsorted
+phnP	948600	Protein phnP		Ambiguous/Unsorted
+rpiB	948602	Ribose-5-phosphate isomerase B		Down Regulated
+cmoA	946380	tRNA (cmo5U34)-methyltransferase		Ambiguous/Unsorted
+yecR	946386	Uncharacterized protein yecR	['Inorganic ion transport and metabolism', ' Adaptation to stress', 'iron ion transport']	Down Regulated
+cmoB	946387	tRNA (mo5U34)-methyltransferase		Down Regulated
+yecD	946384	Isochorismatase family protein yecD; Uncharacterized isochorismatase family protein yecD	[]	Temporarly Up Regulated
+pitA	948009	Low-affinity inorganic phosphate transporter 1		Down Regulated
+seqA	945272	Protein seqA		Ambiguous/Unsorted
+yhiQ	948005	UPF0341 protein yhiQ		Ambiguous/Unsorted
+rfbB	945276	dTDP-glucose 4,6-dehydratase		Down Regulated
+erfK	945273	Protein erfK/srfK		Ambiguous/Unsorted
+uspA	948007	Universal stress protein A		Ambiguous/Unsorted
+iscR	945279	HTH-type transcriptional regulator iscR		Down Regulated
+yhiI	948003	Uncharacterized protein yhiI	[' Protection']	Temporarly Up Regulated
+trmJ	948610	tRNA (cytidine/uridine-2'-O-)-methyltransferase trmJ		Down Regulated
+flhB	946391	Flagellar biosynthetic protein flhB		Down Regulated
+cheZ	946392	Chemotaxis protein cheZ		Up Regulated
+cheB	946394	Chemotaxis response regulator protein-glutamate methylesterase		Down Regulated
+cheR	946396	Chemotaxis protein methyltransferase		Temporarly Up Regulated
+tap	946397	Methyl-accepting chemotaxis protein IV		Ambiguous/Unsorted
+mprA	945282	Transcriptional repressor mprA		Ambiguous/Unsorted
+arsC	948018	Arsenate reductase		Temporarly Up Regulated
+yhiD	948019	Uncharacterized protein yhiD	[]	Ambiguous/Unsorted
+nagC	945285	N-acetylglucosamine repressor		Down Regulated
+flhA	946390	Flagellar biosynthesis protein flhA		Down Regulated
+yhiR	948012	Uncharacterized protein yhiR	[]	Ambiguous/Unsorted
+phoH	948010	Protein phoH		Temporarly Up Regulated
+dut	948607	Deoxyuridine 5'-triphosphate nucleotidohydrolase		Ambiguous/Unsorted
+dppD	948065	Dipeptide transport ATP-binding protein dppD		Down Regulated
+dppB	948063	Dipeptide transport system permease protein dppB		Ambiguous/Unsorted
+eptB	948068	b3546; ECS88_3965; ECIAI39_4054; EC55989_3997; E2348C_3793; ECED1_4224; ECUMN_4058; ECDH10B_3725; ECIAI1_3705		Temporarly Down Regulated
+gabT	948067	4-aminobutyrate aminotransferase		Up Regulated
+yfeD	946865	Uncharacterized protein yfeD	[]	Up Regulated
+yejO	946867	b2190; E2348C_2336; ECDH10B_2348; Z3449; ECIAI39_2330; APECO1_4367; UTI89_C2469; EC55989_2444; EC55989_2445; ECUMN_2527; ECIAI1_2272; ECIAI1_2273		Ambiguous/Unsorted
+yfeA	946864	Uncharacterized protein yfeA	['Signal transduction mechanisms', ' Type of regulation', 'two component signal transduction system  phosphorelay ', 'regulation of transcription  DNA dependent']	Down Regulated
+gabD	948060	Succinate-semialdehyde dehydrogenase [NADP+]		Up Regulated
+yiaD	948075	Inner membrane lipoprotein yiaD		Up Regulated
+csiD	948076	Protein csiD		Ambiguous/Unsorted
+yfeK	946876	Uncharacterized protein yfeK	['Defense mechanisms', ' Primary Active Transporters', ' Protection']	Down Regulated
+cspA	948070	Cold shock protein cspA		Down Regulated
+yiaF	948072	Uncharacterized protein yiaF	['Carbohydrate transport and metabolism', ' Carbon compound utilization', 'phosphoenolpyruvate dependent sugar phosphotransferase system']	Temporarly Up Regulated
+yhjK	948048	c4341; EC55989_3976; ECDH10B_3706; APECO1_2919; ECIAI1_3680; b3529; ECIAI39_4032; ECED1_4207; ECS88_3943; ECUMN_4036; UTI89_C4061; Z4943; E2348C_3771		Temporarly Up Regulated
+bcsZ	948046	Endoglucanase		Up Regulated
+bcsB	948045	Cyclic di-GMP-binding protein		Ambiguous/Unsorted
+crr	946880	Glucose-specific phosphotransferase enzyme IIA component		Up Regulated
+yhjG	948043	Uncharacterized protein yhjG	['Lipid transport and metabolism']	Temporarly Down Regulated
+pdxK	946881	Pyridoxine kinase		Down Regulated
+kdgK	948041	2-dehydro-3-deoxygluconokinase		Ambiguous/Unsorted
+ptsH	946886	Phosphocarrier protein HPr		Temporarly Down Regulated
+yfeS	946887	Uncharacterized protein yfeS	[]	Ambiguous/Unsorted
+cysM	946888	Cysteine synthase B; Cysteine synthase		Down Regulated
+cysA	946889	Sulfate/thiosulfate import ATP-binding protein cysA		Down Regulated
+yhjJ	948040	Protein yhjJ		Ambiguous/Unsorted
+dppF	948056	Dipeptide transport ATP-binding protein dppF		Down Regulated
+bcsG	948058	Uncharacterized protein yhjU		Temporarly Up Regulated
+murQ	946893	N-acetylmuramic acid 6-phosphate etherase		Ambiguous/Unsorted
+csiR	948055	Uncharacterized HTH-type transcriptional regulator ygaE		Temporarly Up Regulated
+nupC	946895	Nucleoside permease nupC		Down Regulated
+ucpA	946898	Oxidoreductase ucpA		Up Regulated
+bcsE	948050	Uncharacterized protein yhjS		Ambiguous/Unsorted
+fadL	946820	Long-chain fatty acid transport protein		Up Regulated
+sixA	946815	Phosphohistidine phosphatase sixA		Down Regulated
+fecD	946816	Fe(3+) dicitrate transport system permease protein fecD		Down Regulated
+emrY	946835	Multidrug resistance protein Y		Down Regulated
+efeO	945603	UPF0409 protein ycdO		Up Regulated
+putP	945602	Sodium/proline symporter		Ambiguous/Unsorted
+yceA	945601	UPF0176 protein yceA		Down Regulated
+putA	945600	Bifunctional protein putA		Down Regulated
+frc	946842	Formyl-coenzyme A transferase		Down Regulated
+evgS	946844	Sensor protein evgS; Sensor protein		Ambiguous/Unsorted
+malS	948088	Alpha-amylase		Down Regulated
+xylR	948086	Xylose operon regulatory protein		Ambiguous/Unsorted
+yiaJ	948084	HTH-type transcriptional regulator yiaJ		Down Regulated
+dsdA	946837	D-serine dehydratase; D-serine dehydratase 1		Up Regulated
+fecB	946838	Fe(3+) dicitrate-binding periplasmic protein		Temporarly Up Regulated
+fecI	946839	Probable RNA polymerase sigma factor fecI; RNA polymerase sigma factor		Ambiguous/Unsorted
+frya	946852	Multiphosphoryl transfer protein 1		Up Regulated
+yfdZ	946850	Uncharacterized aminotransferase yfdZ	[]	Down Regulated
+yfeC	946857	Uncharacterized protein yfeC	[]	Up Regulated
+fepC	945201	Ferric enterobactin transport ATP-binding protein fepC		Up Regulated
+stfR	945207	Side tail fiber protein homolog from lambdoid prophage Rac		Ambiguous/Unsorted
+yceM	945204	Virulence factor mviM homolog		Temporarly Down Regulated
+xylF	948090	D-xylose-binding periplasmic protein		Up Regulated
+lpcA	949134	Phosphoheptose isomerase		Ambiguous/Unsorted
+lpxP	946847	Protein ddg		Up Regulated
+secD	949133	Protein-export membrane protein secD		Ambiguous/Unsorted
+tgt	949130	Queuine tRNA-ribosyltransferase		Ambiguous/Unsorted
+malZ	949131	Maltodextrin glucosidase		Ambiguous/Unsorted
+leuD	945642	3-isopropylmalate dehydratase small subunit		Ambiguous/Unsorted
+flgL	945646	Flagellar hook-associated protein 3		Down Regulated
+flgG	945647	Flagellar basal-body rod protein flgG		Down Regulated
+ftnA	946410	Ferritin-1		Temporarly Down Regulated
+yecM	946415	Protein yecM		Temporarly Up Regulated
+ybeX	946417	Magnesium and cobalt efflux protein corC		Down Regulated
+ftnB	946407	Ferritin-like protein 2		Ambiguous/Unsorted
+araG	946408	Arabinose import ATP-binding protein araG		Ambiguous/Unsorted
+araF	946409	L-arabinose-binding periplasmic protein		Up Regulated
+rluC	945637	Pseudouridine synthase; Ribosomal large subunit pseudouridine synthase C		Ambiguous/Unsorted
+ydcS	946005	Putative ABC transporter periplasmic-binding protein ydcS		Up Regulated
+flgF	945639	Flagellar basal-body rod protein flgF		Down Regulated
+yncE	946006	Uncharacterized protein yncE	['Translation  ribosomal structure and biogenesis', 'rRNA processing']	Up Regulated
+ydcT	946007	Uncharacterized ABC transporter ATP-binding protein ydcT		Temporarly Up Regulated
+yceF	945631	Maf-like protein yceF 1; Maf-like protein yceF		Ambiguous/Unsorted
+yacG	945630	UPF0243 zinc-binding protein yacG		Up Regulated
+flgE	945636	Flagellar hook protein flgE		Down Regulated
+yceH	945633	UPF0502 protein yceH		Up Regulated
+flgN	945634	Flagella synthesis protein flgN		Ambiguous/Unsorted
+otsA	946405	Alpha,alpha-trehalose-phosphate synthase [UDP-forming]		Up Regulated
+uspC	946404	Universal stress protein C		Up Regulated
+yncB	946012	Putative NADP-dependent oxidoreductase yncB		Up Regulated
+ycjG	946013	Z2450; ECUMN_1620; ECED1_1533; ECDH10B_1444; b1325; UTI89_C1596; E2348C_1518; ECIAI1_1350; c1797; APECO1_478; ECS88_1467; ECIAI39_1677; EC55989_1489		Up Regulated
+araB	946017	Ribulokinase		Up Regulated
+yncD	946015	Probable tonB-dependent receptor yncD		Down Regulated
+aroP	946018	Aromatic amino acid transport protein aroP		Temporarly Down Regulated
+ansP	946019	L-asparagine permease		Temporarly Down Regulated
+yfcM	946807	Uncharacterized protein yfcM	['Cell wall membrane envelope biogenesis']	Down Regulated
+opgH	945624	Glucans biosynthesis glucosyltransferase H		Ambiguous/Unsorted
+yaeQ	946809	Uncharacterized protein yaeQ	['Inorganic ion transport and metabolism', 'DNA repair', 'DNA recombination', 'response to DNA damage stimulus']	Down Regulated
+yfcL	946804	Uncharacterized protein yfcL	['Cell wall membrane envelope biogenesis', 'amino acid biosynthetic process', 'aromatic amino acid family biosynthetic process']	Down Regulated
+ylbG	946803	b0502; ECDH10B_0458		Up Regulated
+ribD	945620	Riboflavin biosynthesis protein ribD		Up Regulated
+glnP	945621	Glutamine transport system permease protein glnP		Down Regulated
+mepA	946812	Penicillin-insensitive murein endopeptidase		Down Regulated
+cyoB	945615	Ubiquinol oxidase subunit 1		Temporarly Down Regulated
+rplY	945618	50S ribosomal protein L25		Down Regulated
+yfjG	945614	UPF0083 protein yfjG		Down Regulated
+yhhJ	947991	Inner membrane transport permease yhhJ		Temporarly Down Regulated
+msyB	945612	Acidic protein msyB		Up Regulated
+rbbA	947998	Uncharacterized ABC transporter ATP-binding protein yhiH		Down Regulated
+rhsB	947994	Protein rhsB		Down Regulated
+nikR	947995	Nickel-responsive regulator		Temporarly Down Regulated
+yhiN	947996	Uncharacterized protein yhiN	[]	Up Regulated
+slyB	946801	Outer membrane lipoprotein slyB		Ambiguous/Unsorted
+mnmC	946800	tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein mnmC		Temporarly Up Regulated
+mfd	945681	Transcription-repair-coupling factor		Ambiguous/Unsorted
+pspF	945683	Psp operon transcriptional activator		Temporarly Up Regulated
+potD	945682	Spermidine/putrescine-binding periplasmic protein		Up Regulated
+cobB	945687	NAD-dependent deacetylase		Up Regulated
+panD	945686	Aspartate 1-decarboxylase		Down Regulated
+nudJ	945689	Phosphatase nudJ		Down Regulated
+aldA	945672	Lactaldehyde dehydrogenase		Up Regulated
+nagZ	945671	Beta-hexosaminidase		Temporarly Up Regulated
+lolD	945670	Lipoprotein-releasing system ATP-binding protein lolD		Ambiguous/Unsorted
+ycfP	945676	UPF0227 protein ycfP		Ambiguous/Unsorted
+yeaO	945675	Uncharacterized protein yeaO	[' Primary Active Transporters', 'electron transport']	Up Regulated
+lolC	945673	Lipoprotein-releasing system transmembrane protein lolC		Ambiguous/Unsorted
+flgB	945678	Flagellar basal-body rod protein flgB		Down Regulated
+yagU	945677	Inner membrane protein yagU		Ambiguous/Unsorted
+parE	947501	DNA topoisomerase 4 subunit B		Down Regulated
+ybiX	947502	PKHD-type hydroxylase ybiX		Up Regulated
+ygiN	947506	Probable quinol monooxygenase ygiN		Up Regulated
+holB	945661	DNA polymerase III subunit delta'		Ambiguous/Unsorted
+yceG	945660	Uncharacterized protein yceG	[]	Temporarly Up Regulated
+pck	945667	Phosphoenolpyruvate carboxykinase [ATP]		Up Regulated
+ycfS	945666	Uncharacterized protein ycfS	[]	Down Regulated
+cspD	945669	Cold shock-like protein cspD		Temporarly Up Regulated
+tmk	945663	Thymidylate kinase		Down Regulated
+lolE	945665	Lipoprotein-releasing system transmembrane protein lolE		Ambiguous/Unsorted
+rpmF	945657	50S ribosomal protein L32		Down Regulated
+ycfH	945656	Uncharacterized deoxyribonuclease ycfH	[]	Down Regulated
+emtA	945655	Endo-type membrane-bound lytic murein transglycosylase A		Down Regulated
+deoD	945654	Purine nucleoside phosphorylase deoD-type		Up Regulated
+pqiB	945653	Paraquat-inducible protein B		Temporarly Down Regulated
+pspE	945652	Phage shock protein E		Temporarly Up Regulated
+flgK	945648	Flagellar hook-associated protein 1		Down Regulated
+fhuE	945649	FhuE receptor		Temporarly Up Regulated
+gntK	947937	Thermoresistant gluconokinase		Temporarly Up Regulated
+glpG	947936	Rhomboid protease glpG		Ambiguous/Unsorted
+cusB	945189	Cation efflux system protein cusB		Down Regulated
+glgS	947533	Glycogen synthesis protein glgS		Ambiguous/Unsorted
+entF	945184	Enterobactin synthetase component F		Up Regulated
+hemH	947532	Ferrochelatase		Up Regulated
+fes	945181	Enterochelin esterase		Ambiguous/Unsorted
+flgI	947534	Flagellar P-ring protein		Down Regulated
+cusF	945188	Cation efflux system protein cusF		Down Regulated
+ompT	945185	Protease 7		Up Regulated
+fepB	947538	Ferrienterobactin-binding periplasmic protein		Up Regulated
+yeeN	946493	UPF0082 protein yeeN		Down Regulated
+fepE	945180	Ferric enterobactin transport protein fepE		Temporarly Up Regulated
+shiA	946495	Shikimate transporter		Temporarly Up Regulated
+glgB	947940	1,4-alpha-glucan-branching enzyme		Ambiguous/Unsorted
+ydhJ	946499	Uncharacterized protein ydhJ		Ambiguous/Unsorted
+glgX	947941	Glycogen debranching enzyme		Temporarly Up Regulated
+yeeJ	946498	Uncharacterized protein yeeJ		Temporarly Up Regulated
+glgC	947942	Glucose-1-phosphate adenylyltransferase		Up Regulated
+yhhX	947944	Uncharacterized oxidoreductase yhhX	[]	Ambiguous/Unsorted
+yhhW	947945	Protein yhhW		Ambiguous/Unsorted
+gntR	947946	HTH-type transcriptional regulator gntR		Ambiguous/Unsorted
+rtcR	947928	Transcriptional regulatory protein rtcR		Ambiguous/Unsorted
+glpR	947926	Glycerol-3-phosphate regulon repressor		Ambiguous/Unsorted
+ahpF	947540	Alkyl hydroperoxide reductase subunit F		Ambiguous/Unsorted
+rtcB	947929	Protein rtcB		Temporarly Up Regulated
+rnk	947546	Regulator of nucleoside diphosphate kinase		Ambiguous/Unsorted
+folB	947544	Dihydroneopterin aldolase		Ambiguous/Unsorted
+quuD	945177	Antitermination protein Q homolog from lambdoid prophage DLP12		Temporarly Down Regulated
+yodA	946480	Metal-binding protein yodA		Up Regulated
+zinT	946480	Metal-binding protein yodA		Up Regulated
+ydiQ	946482	Putative electron transfer flavoprotein subunit ydiQ		Temporarly Up Regulated
+yedY	946484	UPF0190 protein yedY		Down Regulated
+hiuH	946485	5-hydroxyisourate hydrolase		Ambiguous/Unsorted
+damX	947930	Protein damX		Ambiguous/Unsorted
+yedV	946487	Sensor protein; Putative sensor-like histidine kinase yedV		Ambiguous/Unsorted
+glgP	947931	Phosphorylase; Glycogen phosphorylase		Ambiguous/Unsorted
+mtfA	946489	Protein mtfA		Up Regulated
+glpD	947934	Aerobic glycerol-3-phosphate dehydrogenase		Up Regulated
+glpE	947935	Thiosulfate sulfurtransferase glpE		Down Regulated
+glgA	947932	Glycogen synthase		Ambiguous/Unsorted
+feoB	947919	Ferrous iron transport protein B		Temporarly Up Regulated
+cpdA	947515	Protein icc		Down Regulated
+araA	947511	L-arabinose isomerase		Up Regulated
+fhuD	947510	Iron(3+)-hydroxamate-binding protein fhuD		Up Regulated
+ykgH	947513	Uncharacterized protein ykgH	[]	Ambiguous/Unsorted
+yafC	947507	Uncharacterized HTH-type transcriptional regulator yafC	['Transcription', ' RNA related', ' Type of regulation', 'transcription', 'regulation of transcription  DNA dependent']	Down Regulated
+malT	947921	HTH-type transcriptional regulator malT		Down Regulated
+malQ	947923	4-alpha-glucanotransferase		Temporarly Down Regulated
+gntT	947924	High-affinity gluconate transporter		Down Regulated
+lptA	947920	Lipopolysaccharide export system protein lptA		Down Regulated
+feoA	947909	Ferrous iron transport protein A		Ambiguous/Unsorted
+mrcA	947907	Penicillin-binding protein 1A		Down Regulated
+nudE	947906	ADP compounds hydrolase nudE		Ambiguous/Unsorted
+yrfF	947905	Putative membrane protein igaA homolog		Down Regulated
+yrfG	947904	Uncharacterized protein yrfG	[' Adaptation to stress', 'protein folding']	Down Regulated
+elbB	947903	Enhancing lycopene biosynthesis protein 2		Ambiguous/Unsorted
+mhpA	945197	3-(3-hydroxy-phenyl)propionate/3-hydroxycinnamic acid hydroxylase		Ambiguous/Unsorted
+prpC	947528	2-methylcitrate synthase		Ambiguous/Unsorted
+ygcF	947527	Uncharacterized protein ygcF	[]	Down Regulated
+iscX	945196	Protein iscX		Down Regulated
+ribB	947526	3,4-dihydroxy-2-butanone 4-phosphate synthase		Ambiguous/Unsorted
+pheP	945199	Phenylalanine-specific permease		Down Regulated
+atoD	947525	Acetate CoA-transferase subunit alpha		Up Regulated
+thrC	945198	Threonine synthase		Down Regulated
+fepA	945193	Ferrienterobactin receptor		Up Regulated
+yqiC	947524	Uncharacterized protein yqiC	[]	Up Regulated
+ygiL	947522	Uncharacterized fimbrial-like protein ygiL	['Replication  recombination and repair']	Ambiguous/Unsorted
+rpmA	945190	50S ribosomal protein L27		Down Regulated
+cusA	945191	Cation efflux system protein cusA		Temporarly Up Regulated
+ycjN	945696	Putative ABC transporter periplasmic-binding protein ycjN		Ambiguous/Unsorted
+yqiB	947518	Uncharacterized protein yqiB	['Replication  recombination and repair']	Down Regulated
+nudF	947519	ADP-ribose pyrophosphatase		Down Regulated
+hslR	947912	Heat shock protein 15		Ambiguous/Unsorted
+potB	945692	Spermidine/putrescine transport system permease protein potB		Down Regulated
+ompR	947913	Transcriptional regulatory protein ompR		Ambiguous/Unsorted
+yrbL	947910	Uncharacterized protein yrbL	['Carbohydrate transport and metabolism', ' Macromolecules  cellular constituent   biosynthesis', ' Central intermediary metabolism']	Down Regulated
+hflD	945693	ECIAI1_1170; ECS88_1147; ECDH10B_1204; b1132; ECIAI39_2005; ECED1_1276; E2348C_1273; ECUMN_1376; EC55989_1245		Temporarly Down Regulated
+yhgF	947911	Protein yhgF		Down Regulated
+rpsU	947577	30S ribosomal protein S21		Down Regulated
+dnaG	947570	DNA primase		Up Regulated
+ypfH	947571	Esterase ypfH		Up Regulated
+cbpA	947572	Curved DNA-binding protein		Up Regulated
+holA	947573	DNA polymerase III subunit delta		Down Regulated
+btuF	947574	Vitamin B12-binding protein		Ambiguous/Unsorted
+dcrB	947983	Protein dcrB		Ambiguous/Unsorted
+thiD	946459	Phosphomethylpyrimidine kinase		Down Regulated
+nikD	947989	Nickel import ATP-binding protein nikD		Ambiguous/Unsorted
+alsE	948595	D-allulose-6-phosphate 3-epimerase		Ambiguous/Unsorted
+yjcS	948597	Uncharacterized protein yjcS	[]	Up Regulated
+gltP	948591	Proton glutamate symport protein		Down Regulated
+argS	946452	Arginyl-tRNA synthetase		Ambiguous/Unsorted
+ribE	946453	6,7-dimethyl-8-ribityllumazine synthase		Up Regulated
+rlmG	947589	Ribosomal RNA large subunit methyltransferase G		Down Regulated
+gutQ	947587	Protein gutQ		Up Regulated
+yqjH	947582	Uncharacterized protein yqjH	[' Adaptation to stress', 'ion transport', 'iron ion transport']	Up Regulated
+ftsX	947969	Cell division protein ftsX		Ambiguous/Unsorted
+nuoK	947580	NADH-quinone oxidoreductase subunit K		Down Regulated
+ebgR	947586	HTH-type transcriptional regulator ebgR		Temporarly Up Regulated
+ebgA	947583	Evolved beta-galactosidase subunit alpha		Ambiguous/Unsorted
+yqjI	947584	Uncharacterized protein yqjI	[]	Temporarly Up Regulated
+yhhM	947975	Uncharacterized protein yhhM	[]	Temporarly Up Regulated
+zntA	947972	Lead, cadmium, zinc and mercury-transporting ATPase		Down Regulated
+acpT	947979	4'-phosphopantetheinyl transferase acpT		Up Regulated
+yjcO	948586	Uncharacterized protein yjcO	[]	Temporarly Up Regulated
+hemD	948587	Uroporphyrinogen-III synthase		Down Regulated
+rdgC	948585	Recombination-associated protein rdgC		Ambiguous/Unsorted
+livJ	947971	Leu/Ile/Val-binding protein		Up Regulated
+mdtO	948582	Multidrug resistance protein mdtO		Down Regulated
+rpoH	947970	RNA polymerase sigma-32 factor; RNA polymerase sigma factor		Temporarly Down Regulated
+dnaQ	946441	DNA polymerase III subunit epsilon		Down Regulated
+ygiF	947554	Uncharacterized protein ygiF	['Amino acid transport and metabolism']	Down Regulated
+glnE	947552	Glutamate-ammonia-ligase adenylyltransferase		Ambiguous/Unsorted
+cca	947553	Multifunctional CCA protein		Up Regulated
+yrbA	947958	Uncharacterized protein yrbA	['Amino acid transport and metabolism', ' Building block biosynthesis', 'amino acid biosynthetic process']	Ambiguous/Unsorted
+livM	947966	High-affinity branched-chain amino acid transport system permease protein livM		Temporarly Up Regulated
+yjcE	948577	Uncharacterized Na(+)/H(+) exchanger yjcE	['rRNA processing']	Down Regulated
+ydgD	946436	Uncharacterized serine protease ydgD	['response to stress']	Up Regulated
+ftsE	947968	Cell division ATP-binding protein ftsE		Down Regulated
+ugpB	947962	sn-glycerol-3-phosphate-binding periplasmic protein ugpB		Up Regulated
+livF	947961	High-affinity branched-chain amino acid transport ATP-binding protein livF		Ambiguous/Unsorted
+yfdE	946432	Uncharacterized protein yfdE	['metabolic process']	Temporarly Down Regulated
+livK	947964	Leucine-specific-binding protein		Ambiguous/Unsorted
+yhhK	947963	Uncharacterized protein yhhK	[' Carbon compound utilization', ' Metabolism of other compounds']	Down Regulated
+ybeY	946430	Putative metalloprotease ybeY		Ambiguous/Unsorted
+ssb	948570	Single-stranded DNA-binding protein		Ambiguous/Unsorted
+nrfA	948571	Cytochrome c-552		Ambiguous/Unsorted
+acs	948572	Acetyl-coenzyme A synthetase		Up Regulated
+azoR	947569	FMN-dependent NADH-azoreductase		Ambiguous/Unsorted
+rpoD	947567	RNA polymerase sigma factor rpoD; RNA polymerase sigma factor		Temporarly Up Regulated
+ttdR	947562	HTH-type transcriptional activator ttdR		Ambiguous/Unsorted
+yfcS	946418	Uncharacterized fimbrial chaperone yfcS	['Cell motility', 'Intracellular trafficking  secretion  and vesicular transport', ' Macromolecules  cellular constituent   biosynthesis']	Ambiguous/Unsorted
+mug	947560	G/U mismatch-specific DNA glycosylase		Temporarly Up Regulated
+ggt	947947	Gamma-glutamyltranspeptidase		Temporarly Down Regulated
+yrhB	947948	Uncharacterized protein yrhB	[]	Down Regulated
+yhhA	947956	Uncharacterized protein yhhA	['Cell cycle control  cell division  chromosome partitioning', ' Cell division', 'cell cycle', 'cell division']	Temporarly Up Regulated
+fecA	946427	Fe(3+) dicitrate transport protein fecA		Up Regulated
+ugpQ	947955	Glycerophosphoryl diester phosphodiesterase		Ambiguous/Unsorted
+yrbB	947954	Uncharacterized protein yrbB	['Cell wall membrane envelope biogenesis', ' Macromolecules  cellular constituent   biosynthesis', 'cell cycle', 'cell division']	Ambiguous/Unsorted
+mlaB	947954	Uncharacterized protein yrbB		Ambiguous/Unsorted
+ugpC	947953	sn-glycerol-3-phosphate import ATP-binding protein ugpC		Ambiguous/Unsorted
+uvrY	946424	Response regulator uvrY		Ambiguous/Unsorted
+yjbR	948560	Uncharacterized protein yjbR	['Amino acid transport and metabolism', ' Central intermediary metabolism', 'amino acid biosynthetic process', 'biosynthetic process', 'aromatic amino acid family biosynthetic process']	Up Regulated
+alr	948564	Alanine racemase, biosynthetic; Alanine racemase		Up Regulated
+yjcD	948565	Putative permease yjcD		Temporarly Up Regulated
+aphA	948562	Class B acid phosphatase		Down Regulated
+xylE	948529	D-xylose-proton symporter		Ambiguous/Unsorted
+hepA	948523	RNA polymerase-associated protein rapA		Ambiguous/Unsorted
+rapA	948523	RNA polymerase-associated protein rapA		Ambiguous/Unsorted
+iclR	948524	Acetate operon repressor		Ambiguous/Unsorted
+yjbB	948521	Uncharacterized protein yjbB	[]	Up Regulated
+pepE	948520	Peptidase E		Ambiguous/Unsorted
+ubiE	948926	Ubiquinone/menaquinone biosynthesis methyltransferase ubiE		Ambiguous/Unsorted
+recJ	947367	Single-stranded-DNA-specific exonuclease recJ		Temporarly Up Regulated
+prfB	947369	Peptide chain release factor 2		Ambiguous/Unsorted
+yccJ	948930	Uncharacterized protein yccJ	[' Macromolecules  cellular constituent   biosynthesis']	Up Regulated
+nadA	945351	Quinolinate synthetase A		Down Regulated
+galT	945357	Galactose-1-phosphate uridylyltransferase		Temporarly Up Regulated
+ybgS	945356	Uncharacterized protein ybgS	['Inorganic ion transport and metabolism', ' Electrochemical potential driven transporters', 'ion transport']	Temporarly Up Regulated
+xerD	947362	Tyrosine recombinase xerD		Down Regulated
+galE	945354	UDP-glucose 4-epimerase		Ambiguous/Unsorted
+fldB	947361	Flavodoxin-2		Down Regulated
+rluF	948519	Pseudouridine synthase; Ribosomal large subunit pseudouridine synthase F		Temporarly Up Regulated
+ispB	947364	Octaprenyl-diphosphate synthase		Temporarly Down Regulated
+dsbC	947363	Thiol:disulfide interchange protein dsbC		Up Regulated
+galK	945358	Galactokinase		Up Regulated
+malE	948538	Maltose-binding periplasmic protein		Up Regulated
+malK	948537	Maltose/maltodextrin import ATP-binding protein malK		Up Regulated
+ycfM	948536	Uncharacterized protein ycfM	['Cell wall membrane envelope biogenesis']	Up Regulated
+malF	948532	Maltose transport system permease protein malF		Up Regulated
+yjjX	948919	UPF0244 protein yjjX		Ambiguous/Unsorted
+ytjC	948918	Probable phosphoglycerate mutase gpmB		Down Regulated
+trpR	948917	Trp operon repressor		Up Regulated
+rob	948916	Right origin-binding protein		Ambiguous/Unsorted
+creB	948922	Transcriptional regulatory protein creB		Temporarly Up Regulated
+mocA	947356	Uncharacterized protein ygfJ		Ambiguous/Unsorted
+ygfJ	947356	Uncharacterized protein ygfJ	['electron transport']	Ambiguous/Unsorted
+creA	948920	Protein creA		Ambiguous/Unsorted
+modC	945362	Molybdenum import ATP-binding protein modC		Temporarly Up Regulated
+modA	945364	Molybdate-binding periplasmic protein		Up Regulated
+modF	945368	Putative molybdenum transport ATP-binding protein modF		Temporarly Down Regulated
+qseB	945369	Transcriptional regulatory protein qseB		Down Regulated
+ubiC	948545	Chorismate--pyruvate lyase		Down Regulated
+lexA	948544	LexA repressor		Ambiguous/Unsorted
+malM	948547	Maltose operon periplasmic protein		Temporarly Up Regulated
+yqfB	947380	UPF0267 protein yqfB		Temporarly Up Regulated
+hinT	948549	HIT-like protein hinT		Up Regulated
+rpsP	947103	30S ribosomal protein S16		Down Regulated
+lamB	948548	Maltoporin		Up Regulated
+yfiL	947106	Uncharacterized protein yfiL	['Replication  recombination and repair', 'DNA recombination']	Up Regulated
+recN	947105	DNA repair protein recN		Up Regulated
+mtn	948542	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase		Ambiguous/Unsorted
+aldB	948104	Aldehyde dehydrogenase B		Up Regulated
+yagT	945330	Putative xanthine dehydrogenase yagT iron-sulfur-binding subunit		Up Regulated
+paoA	945330	Putative xanthine dehydrogenase yagT iron-sulfur-binding subunit		Up Regulated
+yiaU	948107	Uncharacterized HTH-type transcriptional regulator yiaU	[]	Temporarly Up Regulated
+visC	947389	Protein visC		Temporarly Up Regulated
+chbB	945339	N,N'-diacetylchitobiose-specific phosphotransferase enzyme IIB component		Up Regulated
+ubiH	947388	2-octaprenyl-6-methoxyphenol hydroxylase		Down Regulated
+ybbO	945337	Uncharacterized oxidoreductase ybbO	[]	Ambiguous/Unsorted
+thiL	947387	Thiamine-monophosphate kinase		Down Regulated
+ygfY	947382	UPF0350 protein ygfY		Ambiguous/Unsorted
+sapF	945335	Peptide transport system ATP-binding protein sapF		Ambiguous/Unsorted
+lyxK	948101	L-xylulose/3-keto-L-gulonate kinase		Up Regulated
+allR	945333	HTH-type transcriptional repressor allR		Ambiguous/Unsorted
+selB	948103	Selenocysteine-specific elongation factor		Down Regulated
+cueR	945332	HTH-type transcriptional regulator cueR		Ambiguous/Unsorted
+aegA	947383	Protein aegA		Ambiguous/Unsorted
+dusA	948558	tRNA-dihydrouridine synthase A		Ambiguous/Unsorted
+qorA	948556	Quinone oxidoreductase		Ambiguous/Unsorted
+dnaB	948555	Replicative DNA helicase		Ambiguous/Unsorted
+yjbJ	948553	UPF0337 protein yjbJ		Up Regulated
+zur	948552	Zinc uptake regulation protein		Down Regulated
+srlR	948942	Glucitol operon repressor		Ambiguous/Unsorted
+mtlA	948118	PTS system mannitol-specific EIICBA component		Up Regulated
+mtlD	948117	Mannitol-1-phosphate 5-dehydrogenase		Ambiguous/Unsorted
+cydA	945341	Cytochrome d ubiquinol oxidase subunit 1		Ambiguous/Unsorted
+yibK	948119	Uncharacterized tRNA/rRNA methyltransferase yibK		Temporarly Down Regulated
+yibH	948110	Inner membrane protein yibH		Ambiguous/Unsorted
+yceB	947377	Uncharacterized lipoprotein yceB	['electron transport']	Ambiguous/Unsorted
+betB	947376	Betaine aldehyde dehydrogenase		Temporarly Down Regulated
+lysS	947372	Lysyl-tRNA synthetase; Lysyl-tRNA synthetase, heat inducible		Down Regulated
+sodC	945343	Superoxide dismutase [Cu-Zn]		Up Regulated
+yibF	948113	Uncharacterized GST-like protein yibF	[]	Temporarly Up Regulated
+alkA	947371	DNA-3-methyladenine glycosylase 2		Down Regulated
+astA	946261	Arginine N-succinyltransferase		Up Regulated
+rluA	946262	Ribosomal large subunit pseudouridine synthase A; Pseudouridine synthase		Up Regulated
+astD	946260	N-succinylglutamate 5-semialdehyde dehydrogenase		Up Regulated
+chbF	946266	6-phospho-beta-glucosidase		Ambiguous/Unsorted
+moaD	945398	Molybdopterin-converting factor subunit 1		Ambiguous/Unsorted
+selA	948124	L-seryl-tRNA(Sec) selenium transferase		Down Regulated
+moaE	945399	Molybdopterin-converting factor subunit 2		Up Regulated
+gpsA	948125	Glycerol-3-phosphate dehydrogenase [NAD(P)+]		Ambiguous/Unsorted
+rhsA	948120	Protein rhsA		Up Regulated
+lldD	948121	L-lactate dehydrogenase [cytochrome]		Down Regulated
+ybhK	945390	UPF0052 protein ybhK		Down Regulated
+cysE	948126	Serine acetyltransferase		Ambiguous/Unsorted
+MoaB	945396	Molybdenum cofactor biosynthesis protein B		Ambiguous/Unsorted
+moaC	945397	Molybdenum cofactor biosynthesis protein C		Ambiguous/Unsorted
+yibQ	948128	Uncharacterized protein yibQ	['proteolysis']	Down Regulated
+envC	948129	Uncharacterized protein yibP		Down Regulated
+ynjA	946270	Uncharacterized protein ynjA	[' Primary Active Transporters']	Down Regulated
+ynjB	946271	Protein ynjB		Up Regulated
+ydjF	946272	Uncharacterized HTH-type transcriptional regulator ydjF	['Transcription', 'transcription', 'regulation of transcription  DNA dependent']	Up Regulated
+pncA	946276	Pyrazinamidase/nicotinamidase		Down Regulated
+nudG	946277	CTP pyrophosphohydrolase		Ambiguous/Unsorted
+ansA	946278	L-asparaginase 1		Ambiguous/Unsorted
+rfaF	948135	ADP-heptose--LPS heptosyltransferase 2		Ambiguous/Unsorted
+ypdB	947395	Uncharacterized response regulatory protein ypdB	[]	Up Regulated
+rfaC	948136	Lipopolysaccharide heptosyltransferase 1		Ambiguous/Unsorted
+xylB	948133	Xylulose kinase		Up Regulated
+gcvH	947393	Glycine cleavage system H protein		Ambiguous/Unsorted
+yggE	947398	Uncharacterized protein yggE	['Translation  ribosomal structure and biogenesis']	Up Regulated
+grxC	948132	Glutaredoxin-3		Up Regulated
+gpmM	948130	2,3-bisphosphoglycerate-independent phosphoglycerate mutase		Down Regulated
+tdh	948139	L-threonine 3-dehydrogenase		Ambiguous/Unsorted
+kbl	948138	2-amino-3-ketobutyrate coenzyme A ligase		Down Regulated
+cusC	946288	Cation efflux system protein cusC		Ambiguous/Unsorted
+yjjU	948906	Uncharacterized protein yjjU	[]	Down Regulated
+ybgC	948907	Acyl-CoA thioester hydrolase ybgC		Down Regulated
+yafD	946286	UPF0294 protein yafD		Down Regulated
+slt	948908	Soluble lytic murein transglycosylase		Down Regulated
+sppA	946281	Protease 4		Down Regulated
+yjaG	948501	Uncharacterized protein yjaG	[]	Down Regulated
+nfi	948502	Endonuclease V		Ambiguous/Unsorted
+zraS	948506	Sensor protein; Sensor protein zraS		Down Regulated
+torT	946289	Periplasmic protein torT		Up Regulated
+nlpE	946782	Lipoprotein nlpE		Up Regulated
+xylA	948141	Xylose isomerase		Up Regulated
+folX	946781	D-erythro-7,8-dihydroneopterin triphosphate epimerase		Up Regulated
+rsuA	945378	Pseudouridine synthase; Ribosomal small subunit pseudouridine synthase A		Down Regulated
+yahG	945379	Uncharacterized protein yahG	['Amino acid transport and metabolism', ' Central intermediary metabolism', ' Metabolism of other compounds', 'metabolic process']	Ambiguous/Unsorted
+bioA	945376	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase		Down Regulated
+ybhH	945375	Uncharacterized protein ybhH	[]	Temporarly Down Regulated
+rfaG	948149	Lipopolysaccharide core biosynthesis protein rfaG		Temporarly Up Regulated
+ybhA	945372	Phosphatase ybhA		Temporarly Up Regulated
+DeoB	948910	Phosphopentomutase		Ambiguous/Unsorted
+hisP	946789	Histidine transport ATP-binding protein hisP		Ambiguous/Unsorted
+radA	948912	DNA repair protein radA		Down Regulated
+bioB	945370	Biotin synthase		Down Regulated
+mngR	945371	Mannosyl-D-glycerate transport/metabolism system repressor mngR		Up Regulated
+yjiY	948914	Inner membrane protein yjiY		Temporarly Up Regulated
+yfcH	946784	Epimerase family protein yfcH		Up Regulated
+serB	948913	Phosphoserine phosphatase		Down Regulated
+fdrA	946298	Protein fdrA		Ambiguous/Unsorted
+metA	948513	Homoserine O-succinyltransferase		Ambiguous/Unsorted
+aceB	948512	Malate synthase A; Malate synthase		Up Regulated
+rfaP	948150	Lipopolysaccharide core biosynthesis protein rfaP		Down Regulated
+aceA	948517	Isocitrate lyase		Up Regulated
+pagB	948518	Uncharacterized protein yjbD		Down Regulated
+yjbD	948518	Uncharacterized protein yjbD		Down Regulated
+ndh	946792	NADH dehydrogenase		Ambiguous/Unsorted
+yicC	948154	UPF0701 protein yicC		Up Regulated
+purF	946794	Amidophosphoribosyltransferase		Temporarly Up Regulated
+truA	946793	tRNA pseudouridine synthase A		Down Regulated
+yjaH	948508	Uncharacterized protein yjaH	['Cell wall membrane envelope biogenesis', 'lipopolysaccharide biosynthetic process']	Temporarly Up Regulated
+pyrE	948157	Orotate phosphoribosyltransferase		Ambiguous/Unsorted
+bioD	945387	Putative dethiobiotin synthetase; Dethiobiotin synthetase		Temporarly Down Regulated
+slmA	948158	HTH-type protein slmA		Down Regulated
+rfaQ	948155	Lipopolysaccharide core biosynthesis glycosyltransferase rfaQ		Down Regulated
+rph	948156	Ribonuclease PH		Ambiguous/Unsorted
+ybhB	945383	UPF0098 protein ybhB		Up Regulated
+bioF	945384	8-amino-7-oxononanoate synthase		Down Regulated
+uvrB	945385	UvrABC system protein B		Ambiguous/Unsorted
+spoT	948159	Guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase		Down Regulated
+yeaJ	946290	Uncharacterized protein yeaJ	['Signal transduction mechanisms', ' Type of regulation', 'two component signal transduction system  phosphorelay ', 'transcription', 'regulation of transcription  DNA dependent']	Ambiguous/Unsorted
+uxuB	946795	D-mannonate oxidoreductase		Temporarly Up Regulated
+deoC	948902	Deoxyribose-phosphate aldolase		Up Regulated
+deoA	948901	Thymidine phosphorylase		Ambiguous/Unsorted
+tolQ	948900	Protein tolQ		Down Regulated
+yfcG	946763	Uncharacterized GST-like protein yfcG		Ambiguous/Unsorted
+nuoA	946764	NADH-quinone oxidoreductase subunit; NADH-quinone oxidoreductase subunit A		Temporarly Down Regulated
+mutM	946765	Formamidopyrimidine-DNA glycosylase		Ambiguous/Unsorted
+yfbU	946767	UPF0304 protein yfbU		Temporarly Down Regulated
+selD	946768	Selenide, water dikinase		Ambiguous/Unsorted
+lrhA	946769	Probable HTH-type transcriptional regulator lrhA		Down Regulated
+yicI	948169	Alpha-xylosidase		Ambiguous/Unsorted
+yicJ	948168	Inner membrane symporter yicJ		Temporarly Down Regulated
+gltS	948166	Sodium/glutamate symport carrier protein		Temporarly Down Regulated
+ligB	948164	DNA ligase B		Ambiguous/Unsorted
+rbn	946760	Ribonuclease Z		Down Regulated
+gmk	948163	Guanylate kinase		Ambiguous/Unsorted
+recG	948162	ATP-dependent DNA helicase recG		Down Regulated
+nuoH	946761	NADH-quinone oxidoreductase subunit H		Down Regulated
+trmH	948161	tRNA guanosine-2'-O-methyltransferase		Down Regulated
+flk	946776	Flagellar regulator flk		Down Regulated
+yfbT	946777	Phosphatase yfbT		Up Regulated
+setC	948177	Sugar efflux transporter C		Ambiguous/Unsorted
+yfbR	946771	UPF0207 protein yfbR; 5'-nucleotidase yfbR		Ambiguous/Unsorted
+yfbQ	946772	Uncharacterized aminotransferase yfbQ	[]	Down Regulated
+yicN	948173	Uncharacterized protein yicN	[' Carbon compound utilization', 'regulation of transcription']	Down Regulated
+nlpA	948175	Lipoprotein 28		Down Regulated
+yicH	948171	Uncharacterized protein yicH	['Energy production and conversion']	Ambiguous/Unsorted
+kdpD	946744	Sensor protein; Sensor protein kdpD		Up Regulated
+nuoE	946746	NADH-quinone oxidoreductase subunit E		Ambiguous/Unsorted
+yidJ	948188	Uncharacterized sulfatase yidJ	[]	Down Regulated
+ilvN	948183	Acetolactate synthase isozyme 1 small subunit		Ambiguous/Unsorted
+nuoB	946738	NADH-quinone oxidoreductase subunit B		Down Regulated
+nuoI	946757	NADH-quinone oxidoreductase subunit I		Temporarly Down Regulated
+elaB	946751	Protein elaB		Up Regulated
+elaA	946750	Protein elaA		Temporarly Up Regulated
+uhpB	948195	Sensor protein uhpB		Ambiguous/Unsorted
+yidR	948198	Uncharacterized protein yidR	['Energy production and conversion', 'electron transport']	Temporarly Down Regulated
+yidQ	948199	Uncharacterized protein yidQ	[]	Up Regulated
+yidG	948191	Inner membrane protein yidG		Down Regulated
+ibpB	948192	Small heat shock protein ibpB		Ambiguous/Unsorted
+yfcF	946749	Uncharacterized GST-like protein yfcF		Up Regulated
+srlB	948971	Glucitol/sorbitol-specific phosphotransferase enzyme IIA component		Up Regulated
+ybgJ	945311	Uncharacterized protein ybgJ	[]	Ambiguous/Unsorted
+sdhC	945316	Succinate dehydrogenase cytochrome b556 subunit		Ambiguous/Unsorted
+atoE	946721	Short-chain fatty acids transporter		Temporarly Up Regulated
+yjgR	948978	Uncharacterized protein yjgR	[]	Up Regulated
+menD	946720	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase		Temporarly Down Regulated
+rffD	948977	UDP-N-acetyl-D-mannosamine dehydrogenase		Ambiguous/Unsorted
+ypdA	946723	Inner membrane protein ypdA		Temporarly Down Regulated
+glpQ	946725	Glycerophosphoryl diester phosphodiesterase		Temporarly Up Regulated
+acnA	946724	Aconitate hydratase 1		Up Regulated
+hisJ	945309	Histidine-binding periplasmic protein		Ambiguous/Unsorted
+gltA	945323	Citrate synthase		Ambiguous/Unsorted
+lptG	945324	Lipopolysaccharide export system permease protein lptG		Up Regulated
+tolR	945328	Protein tolR		Ambiguous/Unsorted
+ybgE	945326	Uncharacterized protein ybgE	['Energy production and conversion', ' Energy metabolism  carbon ', ' Energy production transport', 'electron transport']	Up Regulated
+ttcA	948967	tRNA 2-thiocytidine biosynthesis protein ttcA		Down Regulated
+rmuC	948966	DNA recombination protein rmuC		Up Regulated
+yeaP	948969	Probable diguanylate cyclase yeaP		Down Regulated
+ygiQ	948963	UPF0313 protein ygiQ		Down Regulated
+nei	945320	Endonuclease VIII; Endonuclease 8		Down Regulated
+glpC	946735	Anaerobic glycerol-3-phosphate dehydrogenase subunit C		Down Regulated
+menC	946734	o-succinylbenzoate synthase		Temporarly Down Regulated
+atoB	946727	Acetyl-CoA acetyltransferase		Temporarly Down Regulated
+yejG	945319	Uncharacterized protein yejG	[]	Down Regulated
+ybgL	945318	UPF0271 protein ybgL		Ambiguous/Unsorted
+rcsC	948993	Sensor kinase protein rcsC; Sensor protein		Down Regulated
+djlA	948992	DnaJ-like protein djlA		Temporarly Down Regulated
+yeiR	946701	Uncharacterized protein yeiR	[]	Down Regulated
+eco	946700	Ecotin		Up Regulated
+cho	948996	Excinuclease cho		Temporarly Up Regulated
+mqo	946702	Malate:quinone oxidoreductase; Probable malate:quinone oxidoreductase		Temporarly Up Regulated
+csgE	945711	Curli production assembly/transport component csgE		Down Regulated
+osmE	945305	Osmotically-inducible lipoprotein E		Up Regulated
+rhsC	945306	Protein rhsC		Ambiguous/Unsorted
+yccX	945304	Acylphosphatase		Up Regulated
+borD	948980	Lipoprotein bor homolog from lambdoid prophage DLP12		Ambiguous/Unsorted
+SdhB	945300	Succinate dehydrogenase iron-sulfur subunit		Ambiguous/Unsorted
+hybD	948982	Hydrogenase 2 maturation protease		Temporarly Down Regulated
+ccmA	946714	Cytochrome c biogenesis ATP-binding export protein ccmA		Temporarly Down Regulated
+glpA	946713	Anaerobic glycerol-3-phosphate dehydrogenase subunit A		Up Regulated
+menF	946712	Menaquinone-specific isochorismate synthase		Ambiguous/Unsorted
+apbE	946711	Thiamine biosynthesis lipoprotein apbE		Up Regulated
+guaC	948986	GMP reductase		Ambiguous/Unsorted
+lolA	948989	Outer-membrane lipoprotein carrier protein		Up Regulated
+betA	945716	Choline dehydrogenase		Down Regulated
+yojI	946705	ABC transporter ATP-binding protein yojI		Temporarly Up Regulated
+arcB	947887	Aerobic respiration control sensor protein arcB; Sensor protein		Down Regulated
+frlR	947885	HTH-type transcriptional regulator frlR		Ambiguous/Unsorted
+DHAR	945743	PTS-dependent dihydroxyacetone kinase operon regulatory protein		Up Regulated
+map	947882	Methionine aminopeptidase		Ambiguous/Unsorted
+minC	945744	Septum site-determining protein minC; Probable septum site-determining protein minC		Down Regulated
+cysG	947880	Siroheme synthase		Down Regulated
+minE	945740	Cell division topological specificity factor		Down Regulated
+PabA	947873	Para-aminobenzoate synthase glutamine amidotransferase component II		Down Regulated
+rpsB	947874	30S ribosomal protein S2		Ambiguous/Unsorted
+frlB	947875	Fructoselysine 6-phosphate deglycase		Temporarly Up Regulated
+ycgE	945735	Uncharacterized HTH-type transcriptional regulator ycgE	[]	Down Regulated
+yhfG	947871	Uncharacterized protein yhfG	['Amino acid transport and metabolism', 'protein folding', 'amino acid biosynthetic process']	Up Regulated
+fic	947872	Cell filamentation protein fic		Up Regulated
+rssA	945725	NTE family protein rssA		Ambiguous/Unsorted
+ribA	945763	GTP cyclohydrolase-2		Down Regulated
+clpA	945764	ATP-dependent Clp protease ATP-binding subunit clpA		Up Regulated
+pth	945765	Peptidyl-tRNA hydrolase		Temporarly Down Regulated
+ycgV	945767	Uncharacterized protein ycgV	['Amino acid transport and metabolism', ' Building block biosynthesis']	Temporarly Up Regulated
+gst	945758	Glutathione S-transferase		Ambiguous/Unsorted
+gph	947895	Phosphoglycolate phosphatase		Ambiguous/Unsorted
+rpe	947896	Ribulose-phosphate 3-epimerase		Ambiguous/Unsorted
+dadA	945752	D-amino acid dehydrogenase small subunit		Down Regulated
+sufB	945753	Protein sufB		Up Regulated
+yhfW	947890	Uncharacterized protein yhfW	['Replication  recombination and repair', ' Carbon compound utilization']	Ambiguous/Unsorted
+btuD	945751	Vitamin B12 import ATP-binding protein btuD		Temporarly Down Regulated
+ldcA	945756	Muramoyltetrapeptide carboxypeptidase		Temporarly Down Regulated
+treA	945757	Periplasmic trehalase; Putative periplasmic trehalase		Up Regulated
+dam	947893	DNA adenine methylase		Down Regulated
+dadX	945754	Alanine racemase, catabolic; Alanine racemase		Up Regulated
+cvrA	945755	Cell volume regulation protein A		Down Regulated
+dhaM	945749	PTS-dependent dihydroxyacetone kinase, phosphotransferase subunit dhaM		Up Regulated
+dhaL	945748	PTS-dependent dihydroxyacetone kinase, ADP-binding subunit dhaL		Up Regulated
+dhaK	945747	PTS-dependent dihydroxyacetone kinase, dihydroxyacetone-binding subunit dhaK		Ambiguous/Unsorted
+narX	945788	Nitrate/nitrite sensor protein narX		Down Regulated
+clpB	947077	Chaperone protein clpB		Ambiguous/Unsorted
+ychA	945784	Protein sirB1		Temporarly Down Regulated
+ydhS	945786	Uncharacterized protein ydhS	[' Building block biosynthesis']	Up Regulated
+yeaC	947074	Uncharacterized protein yeaC	[]	Temporarly Up Regulated
+narG	945782	Respiratory nitrate reductase 1 alpha chain		Temporarly Down Regulated
+nudK	947072	GDP-mannose pyrophosphatase nudK		Ambiguous/Unsorted
+prmC	945779	Protein methyltransferase hemK		Temporarly Up Regulated
+nfsB	945778	Oxygen-insensitive NAD(P)H nitroreductase		Ambiguous/Unsorted
+yfiH	947089	UPF0124 protein yfiH		Temporarly Up Regulated
+hemA	945777	Glutamyl-tRNA reductase		Down Regulated
+yqaB	945776	Phosphatase yqaB		Up Regulated
+lolB	945775	Outer-membrane lipoprotein lolB		Ambiguous/Unsorted
+aroF	947084	Phospho-2-dehydro-3-deoxyheptonate aldolase, Tyr-sensitive		Down Regulated
+ispE	945774	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase		Temporarly Up Regulated
+agp	945773	Glucose-1-phosphatase		Up Regulated
+rluD	947087	Pseudouridine synthase; Ribosomal large subunit pseudouridine synthase D		Ambiguous/Unsorted
+cysB	945771	HTH-type transcriptional regulator cysB		Ambiguous/Unsorted
+ybaK	947083	Uncharacterized protein ybaK		Up Regulated
+uxuA	947082	Mannonate dehydratase		Up Regulated
+ychF	945769	GTP-dependent nucleic acid-binding protein engD		Down Regulated
+yegP	947095	UPF0339 protein yegP		Up Regulated
+rplS	947096	50S ribosomal protein L19		Ambiguous/Unsorted
+trmD	947099	tRNA (guanine-N(1)-)-methyltransferase		Ambiguous/Unsorted
+yfiB	947094	Putative lipoprotein yfiB		Down Regulated
+narL	945795	Nitrate/nitrite response regulator protein narL		Temporarly Up Regulated
+ychN	945794	Protein ychN		Ambiguous/Unsorted
+rplE	947800	50S ribosomal protein L5		Ambiguous/Unsorted
+rpsN	947801	30S ribosomal protein S14		Down Regulated
+rpsH	947802	30S ribosomal protein S8		Down Regulated
+ptrB	946358	Protease 2		Ambiguous/Unsorted
+acpS	947037	Holo-[acyl-carrier-protein] synthase		Temporarly Up Regulated
+yoaB	946357	UPF0076 protein yoaB		Up Regulated
+yebE	946355	Inner membrane protein yebE		Ambiguous/Unsorted
+pdxJ	947039	Pyridoxine 5'-phosphate synthase		Ambiguous/Unsorted
+queC	947034	Queuosine biosynthesis protein queC		Down Regulated
+thiC	948492	Thiamine biosynthesis protein thiC		Temporarly Down Regulated
+rnc	947033	Ribonuclease 3		Ambiguous/Unsorted
+yebT	946352	Uncharacterized protein yebT	['Inorganic ion transport and metabolism']	Down Regulated
+era	947036	GTP-binding protein era; GTP-binding protein era homolog		Down Regulated
+yebO	946350	Uncharacterized protein yebO	[]	Up Regulated
+yfhH	947030	Uncharacterized HTH-type transcriptional regulator yfhH	['Carbohydrate transport and metabolism']	Ambiguous/Unsorted
+rsd	948496	Regulator of sigma D		Temporarly Down Regulated
+hupA	948499	DNA-binding protein HU-alpha		Ambiguous/Unsorted
+nudC	948498	NADH pyrophosphatase		Down Regulated
+zapA	947404	Cell division protein zapA		Ambiguous/Unsorted
+rpmI	946349	50S ribosomal protein L35		Down Regulated
+rsmF	946348	Ribosomal RNA small subunit methyltransferase F		Down Regulated
+exbD	946345	Biopolymer transport protein exbD		Down Regulated
+dsbB	946344	Disulfide bond formation protein B		Temporarly Down Regulated
+nadB	947049	L-aspartate oxidase		Temporarly Up Regulated
+yebV	946347	Uncharacterized protein yebV	['Replication  recombination and repair']	Up Regulated
+yfiC	947047	ECED1_3006; c3099; E2348C_2852; ECIAI1_2689; APECO1_3956; ECS88_2749; ECDH10B_2743; ECUMN_2898; ECIAI39_2780; UTI89_C2897; EC55989_2864; pC15-1a_066; Z3857; b2575		Temporarly Down Regulated
+rplA	948483	50S ribosomal protein L1		Up Regulated
+rlmA	946340	b1822		Ambiguous/Unsorted
+yaeH	947044	UPF0325 protein yaeH		Up Regulated
+manZ	946342	Mannose permease IID component		Ambiguous/Unsorted
+bolA	947043	Protein bolA		Up Regulated
+glrR	947042	Uncharacterized protein yfhA		Down Regulated
+qseF	947042	Uncharacterized protein yfhA		Down Regulated
+lepB	947040	Signal peptidase I		Ambiguous/Unsorted
+epd	947413	D-erythrose-4-phosphate dehydrogenase		Down Regulated
+mscS	947416	Small-conductance mechanosensitive channel		Ambiguous/Unsorted
+rpoE	947050	RNA polymerase sigma factor; RNA polymerase sigma-E factor		Temporarly Up Regulated
+yhcB	947815	Putative cytochrome d ubiquinol oxidase subunit 3		Down Regulated
+rplC	947817	50S ribosomal protein L3		Temporarly Down Regulated
+rplW	947819	50S ribosomal protein L23		Up Regulated
+yebC	946379	UPF0082 protein yebC		Ambiguous/Unsorted
+pssA	947059	CDP-diacylglycerol--serine O-phosphatidyltransferase		Down Regulated
+rplB	947820	50S ribosomal protein L2		Down Regulated
+yhcM	947821	Uncharacterized protein yhcM	[]	Ambiguous/Unsorted
+rseC	947052	Sigma-E factor regulatory protein rseC		Down Regulated
+etk	947409	Tyrosine-protein kinase etk		Temporarly Up Regulated
+ruvB	946371	Holliday junction ATP-dependent DNA helicase ruvB		Down Regulated
+rseB	947054	Sigma-E factor regulatory protein rseB		Down Regulated
+rseA	947053	Sigma-E factor negative regulatory protein		Down Regulated
+yfiQ	947056	Uncharacterized protein yfiQ	[]	Up Regulated
+znuA	946375	High-affinity zinc uptake system protein znuA		Up Regulated
+yciH	947058	Uncharacterized protein yciH	['Translation  ribosomal structure and biogenesis', 'translation']	Temporarly Up Regulated
+znuC	946374	Zinc import ATP-binding protein znuC		Up Regulated
+yfiP	947057	DTW domain-containing protein yfiP		Down Regulated
+yebK	946373	HTH-type transcriptional regulator hexR		Up Regulated
+ycfQ	947425	Uncharacterized HTH-type transcriptional regulator ycfQ	[]	Up Regulated
+nagE	945292	PTS system N-acetylglucosamine-specific EIICBA component		Up Regulated
+yggU	947424	UPF0235 protein yggU		Temporarly Down Regulated
+ybfE	945291	Uncharacterized protein ybfE		Up Regulated
+rdgB	947429	Nucleoside-triphosphatase; Nucleoside-triphosphatase rdgB		Ambiguous/Unsorted
+yfiM	947060	Uncharacterized protein yfiM	[' RNA related']	Temporarly Up Regulated
+hycI	947428	Hydrogenase 3 maturation protease		Up Regulated
+entE	947426	Enterobactin synthetase component E		Up Regulated
+rpmC	947807	50S ribosomal protein L29		Ambiguous/Unsorted
+rplP	947806	50S ribosomal protein L16		Down Regulated
+rplR	947804	50S ribosomal protein L18		Temporarly Up Regulated
+yggT	947421	Uncharacterized protein yggT	[]	Down Regulated
+rplN	947809	50S ribosomal protein L14		Ambiguous/Unsorted
+rpsQ	947808	30S ribosomal protein S17		Temporarly Up Regulated
+rplX	947810	50S ribosomal protein L24		Down Regulated
+ruvA	946369	Holliday junction ATP-dependent DNA helicase ruvA		Ambiguous/Unsorted
+rplV	947813	50S ribosomal protein L22		Up Regulated
+rpsS	947811	30S ribosomal protein S19		Down Regulated
+selU	947063	tRNA 2-selenouridine synthase		Down Regulated
+exoX	946361	Exodeoxyribonuclease 10		Down Regulated
+trxC	947062	Thioredoxin-2		Up Regulated
+kgtP	947069	Alpha-ketoglutarate permease		Temporarly Down Regulated
+yebF	946363	Protein yebF		Up Regulated
+edd	946362	Phosphogluconate dehydratase		Temporarly Down Regulated
+yfiD	947068	Autonomous glycyl radical cofactor		Down Regulated
+ung	947067	Uracil-DNA glycosylase		Down Regulated
+ycgB	946365	Uncharacterized protein ycgB	['metabolic process']	Up Regulated
+yebG	946364	Uncharacterized protein yebG	['Translation  ribosomal structure and biogenesis', 'Replication  recombination and repair']	Down Regulated
+nagB	945290	Glucosamine-6-phosphate deaminase		Up Regulated
+yggR	947430	Uncharacterized protein yggR	[]	Temporarly Up Regulated
+speA	947432	Biosynthetic arginine decarboxylase; Arginine decarboxylase		Down Regulated
+CHIA	947837	Probable bifunctional chitinase/lysozyme		Up Regulated
+bfr	947839	Bacterioferritin		Up Regulated
+yoaC	946308	Uncharacterized protein yoaC	['Replication  recombination and repair', 'DNA recombination']	Down Regulated
+nrdR	947437	Transcriptional repressor nrdR		Down Regulated
+yqgF	947439	Putative Holliday junction resolvase		Ambiguous/Unsorted
+yoaF	946310	Uncharacterized protein yoaF	[]	Temporarly Down Regulated
+pflC	948453	Pyruvate formate-lyase 2-activating enzyme		Down Regulated
+pflD	948454	Formate acetyltransferase 2		Ambiguous/Unsorted
+argC	948455	N-acetyl-gamma-glutamyl-phosphate reductase		Ambiguous/Unsorted
+argE	948456	Acetylornithine deacetylase		Ambiguous/Unsorted
+rpsL	947845	30S ribosomal protein S12		Down Regulated
+rpmG	946318	50S ribosomal protein L33		Down Regulated
+yheL	947844	Protein tusB		Up Regulated
+yijP	948458	E2348C_4267; ECUMN_4486; ECED1_4660; b3955; ECDH10B_4143; ECIAI1_4163; EC55989_4437; Z5513; ECS88_4410; UTI89_C4546; c4914; ECIAI39_3034		Temporarly Down Regulated
+rpsG	947846	30S ribosomal protein S7		Down Regulated
+ompN	946313	Outer membrane protein N		Up Regulated
+yeaY	946312	Uncharacterized lipoprotein yeaY	['Cell wall membrane envelope biogenesis', 'metabolic process']	Up Regulated
+sad	947440	Aldehyde dehydrogenase-like protein yneI		Ambiguous/Unsorted
+rplM	947828	50S ribosomal protein L13		Up Regulated
+trmI	947448	tRNA (guanine-N(7)-)-methyltransferase		Temporarly Down Regulated
+yggL	947449	Uncharacterized protein yggL	[]	Temporarly Down Regulated
+yggW	947446	Oxygen-independent coproporphyrinogen-III oxidase-like protein yggW		Temporarly Down Regulated
+mutY	947447	A/G-specific adenine glycosylase		Temporarly Up Regulated
+atoC	947444	Acetoacetate metabolism regulatory protein atoC		Temporarly Up Regulated
+iscU	947002	NifU-like protein		Down Regulated
+puuC	947003	Gamma-glutamyl-gamma-aminobutyraldehyde dehydrogenase		Temporarly Down Regulated
+gldA	948440	Glycerol dehydrogenase		Up Regulated
+yccS	947001	Inner membrane protein yccS		Ambiguous/Unsorted
+clpS	948443	ATP-dependent Clp protease adapter protein clpS		Down Regulated
+hrpA	948444	ATP-dependent RNA helicase hrpA		Down Regulated
+yeaZ	946304	M22 peptidase homolog yeaZ		Ambiguous/Unsorted
+thiB	946306	Thiamine-binding periplasmic protein		Up Regulated
+flgA	946300	Flagella basal body P-ring formation protein flgA		Down Regulated
+talA	947006	Transaldolase A; Transaldolase		Ambiguous/Unsorted
+mipA	946301	MltA-interacting protein		Up Regulated
+gspK	947831	Probable general secretion pathway protein K		Ambiguous/Unsorted
+yhcO	947830	Uncharacterized protein yhcO	[]	Down Regulated
+yeaE	946302	Uncharacterized protein yeaE		Up Regulated
+iscS	947004	Cysteine desulfurase		Ambiguous/Unsorted
+yeaK	946303	Uncharacterized protein yeaK	[]	Down Regulated
+phr	947005	Deoxyribodipyrimidine photo-lyase		Ambiguous/Unsorted
+slyD	947859	FKBP-type peptidyl-prolyl cis-trans isomerase slyD		Ambiguous/Unsorted
+kdpB	947450	Potassium-transporting ATPase B chain		Ambiguous/Unsorted
+yggN	947453	Uncharacterized protein yggN	[' Central intermediary metabolism']	Temporarly Up Regulated
+ansB	947454	L-asparaginase 2		Up Regulated
+flgJ	947456	Peptidoglycan hydrolase flgJ		Down Regulated
+speC	947457	Ornithine decarboxylase, constitutive		Ambiguous/Unsorted
+yahA	947459	Cyclic di-GMP phosphodiesterase yahA		Temporarly Up Regulated
+yfhG	947010	Uncharacterized protein yfhG	['Amino acid transport and metabolism', ' Building block biosynthesis', ' RNA related', ' Type of regulation', 'transcription', 'regulation of transcription  DNA dependent']	Temporarly Down Regulated
+ycdX	948477	Putative hydrolase ycdX		Down Regulated
+sdaA	946331	L-serine dehydratase 1		Up Regulated
+nlpD	947011	Lipoprotein nlpD		Up Regulated
+murB	948470	UDP-N-acetylenolpyruvoylglucosamine reductase		Ambiguous/Unsorted
+manY	946332	Mannose permease IIC component		Down Regulated
+yacC	948472	Uncharacterized protein yacC	['Amino acid transport and metabolism']	Down Regulated
+argR	947861	Arginine repressor		Down Regulated
+qseE	947013	Putative sensor-like histidine kinase yfhK; Sensor protein		Temporarly Up Regulated
+glrK	947013	Putative sensor-like histidine kinase yfhK; Sensor protein		Temporarly Up Regulated
+yhfA	947860	Protein yhfA		Ambiguous/Unsorted
+yebY	947014	Uncharacterized protein yebY	['translation']	Ambiguous/Unsorted
+yoaE	946335	UPF0053 inner membrane protein yoaE		Up Regulated
+prkB	947862	Probable phosphoribulokinase; Phosphoribulokinase		Up Regulated
+pepT	946333	Peptidase T		Up Regulated
+degS	947865	Protease degS		Up Regulated
+manX	946334	PTS system mannose-specific EIIAB component		Ambiguous/Unsorted
+hmp	947018	Flavohemoprotein		Down Regulated
+cspC	946339	Cold shock-like protein cspC		Down Regulated
+yphC	947019	Uncharacterized zinc-type alcohol dehydrogenase-like protein yphC	[' Carbon compound utilization', ' Energy metabolism  carbon ']	Ambiguous/Unsorted
+crp	947867	Catabolite gene activator		Down Regulated
+yhfK	947866	Uncharacterized protein yhfK	['Signal transduction mechanisms', 'tricarboxylic acid cycle']	Temporarly Down Regulated
+pabB	946337	Para-aminobenzoate synthase component 1		Ambiguous/Unsorted
+ascB	947460	6-phospho-beta-glucosidase ascB		Ambiguous/Unsorted
+yggX	947461	Probable Fe(2+)-trafficking protein		Up Regulated
+yeaU	946319	Probable tartrate dehydrogenase/decarboxylase		Up Regulated
+dmlA	946319	Probable tartrate dehydrogenase/decarboxylase		Up Regulated
+yhdH	947848	Putative quinone oxidoreductase yhdH		Ambiguous/Unsorted
+slyX	947849	Protein slyX		Up Regulated
+leuA	947465	2-isopropylmalate synthase		Ambiguous/Unsorted
+yphG	947021	Uncharacterized protein yphG	[' Carbon compound utilization', 'carbohydrate transport']	Up Regulated
+cspE	947024	Cold shock-like protein cspE		Down Regulated
+oxyR	948462	Hydrogen peroxide-inducible genes activator		Ambiguous/Unsorted
+fabR	948460	HTH-type transcriptional repressor fabR		Ambiguous/Unsorted
+murG	946321	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase		Ambiguous/Unsorted
+yphH	947023	Uncharacterized protein yphH	['Carbohydrate transport and metabolism', 'Transcription', 'carbohydrate metabolic process']	Ambiguous/Unsorted
+potA	946323	Spermidine/putrescine import ATP-binding protein potA		Down Regulated
+yheM	947853	Protein tusC		Temporarly Down Regulated
+yfgC	947029	TPR repeat-containing protein yfgC		Ambiguous/Unsorted
+ddlB	946324	D-alanine--D-alanine ligase B		Down Regulated
+yfhB	947026	Uncharacterized protein yfhB	['Nucleotide transport and metabolism']	Down Regulated
+tadA	947027	tRNA-specific adenosine deaminase		Down Regulated
+yheO	947851	Uncharacterized protein yheO	['protein folding']	Down Regulated
+phoQ	946326	Sensor protein phoQ; Sensor protein		Down Regulated
+birA	948469	Bifunctional protein birA		Temporarly Up Regulated
+kefB	947858	Glutathione-regulated potassium-efflux system protein kefB		Temporarly Down Regulated
+kefG	947857	Glutathione-regulated potassium-efflux system ancillary protein kefG		Up Regulated
+Fadd	946327	Long-chain-fatty-acid--CoA ligase		Up Regulated
+rnd	946328	Ribonuclease D		Down Regulated
+murI	948467	Glutamate racemase		Down Regulated
+yheS	947856	Uncharacterized ABC transporter ATP-binding protein yheS	[]	Ambiguous/Unsorted
+yheT	947855	Putative esterase yheT		Temporarly Up Regulated
