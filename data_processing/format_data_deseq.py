@@ -82,7 +82,7 @@ def run(prefix,datatype):
 	
 	#print avout
 	#print ref_out
-	pickle.dump((avout,stdout,ref_out),open(prefix+datatype+'_data_format.p','wb'))
+	pickle.dump((avout,stdout,ref_out),open(prefix+datatype+'_results/'+datatype+'_data_format.p','wb'))
 	
 
 def load_p_values(files,delim,ref_file):
@@ -91,12 +91,12 @@ def load_p_values(files,delim,ref_file):
 	ref_dict=dict()
 	with open(ref_file,'rb') as csvfile:
 		read=csv.reader(csvfile,delimiter='\t',quotechar='"')
-		
+		q=1
 		for row in read:
 			if len(row)>=2:
-				ref_dict[row[0]]=row[1]
-
-        output=[]
+				ref_dict[str(q)]=row[0]
+				q+=1
+	output=[]
 	J=0
 	for f in files:
 		
@@ -110,7 +110,8 @@ def load_p_values(files,delim,ref_file):
 		
 			#if row[0] not in output:
 			else:		
-				output.append(ref_dict[row[1]])
+				if row[1] in ref_dict:
+					output.append(ref_dict[row[1]])
 					
 			if first==1:
 				first=0

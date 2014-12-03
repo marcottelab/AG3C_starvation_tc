@@ -211,9 +211,14 @@ class find_param(object):
     
 
 import time
-def run(prefix,filename):
+def run(prefix,filename,time=None):
+	if time==None:
+		td=[3,4,5,6,8,24,48,1*7*24,2*7*24]
+	
+	else:
+		td=time
 
-	(avout,stdout,av_reference)=pickle.load(open(prefix+filename+'_data_format.p','rb'))
+	(avout,stdout,av_reference)=pickle.load(open(prefix+filename+'_results/'+filename+'_data_format.p','rb'))
 
 	k_out_av=['']*len(avout)
 	k_out_std=['']*len(avout)
@@ -222,13 +227,13 @@ def run(prefix,filename):
 	ystd_out=[]	
 	data_out=[]
 	Errout=[]
-	ta=time.time()
+	#ta=time.time()
 
 	for i in range(len(avout)):
 		
 	    d=dict()
 	    d['x']=avout[i]
-	    td=[3,4,5,6,8,24,48,1*7*24,2*7*24]
+	  
 	    #td=[3,4,5,6]
 	    data=td,d,stdout[i]
 	    
@@ -271,10 +276,10 @@ def run(prefix,filename):
 	    k_out_av[i]=k
 	    k_out_std[i]=kstd
 
-	tb=time.time()
-	print tb-ta
+	#tb=time.time()
+	#print tb-ta
 	results = (yav_out,ystd_out,k_out_av,k_out_std,av_reference,Errout)
-	pickle.dump(results, open(prefix+filename+'_fits.p', "wb" ) )
+	pickle.dump(results, open(prefix+filename+'_results/'+filename+'_fits.p', "wb" ) )
 if __name__=="__main__":
 	run()
 

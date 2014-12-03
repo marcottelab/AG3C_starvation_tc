@@ -15,7 +15,7 @@ def run(prefix,datatype,filename):
 	item=[]
 	not_mapped=[]
 
-	with open(prefix+datatype+'_'+str(filename)+'_list.dat') as csvfile:
+	with open(prefix+datatype+'_results/'+datatype+'_'+str(filename)+'_list.dat') as csvfile:
     		reader=csv.reader(csvfile,delimiter='\t')
     		for row in reader:
         		item.append(row)
@@ -30,11 +30,11 @@ def run(prefix,datatype,filename):
 				else:
 					not_mapped.append(i[0].lower())
 
-		with open(prefix+datatype+'_'+str(filename)+'_conv.txt','wb') as csvfile:
+		with open(prefix+datatype+'_results/'+datatype+'_'+str(filename)+'_conv.txt','wb') as csvfile:
 		    writer=csv.writer(csvfile,delimiter='\n')
 		    
 		    #for i in range(len(out_record)):
 		    writer.writerow(out_record)
 	
-	pickle.dump(not_mapped,open(prefix+datatype+'_not_mapped_id_convert.p','wb'))
+	pickle.dump(not_mapped,open(prefix+datatype+'_results/'+datatype+'_not_mapped_id_convert.p','wb'))
 

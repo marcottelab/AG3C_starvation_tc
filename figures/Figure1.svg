@@ -28,11 +28,11 @@
      inkscape:window-height="1024"
      id="namedview366"
      showgrid="false"
-     inkscape:zoom="1.113734"
-     inkscape:cx="278.95202"
-     inkscape:cy="610.59077"
+     inkscape:zoom="1.7168444"
+     inkscape:cx="364.92919"
+     inkscape:cy="602.89461"
      inkscape:window-x="286"
-     inkscape:window-y="63"
+     inkscape:window-y="27"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
@@ -1931,10 +1931,11 @@
        y="548.02032"
        id="text3598"
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"><tspan
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+       sodipodi:linespacing="125%"><tspan
          x="227.11487"
          y="548.02032"
-         id="tspan3600">Tripsin digest</tspan></text>
+         id="tspan3600">Trypsin digest</tspan></text>
     <text
        x="227.11487"
        y="568.02032"
@@ -2040,11 +2041,12 @@
        y="69.650208"
        id="text4173"
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"><tspan
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans"
+       sodipodi:linespacing="125%"><tspan
          x="47.986404"
          y="69.650208"
          id="tspan4175"
-         style="font-size:18px;font-weight:bold;-inkscape-font-specification:Arial Bold">Glucose growth and long-term starvation and multiplexed data aquistion</tspan></text>
+         style="font-size:18px;font-weight:bold;-inkscape-font-specification:Arial Bold">Glucose growth, long-term starvation, and multiplexed data aquistion</tspan></text>
     <path
        d="m 127.11486,459.19394 0,18.82635"
        id="path6895-5-8-1-3"

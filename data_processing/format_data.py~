@@ -20,13 +20,15 @@ def run(prefix,datatype):
 	sig_counts=[]#pd.DataFrame()
 	#sig_counts['gene_id']=counts['gene_id']
 	#filter out proteins with low total counts	
+	#print counts
 	for i in counts['gene_id']:
 		#print counts[counts['gene_id']==i].filter(regex='sample').sum(axis=1)
-
-		row_counts=counts[counts['gene_id']==i].filter(regex='sample').sum(axis=1)
-		
-		if row_counts.values[0]>=count_cutoff:
-			sig_counts.append(i)
+	        #print i	
+		if i!='nan':	
+			row_counts=counts[counts['gene_id']==i].filter(regex='sample').sum(axis=1)
+			#print row_counts.values	
+			if row_counts.values[0]>=count_cutoff:
+				sig_counts.append(i)
 	
 	
 	counts=counts.set_index('gene_id')
@@ -50,6 +52,9 @@ def run(prefix,datatype):
 		
 		av_counts['t'+str(t)]=counts.filter(regex='t'+str(t)+'$').mean(axis=1)
 		st_counts['t'+str(t)]=counts.filter(regex='t'+str(t)+'$').std(axis=1)
+		if t==336:
+			av_counts['t'+str(t)]=counts.filter(regex='336').mean(axis=1)
+			st_counts['t'+str(t)]=counts.filter(regex='336').mean(axis=1)
 	
 
 	
@@ -64,8 +69,9 @@ def run(prefix,datatype):
 
 	sig_change=[]
 	for i in counts.index:
-		maximum=counts[counts.index==i].filter(regex='sample').max(axis=1)[0]
-		minimum=counts[counts.index==i].filter(regex='sample').min(axis=1)[0]
+		maximum=av_counts[av_counts.index==i].filter(regex='t').max(axis=1)[0]
+		minimum=av_counts[av_counts.index==i].filter(regex='t').min(axis=1)[0]
+		print np.array(maximum)/np.array(minimum)
 		if np.array(maximum)/np.array(minimum)>=1.5:
 			sig_change.append(i)
 	
@@ -86,7 +92,7 @@ def run(prefix,datatype):
 	
 	#print avout
 	#print ref_out
-	pickle.dump((avout,stdout,ref_out),open(prefix+datatype+'_data_format.p','wb'))
+	pickle.dump((avout,stdout,ref_out),open(prefix+datatype+'_results/'+datatype+'_data_format.p','wb'))
 	
 
 if __name__=='__main__':
