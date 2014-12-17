@@ -30,7 +30,6 @@ import format_data_deseq
 import format_data
 import format_data_wapex
 import format_data_norm_to_length
-import RNA_data_format 
 #import cluster_kmeans
 import time_course_fit
 import classify_fits
@@ -46,7 +45,7 @@ import mean_of_genes_in_go_term_mRNA as mofg
 #the folder to store the results in
 prefix='/media/HD1_/Documents/AG3C/data/'
 datatype='prot'
-normtype='read_depth'
+normtype='apex'
 
 #Run the data analysis
 
@@ -94,7 +93,7 @@ for i in classes:
 
 ChartReport.DAVIDenrich(listF=prefix+datatype+'_results/'+datatype+'_combined_conv.txt',idType = 'ENTREZ_GENE_ID',bgName='Escherichia coli',category = 'GOTERM_BP_FAT')
 
-'''
+
 #sort the go terms based upon their rise time
 #print 'sort the go terms based upon their rise time'
 #go_rise.run(prefix,datatype)
@@ -104,4 +103,4 @@ ChartReport.DAVIDenrich(listF=prefix+datatype+'_results/'+datatype+'_combined_co
 #for c in classes:
 #	mofg.run(True,prefix,datatype,c)
 
-'''
+

@@ -54,13 +54,14 @@ def run(prefix,datatype):
 			#print counts.ix[i][0]
                         if i in namedict:
 				if namedict[i].lower() in OI:
-						
+					#not taking into account p as p=1 or close enough.	
 					norm+=float(counts.ix[i][c]/(OI[namedict[i].lower()]+1e-50))
 					
 		for i in list(set(counts.index)):
 			if i in namedict:
 				if namedict[i].lower() in OI:
-					counts.ix[i][c]*OI[namedict[i].lower()]/norm
+					
+					counts.ix[i][c]=counts.ix[i][c]/(norm*OI[namedict[i].lower()])
 
 		#N=OI[counts['gene_id'][c].lower()]
 		#counts[c]=counts[c]/N
