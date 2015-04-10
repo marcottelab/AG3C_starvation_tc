@@ -43,9 +43,9 @@ import mean_of_genes_in_go_term_mRNA as mofg
 
 
 #the folder to store the results in
-prefix='/media/HD1_/Documents/AG3C/data/'
-datatype='prot'
-normtype='apex'
+prefix='/media/jrh94/HD1/Documents/AG3C/data/'
+datatype='rna'
+normtype='norm_to_length'
 
 #Run the data analysis
 
@@ -64,7 +64,7 @@ elif normtype=='norm_to_length': #normalize each gene by the length of the trans
 elif normtype=='apex':
 	format_data_wapex.run(prefix,datatype)
 
-
+'''
 #fit the time course (this takes ~30min)
 print 'fitting the data now...this could take 30min (or more)'
 time_course_fit.run(prefix,datatype)
@@ -102,5 +102,5 @@ ChartReport.DAVIDenrich(listF=prefix+datatype+'_results/'+datatype+'_combined_co
 #print 'find the average time course of the responders inside a particular go term'
 #for c in classes:
 #	mofg.run(True,prefix,datatype,c)
-
+'''
 

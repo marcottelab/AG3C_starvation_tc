@@ -33,8 +33,8 @@ def run(prefix,datatype):
 	counts=counts[counts.index.isin(sig_counts)]
 	counts=counts.reset_index()
 
-	#normalize the protein counts using APEX
-	(out_record,out_length,not_mapped)=pickle.load(open('/media/HD1_/Documents/AG3C/Results/RNA_transcript_length.p','rb'))
+	#normalize the protein counts 
+	(out_record,out_length,not_mapped)=pickle.load(open('/media/jrh94/HD1/Documents/AG3C/Results/RNA_transcript_length.p','rb'))
 	namedict=pickle.load(open('./Results/accession_to_common.p'))
 	
 	TL=dict()
